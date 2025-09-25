@@ -16,6 +16,12 @@ class Machine extends Model
      *
      * @var list<string>
      */
+
+    protected $casts = [
+    'is_for_sale' => 'boolean',
+    'is_for_rent' => 'boolean',
+    ];
+    
     protected $fillable = [
         'id',
         'name',
@@ -31,6 +37,14 @@ class Machine extends Model
         'state',
         'is_for_sale',
         'is_for_rent',
+        'sale_price',
+        'rental_price_per_hour',
+        'rental_price_per_day',
+        'rental_price_per_week',
+        'rental_price_per_month',
+        'SKU',
+        'current_location',
+        'notes',
         'created_at',
         'updated_at',
     ];
@@ -70,6 +84,17 @@ class Machine extends Model
     public function machineProperties()
     {
         return $this->hasMany(MachineProperty::class, 'machine_id');
+    }
+
+    public function employees()
+    {
+        return $this->hasMany(Employee::class, 'machine_id');
+    }
+
+
+    public function quotations()
+    {
+        return $this->hasMany(Quotation::class, 'machine_id');
     }
 
 }
