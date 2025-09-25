@@ -1,6 +1,6 @@
 @extends('admin.maindesign ')
 
-@include('admin.partials.app_nav')
+@include('admin.partials.employee_nav')
 
 @section('breadcrumb')
     <nav class="card">
@@ -9,8 +9,9 @@
             <!--begin::Start Navbar Links-->
             <div class="d-flex">
                 <div class="flex-shrink-0">
-                    <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary m-2">New</a>
-                    <a type="submit" href="{{ route('admin.showMachines') }}" class="btn m-2">Cancel</a>
+                    <a type="button" href="{{ route('admin.newEmployee') }}" class="btn btn-outline-primary m-2">New</a>
+                    <a type="submit" href="{{ route('admin.showEmployees') }}" class="btn m-2">Cancel</a>
+                    <a type="submit" href="{{ route('admin.emplyeeBadge',['id'=>$employee->id]) }}" class="btn m-2">Print Bage</a>
                 </div>
                 <!-- <div class="flex-grow-1">
                                                                     <ol class="breadcrumb">
@@ -30,21 +31,33 @@
 @endsection
 
 @section('form_view')
+@if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
     <!--begin::Horizontal Form-->
     <div class="card card-warning card-outline mb-4">
         <!--begin::Form-->
-        <form action="{{ route('admin.storeMachine') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('admin.updateEmployee', $employee->id) }}" method="POST" enctype="multipart/form-data">
             @csrf
+            @method('PUT')
             <!--begin::Body-->
             <div class="card-body">
                 <div class="row mb-3">
                     <div class="col-sm-9 position-relative">
                         <!-- Name input at the bottom -->
                         <div class="row position-absolute top-0 right-10 w-100">
-                            <div class="col-sm-12">
-                                <input type="text" name="name" placeholder="Machine Name"
+                            <div class="col-sm-12 mb-3">
+                                <input type="text" name="name" placeholder="Employee Name"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="inputName"
-                                    required />
+                                    required value="{{ $employee->name }}">
+                            </div>
+                             <div class="col-sm-6 mb-3">
+                                <input type="text" name="employee_no" placeholder="ID: WH/CR/1001/2025"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none" id="inputName"
+                                    required value="{{ $employee->employee_no }}"  />
+                                    {{-- {{ isset($employee->employee_no) && $employee->employee_no != '' ? 'disabled' : '' }} --}}
                             </div>
                         </div>
                     </div>
@@ -52,10 +65,10 @@
                         <div class="float-sm-end">
                             <div class="image-upload">
                                 <label for="fileInput">
-                                    <img id="preview" src="admin/assets/img/img_place_holder.webp" class="img-thumbnail"
+                                    <img id="preview" src="{{ isset($employee) ? asset('storage/' . $employee->img_url) : asset('admin/assets/img/img_place_holder.webp') }} " class="img-thumbnail"
                                         alt="preview">
                                 </label>
-                                <input name="img_url" type="file" accept="image/*" id="fileInput">
+                                <input type="file" name="img_url" accept="image/*" id="fileInput">
 
                                 <!-- Edit button -->
                                 <div class="edit-icon">
@@ -73,133 +86,79 @@
                 <div class="row mb-3">
                     <div class="col-sm-6">
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Category</label>
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Phone</label>
                             <div class="col-sm-10">
-                                <select name="category_id"
-                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
-                                    <option value=""></option>
-                                    @foreach (App\Models\Category::all() as $category)
-                                        <option value="{{ $category->id }}"
-                                            {{ isset($categoryType) && $categoryType->category_id == $category->id ? 'selected' : '' }}>
-                                            {{ $category->name }}
-                                        </option>
-                                    @endforeach
-                                </select>
+                                <input type="text" name="phone" placeholder="eg: 062-000-0000"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
+                                    required value="{{ $employee->phone }}">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Type</label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Address</label>
                             <div class="col-sm-10">
-                                <select name="category_type_id"
-                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
-                                    <option value=""></option>
-                                    @foreach (App\Models\CategoryType::all() as $type)
-                                        <option required value="{{ $type->id }}"
-                                            {{ isset($categoryType) && $categoryType->category_id == $type->category_id ? 'selected' : '' }}>
-                                            {{ $type->name }}
-                                        </option>
-                                    @endforeach
-                                </select>
+                                <input type="address" name="address" placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
+                                    required value="{{ $employee->address }}">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Model</label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Position</label>
                             <div class="col-sm-10">
-                                <select name="model_id" class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                <select name="empolyee_type" class="form-control border-0 border-bottom rounded-0 shadow-none">
                                     <option value=""></option>
-                                    @foreach (App\Models\MachineModel::all() as $model)
-                                        <option required value="{{ $model->id }}"
-                                            {{ isset($categoryType) && $categoryType->category_id == $model->category_id ? 'selected' : '' }}>
-                                            {{ $model->number }}
-                                        </option>
-                                    @endforeach
+                                    <option value="Forklift Operator" {{ $employee->empolyee_type == 'Forklift Operator' ? 'selected' : '' }}>Forklift Operator</option>
+                                    <option value="Truck Driver" {{ $employee->empolyee_type == 'Truck Driver' ? 'selected' : '' }}>Truck Driver</option>
+                                    <option value="Employee" {{ $employee->empolyee_type == 'Employee' ? 'selected' : '' }}>Employee</option>
+                                    <option value="Salesman" {{ $employee->empolyee_type == 'Salesman' ? 'selected' : '' }}>Salesman</option>
+                                    <option value="Manager" {{ $employee->empolyee_type == 'Manager' ? 'selected' : '' }}>Manager</option>
+                                    <option value="CEO" {{ $employee->empolyee_type == 'CEO' ? 'selected' : '' }}>CEO</option>
+                                    <option value="Director" {{ $employee->empolyee_type == 'Director' ? 'selected' : '' }}>Director</option>
+                                    
                                 </select>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label for="inputEmail3" class="col-sm-2 col-form-label">Description</label>
                             <div class="col-sm-10">
-                                <textarea name="description" class="form-control border-0 border-bottom rounded-0 shadow-none" rows="2">{{ old('description', isset($machine) ? $machine->description : '') }}</textarea>
+                                <textarea name="empolyee_remarks" class="form-control border-0 border-bottom rounded-0 shadow-none" rows="2">{{ $employee->empolyee_remarks }}</textarea>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">State</label>
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Start Date</label>
                             <div class="col-sm-10">
-                                <select name="state" class="form-control border-0 border-bottom rounded-0 shadow-none">
-                                    @php
-                                        $stateOptions = ['new', 'rented', 'sold', 'available', 'maintenance'];
-                                        foreach ($stateOptions as $state) {
-                                            echo '<option value="' . $state . '">' . ucwords($state) . '</option>';
-                                        }
-
-                                    @endphp
-                                </select>
+                                <input type="address" name="empolyee_start_date" placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
+                                    required value="{{ $employee->empolyee_start_date }}">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Power</label>
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">End Date</label>
                             <div class="col-sm-10">
-                                <select name="fuel_id" class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                <input type="date" name="empolyee_end_date" placeholder="eg: 24/10/2025"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
+                                    required value="{{ $employee->empolyee_end_date }}">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Machine</label>
+                            <div class="col-sm-10">
+                                <select name="machine_id" class="form-control border-0 border-bottom rounded-0 shadow-none">
                                     <option value=""></option>
-                                    @foreach (App\Models\Fuel::all() as $fuel)
-                                        <option required value="{{ $fuel->id }}"
-                                            {{ isset($categoryType) && $categoryType->category_id == $fuel->category_id ? 'selected' : '' }}>
-                                            {{ $fuel->name }}
+                                    @foreach (App\Models\Machine::all() as $machine)
+                                        <option required value="{{ $machine->id }}"
+                                            {{ isset($employee) && $employee->machine_id == $machine->id ? 'selected' : '' }}>
+                                            {{ $machine->name }}
                                         </option>
                                     @endforeach
                                 </select>
                             </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Brand</label>
-                            <div class="col-sm-10">
-                                <select name="brand_id" class="form-control border-0 border-bottom rounded-0 shadow-none">
-                                    <option value=""></option>
-                                    @foreach (App\Models\Brand::all() as $brand)
-                                        <option required value="{{ $brand->id }}"
-                                            {{ isset($categoryType) && $categoryType->category_id == $brand->category_id ? 'selected' : '' }}>
-                                            {{ $brand->name }}
-                                        </option>
-                                    @endforeach
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Video Url</label>
-                            <div class="col-sm-10">
-                                <input type="text" name="video_url" placeholder="Video Url"
-                                    class="form-control border-0 border-bottom rounded-0 shadow-none" id="videoUrlInput"
-                                    required />
-
-
-                            </div>
-                        </div>
-                        <div class="mb-3 form-check">
-                            <label class="form-check-label" for="exampleCheck1">For sale</label>
-                            <input type="checkbox" name="is_for_sale" value="0" id="isSale"
-                                                {{ old('is_sale') ? 'checked' : '' }} />
-                        </div>
-                        <div class="mb-3 form-check">
-                            <label class="form-check-label" for="exampleCheck2">For rent</label>
-                            <input type="checkbox" name="is_for_rent" value="0" id="isRent"
-                                                {{ old('is_rent') ? 'checked' : '' }} />
                         </div>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link " id="features-tab" data-bs-toggle="tab" data-bs-target="#features"
-                                type="button" role="tab" aria-controls="features"
-                                aria-selected="true">Features</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="properties-tab" data-bs-toggle="tab"
-                                data-bs-target="#properties" type="button" role="tab" aria-controls="properties"
-                                aria-selected="false">Properties</button>
-                        </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo"
                                 type="button" role="tab" aria-controls="photo"
@@ -212,54 +171,6 @@
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade mt-3" id="features" role="tabpanel" aria-labelledby="features-tab">
-                            <table class="table table-bordered" id="featuresTable">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td contenteditable="true" class="feature-name"></td>
-                                        <td contenteditable="true" class="feature-value"></td>
-                                    </tr>
-                                    <tr>
-                                        <td contenteditable="true" class="feature-name"></td>
-                                        <td contenteditable="true" class="feature-value"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <div>
-                                <button type="button" class="btn btn-link" id="addFeatureRow">Add more lines</button>
-                            </div>
-                            <input type="hidden" name="features" id="featuresInput" />
-                        </div>
-                        <div class="tab-pane fade" id="properties" role="tabpanel" aria-labelledby="properties-tab">
-                            <table class="table table-bordered" id="propertiesTable">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td contenteditable="true" class="property-name"></td>
-                                        <td contenteditable="true" class="property-value"></td>
-                                    </tr>
-                                    <tr>
-                                        <td contenteditable="true" class="property-name"></td>
-                                        <td contenteditable="true" class="property-value"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <div>
-                                <button type="button" class="btn btn-link" id="addPropertyRow">Add more lines</button>
-                            </div>
-                            <input type="hidden" name="properties" id="propertiesInput" />
-                        </div>
                         <div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
                             <div class="mb-3">
                                 <button type="button" class="btn btn-secondary" id="addPhotoBtn">Add Photo</button>
@@ -302,79 +213,22 @@
                             <div class="row mt-3">
                                 <div class="col-sm-6">
                                     <div class="row mb-2">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Current Location</label>
+                                        <label for="inputCurrentLocation" class="col-sm-2 col-form-label">Current Location</label>
                                         <div class="col-sm-10">
-                                            <input type="text" name="current_location" placeholder="Current Location"
+                                            <input type="text" name="" placeholder="Current Location"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputCurrentLocation" />
-                                        </div>
-                                    </div>
-                                    <div class="row mb-2">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Sale Price</label>
-                                        <div class="col-sm-10">
-                                            <input type="number" step="0.01" name="sale_price"
-                                                placeholder="Sale Price"
-                                                class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-2">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">SKU</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" name="SKU" placeholder="SKU"
-                                                class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputSKU" />
-                                        </div>
-                                    </div>
-                                    <div class="row mb-2">
-                                        <label for="notes" class="col-sm-2 col-form-label">Notes</label>
-                                        <div class="col-sm-10">
-                                            <div class="col-sm-10">
-                                                {{-- <textarea name="notes" class="form-control" id="inputNotes">{{ old('notes', isset($machine) ? $machine->notes : '') }}</textarea> --}}
-                                                <div class="form-control " id="inputNotes">
-                                                    <p>Write your<strong>Notes</strong> here!</p>
-                                                    <p><br /></p>
-                                                </div>
-                                            </div>
+                                                id="inputCurrentLocation" disabled value="{{ $employee->current_location }}">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="row mb-2">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Rent Per Hour</label>
+                                        <label for="inputBirthdate" class="col-sm-2 col-form-label">Qr Code Url</label>
                                         <div class="col-sm-10">
-                                            <input type="number" step="0.01" name="rental_price_per_hour"
-                                                placeholder="eg: 200000.00"
+                                            <input type="text" step="0.01" name=""
+                                                placeholder="Qr Code Url"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-2">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Rent Per Day</label>
-                                        <div class="col-sm-10">
-                                            <script></script>
-                                            <input type="number" step="0.01" name="rental_price_per_day"
-                                                placeholder="eg: 500000.00"
-                                                class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice"disabled />
-                                        </div>
-                                    </div>
-                                    <div class="row mb-2">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Rent Per Week</label>
-                                        <div class="col-sm-10">
-                                            <input type="number" step="0.01" name="rental_price_per_week"
-                                                placeholder="eg: 1000000.00"
-                                                class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-2">
-                                        <label for="inputEmail3" class="col-sm-2 col-form-label">Rent Per Month</label>
-                                        <div class="col-sm-10">
-                                            <input type="number" step="0.01" name="rental_price_per_month"
-                                                placeholder="eg:3500000.00"
-                                                class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
+                                                id="inputPBirthdate" value="{{ isset($employee->qrcode) ? $employee->qrcode : '' }}" disabled/>
                                         </div>
                                     </div>
                                 </div>

@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
+use Illuminate\Support\Str;
+
 use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\CategoryType;
@@ -9,6 +12,8 @@ use App\Models\Machine;
 use App\Models\Brand;
 use App\Models\Fuel;
 use App\Models\MachineModel;
+use App\Models\Employee;
+use App\Models\Quotation;
 use Illuminate\Support\Facades\Storage;
 
 class AdminController extends Controller
@@ -146,6 +151,16 @@ class AdminController extends Controller
         $machine->img_url = $path;
         $machine->fuel_id = $request->fuel_id;
         $machine->brand_id = $request->brand_id;
+        $machine->is_for_sale = (int) $request->input('is_for_sale', 0);
+        $machine->is_for_rent = (int) $request->input('is_for_rent', 0);
+        $machine->sale_price = $request->sale_price;
+        $machine->rental_price_per_hour = $request->rental_price_per_hour;
+        $machine->rental_price_per_day = $request->rental_price_per_day;
+        $machine->rental_price_per_week = $request->rental_price_per_week;
+        $machine->rental_price_per_month = $request->rental_price_per_month;
+        $machine->SKU = $request->SKU;
+        $machine->current_location = $request->current_location;
+        $machine->notes = $request->notes;
         $machine->save();
 
         // Save features
@@ -223,6 +238,16 @@ class AdminController extends Controller
         $machine->img_url = $path;
         $machine->fuel_id = $request->fuel_id;
         $machine->brand_id = $request->brand_id;
+        $machine->is_for_sale = $request->is_for_sale;
+        $machine->is_for_rent = $request->is_for_rent;
+        $machine->sale_price = $request->sale_price;
+        $machine->rental_price_per_hour = $request->rental_price_per_hour;
+        $machine->rental_price_per_day = $request->rental_price_per_day;
+        $machine->rental_price_per_week = $request->rental_price_per_week;
+        $machine->rental_price_per_month = $request->rental_price_per_month;
+        $machine->SKU = $request->SKU;
+        $machine->current_location = $request->current_location;
+        $machine->notes = $request->notes;
         $machine->save();
 
         // Update features
@@ -258,7 +283,7 @@ class AdminController extends Controller
         // Update photos (Album - morphMany)
         if ($request->hasFile('photos')) {
             // Optionally delete old photos
-            foreach ($machine->albums()->where('type', 'photo')->get() as $album) {
+            foreach ($machine->pictures()->where('type', 'photo')->get() as $album) {
             if ($album->file_path && Storage::disk('public')->exists($album->file_path)) {
                 Storage::disk('public')->delete($album->file_path);
             }
@@ -267,7 +292,7 @@ class AdminController extends Controller
             // Add new photos
             foreach ($request->file('photos') as $photo) {
             $photoPath = $photo->store('uploads/machine_models/albums', 'public');
-            $machine->albums()->create([
+            $machine->pictures()->create([
                 'img_url' => $photoPath,
                 'type' => 'photo',
             ]);
@@ -485,5 +510,160 @@ class AdminController extends Controller
 
         $model->delete();
         return redirect()->back()->with('success', 'Machine Model deleted successfully.');
+    }
+
+
+
+    //emplyee functions below
+
+    public function newEmplyee(){
+
+        
+        return view('admin.employee.form_view');
+    }
+    public function storeEmployee(Request $request){
+        
+        //store employee details
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'img_url' => 'image|mimes:jpg,jpeg,png,gif|max:4048',
+        ]);
+
+        $path = $request->file('img_url')->store('uploads/employees/', 'public');
+
+        $employee = new Employee();
+        $employee->name = $request->name;
+        $employee->email = $request->email;
+        if (Employee::where('employee_no', $request->employee_no)->exists()) {
+            return redirect()->back()->with('error', 'Employee No already exists in the database.');
+        }
+        $employee->employee_no = $request->employee_no;
+        $parts = explode('/', $request->employee_no);
+        //encodeed url to qrcode emplyee/WHCR10001
+        $url = 'employee/' . implode('_', $parts);
+        $qrCodeBase64 = base64_encode(
+    QrCode::format('png')->size(300)->generate($url)
+        );
+        $filename = 'uploads/employees/emplyee_qrcode_' . str_replace(' ', '_', $employee->name) . '.png';
+        
+        QrCode::format('png')->size(300)->generate($url, public_path($filename));
+
+        $employee->qrcode = $filename;
+        $employee->phone = $request->phone;
+        $employee->address = $request->address;
+        $employee->machine_id = $request->machine_id;
+        $employee->img_url = $path;
+        $employee->empolyee_status = $request->empolyee_status ?? 'new';
+        $employee->empolyee_type = $request->empolyee_type;
+        $employee->empolyee_start_date = date('Y-m-d', strtotime($request->empolyee_start_date));
+        $employee->empolyee_end_date = date('Y-m-d', strtotime($request->empolyee_end_date));
+        $employee->empolyee_remarks = $request->empolyee_remarks;
+        $employee->save();
+
+        return redirect()->route('admin.editEmployee', ['id' => $employee->id])->with('success', 'Employee added successfully.');
+
+    }
+    public function newEmployee(){
+        $employees = Employee::all();
+        return view('admin.employee.form_view', compact('employees'));
+    }
+
+    public function showEmployees(){
+        $employees = Employee::all();
+        return view('admin.employee.listview', compact('employees'));
+    }
+
+    public function editEmployee($id){
+
+        $employee = Employee::findOrFail($id);
+        return view('admin.employee.edit_form_view', compact('employee'));
+    }
+
+    public function updateEmployee(Request $request, $id){
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'img_url' => 'image|mimes:jpg,jpeg,png,gif|max:4048',
+        ]);
+
+        $employee = Employee::findOrFail($id);
+        $path = $employee->img_url;
+        if ($request->hasFile('img_url')) {
+            if ($path && Storage::disk('public')->exists(path: $path)) {
+                Storage::disk('public')->delete($path);
+            }
+            $path = $request->file('img_url')->store('uploads/employees', 'public');
+        }
+        
+        $employee->name = $request->name;
+        $employee->email = $request->email;
+        if (Employee::where('employee_no', $request->employee_no)->exists()) {
+            return redirect()->back()->with('error', 'Employee No already exists in the database.');
+        }
+        $employee->employee_no = $request->employee_no;
+        $parts = explode('/', $request->employee_no);
+        //encodeed url to qrcode emplyee/WHCR10001
+        //add base url here form envfile
+        $base_url = env('APP_URL', 'http://localhost');
+
+        $url = $base_url.'/employee/badge?employee_no=' . implode('_', $parts);
+        // 2. Set up the filename and directory
+        $directory = public_path('uploads/employees/');
+        $filename = 'emplyee_qrcode_for_' . Str::slug($employee->name) . '.png';
+        $fullPath = $directory . $filename;
+
+        // 3. Make sure directory exists
+        if (!file_exists($directory)) {
+            mkdir($directory, 0755, true);
+        }
+
+        // 4. Generate QR code once and store both base64 + file
+        $qrPng = QrCode::format('png')->size(300)->generate($url);
+
+        // Save base64 to DB (if needed)
+        $qrCodeBase64 = base64_encode($qrPng);
+        //$employee->qr_code_base64 = $qrCodeBase64;
+
+        // Save file to public/uploads/employees/
+        file_put_contents($fullPath, $qrPng);
+        $employee->qrcode = 'uploads/employees/' . $filename;
+        $employee->phone = $request->phone;
+        $employee->address = $request->address;
+        $employee->machine_id = $request->machine_id;
+        $employee->img_url = $path;
+        $employee->empolyee_status = $request->empolyee_status ?? 'new';
+        $employee->empolyee_type = $request->empolyee_type;
+        $employee->empolyee_start_date = date('Y-m-d', strtotime($request->empolyee_start_date));
+        $employee->empolyee_end_date = date('Y-m-d', strtotime($request->empolyee_end_date));
+        $employee->empolyee_remarks = $request->empolyee_remarks;
+        $employee->save();   
+
+        return view('admin.employee.edit_form_view', compact('employee'))->with('success', 'Employee updated successfully.');
+    }
+
+    public function deleteEmplyee($id){
+        $employee = Employee::findOrFail($id);
+        $employee->delete();
+        return redirect()->back()->with('success', 'Employee deleted successfully.');
+    }
+
+    public function emplyeeBage($id){
+        $employee = Employee::findOrFail($id);
+
+        return view('employee_badge', compact('employee'));
+    }
+
+
+    //Quotation methods
+
+    public function showQuotations(){
+
+        $quotations = Quotation::with('machine')->get();
+        return view('admin.quotation.listview', compact('quotations'));
+    }
+
+    public function editQuotation($id){
+        $quotation = Quotation::with('machine')->findOrFail($id);
+
+        return view('admin.quotation.edit_form_view', compact('quotation'));
     }
 }

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('machines', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('name')->unique();
             $table->integer('category_id')->index()->nullable();
             $table->integer('category_type_id')->index()->nullable();
             $table->text('description')->nullable();
@@ -23,8 +23,16 @@ return new class extends Migration
             $table->integer('fuel_id')->index()->nullable();
             $table->integer('brand_id')->index()->nullable();
             $table->enum('state', ['new','rented', 'sold', 'available', 'maintenance'])->default('new')->index();
-            $table->boolean('is_for_sale')->default(false)->nullable();
-            $table->boolean('is_for_rent')->default(false)->nullable();
+            $table->boolean('is_for_sale')->nullable();
+            $table->boolean('is_for_rent')->nullable();
+            $table->text('current_location')->nullable();
+            $table->decimal('sale_price', 10, 2)->nullable();
+            $table->decimal('rental_price_per_hour', 10, 2)->nullable();
+            $table->decimal('rental_price_per_day', 10, 2)->nullable();
+            $table->decimal('rental_price_per_week', 10, 2)->nullable();
+            $table->decimal('rental_price_per_month', 10, 2)->nullable();
+            $table->text('SKU')->nullable();
+            $table->text('notes')->nullable();
             $table->timestamps();
         });
     }

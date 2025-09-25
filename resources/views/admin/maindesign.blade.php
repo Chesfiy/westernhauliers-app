@@ -77,6 +77,7 @@
       integrity="sha256-+uGLJmmTKOqBr+2E6KDYs/NRsHxSkONXFHUL0fy2O/4="
       crossorigin="anonymous"
     />
+<link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet" />
     @yield('style')
     <style>
     .image-upload {
@@ -375,11 +376,24 @@
               id="navigation"
             >
               <li class="nav-item">
-                <a href="{{ route('admin.showMachines') }}" class="nav-link">
+                <a href="{{ route('admin.showEmployees') }}" class="nav-link">
                   <i class="nav-icon bi bi-palette"></i>
-                  <p>Theme Generate</p>
+                  <p>Employee</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="{{ route('admin.showMachines') }}" class="nav-link">
+                  <i class="nav-icon bi bi-palette"></i>
+                  <p>Machines</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('admin.showQuotations') }}" class="nav-link">
+                  <i class="nav-icon bi bi-palette"></i>
+                  <p>CRM</p>
+                </a>
+              </li>
+               
               <li class="nav-header">Chesify Labs</li>
             </ul>
             <!--end::Sidebar Menu-->
@@ -579,6 +593,7 @@
       integrity="sha256-XPpPaZlU8S/HWf7FZLAncLg2SAkP8ScUTII89x9D3lY="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
 
     <!-- jsvectormap -->
     <script>
