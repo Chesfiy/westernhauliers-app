@@ -2041,7 +2041,7 @@
                                                             @else
                                                                 {{ number_format($machine->rental_price_per_day) }}
                                                             @endif
-                                                            <span class="woocommerce-Price-currencySymbol">$</span></bdi>
+                                                            <span class="woocommerce-Price-currencySymbol">TZS </span></bdi>
                                                     <span aria-hidden="true">–</span> <span
                                                         class="woocommerce-Price-amount amount"
                                                         aria-hidden="true"><bdi>
@@ -2052,7 +2052,7 @@
                                                             @else
                                                                 {{ number_format($machine->price_month) }}
                                                             @endif
-                                                            <span class="woocommerce-Price-currencySymbol">$</span></bdi>
+                                                            <span class="woocommerce-Price-currencySymbol">TZS </span></bdi>
                                                     <span class="screen-reader-text">Price range: {{ number_format($machine->rental_price_per_day) }} through
                                                         {{ number_format($machine->rental_price_per_day) }}</span> <small> / Day</small>
                                                 </div>
@@ -2064,7 +2064,7 @@
                                                     @else
                                                         {{ number_format($machine->rental_price_per_week) }}
                                                     @endif
-                                                    <span class="woocommerce-Price-currencySymbol">tsh</span></span>
+                                                    <span class="woocommerce-Price-currencySymbol">TZS </span></span>
                                                     <small> / Week</small>
                                                 </div>
                                             </li>
@@ -2077,7 +2077,7 @@
                                                     @else
                                                         {{ number_format($machine->rental_price_per_month) }}
                                                     @endif
-                                                    <span class="woocommerce-Price-currencySymbol">$</span></span>
+                                                    <span class="woocommerce-Price-currencySymbol">TZS </span></span>
                                                     <small> / Month</small>
                                                 </div>
                                         </ul>
@@ -2085,7 +2085,7 @@
                                     <div class="with-operator">
                                         <h5>Hire with operator</h5>
                                         <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                        class="woocommerce-Price-currencySymbol">&#36;</span>{{$machine->rental_price_per_hour}}</bdi></span>
+                                                        class="woocommerce-Price-currencySymbol">TZS </span>{{$machine->rental_price_per_hour}}</bdi></span>
                                             <small> / Hour</small>
                                         </div>
                                     </div>

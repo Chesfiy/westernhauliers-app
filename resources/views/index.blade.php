@@ -1999,7 +1999,7 @@
 
     <body
         class="home page-template-default page page-id-636 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
-    @endsection
+@endsection
     @section('section')
         <div class="body field clearfix">
             <section class="wpb-content-wrapper">
