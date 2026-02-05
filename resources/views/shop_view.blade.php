@@ -1895,7 +1895,7 @@
 
     <body
         class="archive post-type-archive post-type-archive-product theme-backhoe woocommerce-shop woocommerce woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
-@endsection
+    @endsection
 
     @section('shop')
         <section class="titlebar">
@@ -1917,7 +1917,7 @@
                         <div id="woocommerce_product_search-2"
                             class="widget woocommerce widget_product_search shop-widgets">
                             <form role="search" method="get" class="woocommerce-product-search"
-                                action="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/">
+                                action=""
                                 <label class="screen-reader-text" for="woocommerce-product-search-field-0">Search
                                     for:</label> <input type="search" id="woocommerce-product-search-field-0"
                                     class="search-field" placeholder="Search products&hellip;" value=""
@@ -1953,7 +1953,7 @@
                                                 @endphp
                                                 <li class="cat-item cat-item-79">
                                                     <a
-                                                        href="{{ route('shop', 'category_type=' . $type->name) }}">A{{ $type->name }}</a>
+                                                        href="{{ route('shop', 'category_type=' . $type->name) }}">{{ $type->name }}</a>
                                                     <span class="count">({{ $typeCount }})</span>
                                                 </li>
                                             @endforeach
@@ -1990,7 +1990,9 @@
                     <div class="filter-flex">
                         <div class="woocommerce-notices-wrapper"></div>
                         <p class="woocommerce-result-count" role="alert" aria-relevant="all">
-                            Showing {{ is_int($machines->firstItem()) ? $machines->firstItem() : (isset($machines->firstItem()->number) ? $machines->firstItem()->number : 0) }}&ndash;{{ $machines->count() }} of {{ $machines->total() }} results
+                            Showing
+                            {{ is_int($machines->firstItem()) ? $machines->firstItem() : (isset($machines->firstItem()->number) ? $machines->firstItem()->number : 0) }}&ndash;{{ $machines->count() }}
+                            of {{ $machines->total() }} results
                         </p>
                         <nav class="gridlist-toggle"><a href="#" id="show_grid" title="Grid view"><span
                                     class="dashicons dashicons-grid-view"></span> <em>Grid view</em></a><a href="#"
@@ -2051,7 +2053,7 @@
                                                     <p class="label">Week Rate</p>
                                                     <div class="price_value"> <span
                                                             class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>{{number_format($machine->rental_price_per_week, 0, ',', ',') }}</bdi></span>
+                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>{{ number_format($machine->rental_price_per_week, 0, ',', ',') }}</bdi></span>
                                                         <small> / Week</small>
                                                     </div>
                                                 </div>
@@ -2061,7 +2063,7 @@
                                                     <p class="label">Month Rate</p>
                                                     <div class="price_value"> <span
                                                             class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>{{number_format($machine->rental_price_per_month, 0, ',', ',') }}</bdi></span>
+                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>{{ number_format($machine->rental_price_per_month, 0, ',', ',') }}</bdi></span>
                                                         <small> / Month</small>
                                                     </div>
                                                 </div>
@@ -2071,13 +2073,13 @@
                                     <div class="with-operator">
                                         <h5>Hire with operator</h5>
                                         <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                        class="woocommerce-Price-currencySymbol">&#36;</span>{{number_format($machine->rental_price_per_hour, 0, ',', ',') }}</bdi></span>
+                                                        class="woocommerce-Price-currencySymbol">&#36;</span>{{ number_format($machine->rental_price_per_hour, 0, ',', ',') }}</bdi></span>
                                             <small> / Hour</small>
                                         </div>
                                     </div>
                                     <div class="location"> San Francisco, CA</div>
                                 </div>
-                                <div class="description"> {{ $machine->description}} </div>
+                                <div class="description"> {{ $machine->description }} </div>
 
                                 <a href="{{ route('shop.single', $machine->name) }}" data-quantity="1"
                                     class="button product_type_variable add_to_cart_button" data-product_id="3701"
@@ -2098,4 +2100,3 @@
         </div>
         </div>
     @endsection
-  

@@ -1636,7 +1636,7 @@
                 --header-top-border-color: #7BC043;
                 --topbar-background: #00000026;
                 --topbar-text: #fff;
-                --topbar-sticky-bg: #7BC043;
+                --topbar-sticky-bg: #1d1d1d;
                 --topbar-sticky-text: #fff;
                 --topbar-hover-sticky-text: #fff;
                 --topbar-hover-text: #fff;
@@ -1999,7 +1999,7 @@
 
     <body
         class="home page-template-default page page-id-636 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
-@endsection
+    @endsection
     @section('section')
         <div class="body field clearfix">
             <section class="wpb-content-wrapper">
@@ -2199,8 +2199,8 @@
                                                     </div>
                                                     <div class="wd-heading text-left  " style="max-width: 100%">
                                                         <h5 style="font-weight:500;font-size:14px;color:#fdb900;text-transform:Uppercase;letter-spacing:1.4px;"
-                                                            class="sub_title_b" data-text="SOME FEATURES AND"> SOME
-                                                            FEATURES AND
+                                                            class="sub_title_b" data-text="Western Hauliers"> Western
+                                                            Hauliers
                                                         </h5>
                                                         <h2 style="margin:0;font-weight:800;" class="title_b"> The
                                                             Benefits of
@@ -2211,15 +2211,17 @@
                                                     </div>
                                                     <div class="wpb_text_column wpb_content_element ">
                                                         <div class="wpb_wrapper">
-                                                            <p>We are committed to providing our customers with super
-                                                                exceptional service while offering our employees the best
-                                                                training and a working environment in which they can excel
-                                                                best
-                                                                of all place for more than a half century.</p>
-                                                            <p>This company focus has been in place for more than a half
-                                                                century. We are committed to providing our customers with
-                                                                exceptional service while offering our employees the best
-                                                                training best of all and a working environment.</p>
+                                                            <p>Western Hauliers is a leading Tanzanian provider of material
+                                                                handling, heavy lifting,
+                                                                and specialized transportation solutions, serving
+                                                                industrial, infrastructure,
+                                                                construction, energy, and logistics sectors across Tanzania.
+                                                            </p>
+                                                            <p>This corporate profile has been professionally developed to
+                                                                position Western Hauliers as a credible,
+                                                                compliant, and strategic partner for large-scale projects,
+                                                                multinational corporations, government
+                                                                institutions, and financial stakeholders.</p>
                                                         </div>
                                                     </div>
                                                     <div
@@ -2229,10 +2231,15 @@
                                                                 <div class="wpb_wrapper">
                                                                     <div class="wpb_text_column wpb_content_element ">
                                                                         <div class="wpb_wrapper">
-                                                                            <h5>Affordable Price</h5>
-                                                                            <p class="p-small">Our rent prices and selling
-                                                                                prices
-                                                                                are very affordable and competitive.
+                                                                            <h5>Vision Statement</h5>
+                                                                            <p class="p-small">To be the most trusted and
+                                                                                technically
+                                                                                advanced provider of material handling and
+                                                                                heavy lifting
+                                                                                solutions in Tanzania and the wider East
+                                                                                African region,
+                                                                                setting industry benchmarks in safety,
+                                                                                reliability, and operational excellence.
                                                                             </p>
                                                                         </div>
                                                                     </div>
@@ -2244,11 +2251,16 @@
                                                                 <div class="wpb_wrapper">
                                                                     <div class="wpb_text_column wpb_content_element ">
                                                                         <div class="wpb_wrapper">
-                                                                            <h5>Proffessional Services</h5>
-                                                                            <p class="p-small">Banks & Financial
-                                                                                Institutions
-                                                                                face a challenging & dynamic environment
-                                                                                with…
+                                                                            <h5>Mission Statement</h5>
+                                                                            <p class="p-small">To deliver safe, efficient,
+                                                                                and innovative
+                                                                                lifting and transportation solutions through
+                                                                                certified equipment,
+                                                                                highly skilled personnel, and a
+                                                                                client-focused approach that ensures project
+                                                                                success,
+                                                                                operational continuity, and long-term
+                                                                                partnerships.
                                                                             </p>
                                                                         </div>
                                                                     </div>
@@ -2428,10 +2440,11 @@
                                                         data-heighttablet='50' data-heightdesktop='100'
                                                         style='height:100px'></div>
                                                     <div class="wd-heading text-left  " style="max-width: 100%">
-                                                        <h2 style="margin:0;" class="title_a" data-text="Our Best">
-                                                            Features
+                                                        <h2 style="margin:0;" class="title_a"
+                                                            data-text="Our Core Values">
+                                                            Our Core Values
                                                         </h2>
-                                                        <p style="" class="sub_title_a"> Our Best</p>
+                                                        <p style="" class="sub_title_a"> Our Core Values</p>
                                                         <hr class='hr_a' style=' margin: 10px;' />
                                                     </div>
                                                     <div class='wd_empty_space' data-heightmobile='20'
@@ -2457,12 +2470,13 @@
                                                                     data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/precision-icon.svg"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
-                                                                <h4 class="text-icon__title "> Precison</h4>
-                                                                <p class="text-icon__text  "> Accurately understand the
-                                                                    needs of
-                                                                    customers, provide efficient and cost-effective
-                                                                    construction
-                                                                    equipment for various customers in different operations.
+                                                                <h4 class="text-icon__title "> Safety First</h4>
+                                                                <p class="text-icon__text  "> Safety is the foundation of
+                                                                    every operation at Western Hauliers.
+                                                                    Every lifting and transportation task is planned,
+                                                                    assessed,
+                                                                    and executed with a clear focus on protecting people,
+                                                                    assets, and the environment.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -2485,11 +2499,10 @@
                                                                     data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/study-icon.svg"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
-                                                                <h4 class="text-icon__title "> Study</h4>
-                                                                <p class="text-icon__text  "> Constantly study industry
-                                                                    trends,
-                                                                    commit to new technologies and methods, and launch the
-                                                                    latest technical construction engineering equipment.</p>
+                                                                <h4 class="text-icon__title "> Reliability</h4>
+                                                                <p class="text-icon__text  "> Our clients depend on us to
+                                                                    deliver under demanding conditions, tight schedules, and
+                                                                    complex environments..</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2511,11 +2524,13 @@
                                                                     data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/no-delay-icon.svg"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
-                                                                <h4 class="text-icon__title "> No delay</h4>
-                                                                <p class="text-icon__text  "> Respond quickly to any
-                                                                    questions
-                                                                    and needs of customers, and collect the latest and best
-                                                                    quality equipment for customers in the first time.</p>
+                                                                <h4 class="text-icon__title "> Technical Excellence</h4>
+                                                                <p class="text-icon__text  "> We believe superior results
+                                                                    come from technical capability and continuous
+                                                                    improvement.
+                                                                    Western Hauliers invests in modern, certified equipment,
+                                                                    advanced lifting technologies,
+                                                                    and ongoing training for our workforce</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2537,12 +2552,14 @@
                                                                     data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/study-icon.svg"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
-                                                                <h4 class="text-icon__title "> Study</h4>
-                                                                <p class="text-icon__text  "> Lorem ipsum dolor sit amet,
-                                                                    consectetur adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore. Lorem ipsum dolor sit
-                                                                    amet,
-                                                                    consectetur adipiscing elit.</p>
+                                                                <h4 class="text-icon__title "> Integrity</h4>
+                                                                <p class="text-icon__text  "> Integrity guides how we
+                                                                    conduct business and how we
+                                                                    engage with our clients, partners, and employees.
+                                                                    We operate with honesty,
+                                                                    transparency, and accountability in all our
+                                                                    dealings from pricing and planning to execution and
+                                                                    reporting</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2586,12 +2603,13 @@
                                                                     data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/precision-icon.svg"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
-                                                                <h4 class="text-icon__title "> Precison</h4>
-                                                                <p class="text-icon__text  "> Lorem ipsum dolor sit amet,
-                                                                    consectetur adipiscing elit, sed do eiusmod tempor
-                                                                    incididunt ut labore et dolore. Lorem ipsum dolor sit
-                                                                    amet,
-                                                                    consectetur adipiscing elit.</p>
+                                                                <h4 class="text-icon__title "> Customer Commitment</h4>
+                                                                <p class="text-icon__text  "> Every client project is
+                                                                    unique, and we
+                                                                    approach it that way. Western Hauliers focuses on
+                                                                    understanding each
+                                                                    client's operational needs, site conditions, and project
+                                                                    goals.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2604,6 +2622,243 @@
                                                     <div class="wd_empty_space" data-heightmobile="0"
                                                         data-heighttablet="50" data-heightdesktop="200"
                                                         style="height: 200px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right">
+                                        <div class="wpb_column vc_column_container vc_col-sm-5">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                        <figure class="wpb_wrapper vc_figure">
+                                                            <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                                <noscript><img decoding="async"
+                                                                        class="vc_single_image-img "
+                                                                        src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                        width="578" height="704" alt="compactor"
+                                                                        title="compactor" /></noscript><img
+                                                                    decoding="async" class="lazyload vc_single_image-img "
+                                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                                    width="578" height="704" alt="compactor"
+                                                                    title="compactor" />
+                                                            </div>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpb_column vc_column_container vc_col-sm-7">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class='wd_empty_space' data-heightmobile='0'
+                                                        data-heighttablet='0' data-heightdesktop='0' style='height:0px'>
+                                                    </div>
+                                                    <div class="wd-heading text-left  " style="max-width: 100%">
+                                                        <h5 style="font-weight:500;font-size:14px;color:#fdb900;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                            class="sub_title_b" data-text="Who We Are"> Who We Are
+                                                        </h5>
+                                                        <h2 style="margin:0;font-weight:800;" class="title_b"> Who are
+                                                            Western Hauliers</h2>
+                                                    </div>
+                                                    <div class='wd_empty_space' data-heightmobile='5'
+                                                        data-heighttablet='5' data-heightdesktop='5' style='height:5px'>
+                                                    </div>
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <p>Western Hauliers owns and operates one of Tanzania's most
+                                                                capable fleets of lifting and material handling equipment,
+                                                                including brand-new REDLIFT forklifts ranging from 2 to 45
+                                                                tons..</p>
+                                                            <p>Our equipment is nationally certified, inspected annually,
+                                                                and
+                                                                maintained under strict preventive maintenance programs.
+                                                                Combined with
+                                                                skilled personnel and disciplined planning, we deliver safe,
+                                                                efficient,
+                                                                and dependable lifting solutions no matter the complexity.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1562157304682">
+                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                            <div class="vc_column-inner">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <h5>Executive Leadership</h5>
+                                                                            <p class="p-small">Western Hauliers is led by
+                                                                                experienced professionals
+                                                                                with strong technical, operational, and
+                                                                                project management backgrounds.
+                                                                                Executive leadership remains actively
+                                                                                involved in lift planning,
+                                                                                risk assessment, and client engagement.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                            <div class="vc_column-inner">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element ">
+
+                                                                        <div class="wpb_wrapper">
+                                                                            <h5>Governance Philosophy</h5>
+                                                                            <p class="p-small">The company's governance
+                                                                                model emphasizes:
+
+                                                                            <ul>
+                                                                                <li>Clear decision-making authority</li>
+
+                                                                                <li>Defined roles and responsibilities</li>
+
+                                                                                <li>Transparent reporting structures</li>
+
+                                                                                <li>Strict adherence to legal, safety, and
+                                                                                    operational standards</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wd_empty_space" data-heightmobile="15"
+                                                        data-heighttablet="20" data-heightdesktop="36"
+                                                        style="height: 36px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1569260648992 vc_row-has-fill"
+                                        style="background-position: center !important;">
+                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wd_empty_space" data-heightmobile="20"
+                                                        data-heighttablet="30" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-vc-full-width="true" data-vc-full-width-init="true"
+                                        class="vc_row wpb_row vc_row-fluid dashed-bg vc_custom_1569610275707 vc_row-has-fill">
+                                        <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-lg-3 vc_col-xs-6">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wd_empty_space" data-heightmobile="15"
+                                                        data-heighttablet="30" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                    <div class="wd-count-up "> <noscript><img decoding="async"
+                                                                width="62" height="62"
+                                                                src="wp-content/uploads/2019/06/champion-2842_fcb453b6-d2d7-4d18-b67f-ecc793150b3f.png"
+                                                                class="attachment-thumbnail size-thumbnail"
+                                                                alt="" /></noscript><img decoding="async"
+                                                            width="62" height="62"
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2062%2062%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/champion-2842_fcb453b6-d2d7-4d18-b67f-ecc793150b3f.png"
+                                                            class="lazyload attachment-thumbnail size-thumbnail"
+                                                            alt="" />
+                                                        <h3 class="wd-count-up__counter small-heading" data-file="15"
+                                                            style='color: #ffffff'> 15</h3>
+                                                        <h4 class="wd-count-up__title small-heading"
+                                                            style='color: #ffffff'>
+                                                            Awwards</h4>
+                                                    </div>
+                                                    <div class="wd_empty_space" data-heightmobile="0"
+                                                        data-heighttablet="25" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-lg-3 vc_col-xs-6">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wd_empty_space" data-heightmobile="15"
+                                                        data-heighttablet="30" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                    <div class="wd-count-up "> <noscript><img decoding="async"
+                                                                width="62" height="50"
+                                                                src="wp-content/uploads/2019/06/team-2715_cef8922e-7aa0-4ddd-96a7-34fde8bdc608.png"
+                                                                class="attachment-thumbnail size-thumbnail"
+                                                                alt="" /></noscript><img decoding="async"
+                                                            width="62" height="50"
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2062%2050%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2715_cef8922e-7aa0-4ddd-96a7-34fde8bdc608.png"
+                                                            class="lazyload attachment-thumbnail size-thumbnail"
+                                                            alt="" />
+                                                        <h3 class="wd-count-up__counter small-heading" data-file="1024"
+                                                            style='color: #ffffff'> 1024</h3>
+                                                        <h4 class="wd-count-up__title small-heading"
+                                                            style='color: #ffffff'>
+                                                            Happy clients</h4>
+                                                    </div>
+                                                    <div class="wd_empty_space" data-heightmobile="25"
+                                                        data-heighttablet="40" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-lg-3 vc_col-xs-6">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wd_empty_space" data-heightmobile="15"
+                                                        data-heighttablet="30" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                    <div class="wd-count-up "> <noscript><img decoding="async"
+                                                                width="50" height="62"
+                                                                src="wp-content/uploads/2019/06/spacecraft-3240_6a607206-a24b-4dbf-90db-0994df49b8c2.png"
+                                                                class="attachment-thumbnail size-thumbnail"
+                                                                alt="" /></noscript><img decoding="async"
+                                                            width="50" height="62"
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2050%2062%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/spacecraft-3240_6a607206-a24b-4dbf-90db-0994df49b8c2.png"
+                                                            class="lazyload attachment-thumbnail size-thumbnail"
+                                                            alt="" />
+                                                        <h3 class="wd-count-up__counter small-heading" data-file="1024"
+                                                            style='color: #ffffff'> 1024</h3>
+                                                        <h4 class="wd-count-up__title small-heading"
+                                                            style='color: #ffffff'>
+                                                            Projects</h4>
+                                                    </div>
+                                                    <div class="wd_empty_space" data-heightmobile="0"
+                                                        data-heighttablet="25" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-lg-3 vc_col-xs-6">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wd_empty_space" data-heightmobile="15"
+                                                        data-heighttablet="30" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
+                                                    <div class="wd-count-up "> <noscript><img decoding="async"
+                                                                width="64" height="64"
+                                                                src="wp-content/uploads/2019/06/safe-2291_ffa36413-4b0a-4d71-b890-8c672e1bac8c.png"
+                                                                class="attachment-thumbnail size-thumbnail"
+                                                                alt="" /></noscript><img decoding="async"
+                                                            width="64" height="64"
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2064%2064%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/safe-2291_ffa36413-4b0a-4d71-b890-8c672e1bac8c.png"
+                                                            class="lazyload attachment-thumbnail size-thumbnail"
+                                                            alt="" />
+                                                        <h3 class="wd-count-up__counter small-heading" data-file="99"
+                                                            style='color: #ffffff'> 99</h3>
+                                                        <h4 class="wd-count-up__title small-heading"
+                                                            style='color: #ffffff'>Up
+                                                            Time</h4>
+                                                    </div>
+                                                    <div class="wd_empty_space" data-heightmobile="30"
+                                                        data-heighttablet="25" data-heightdesktop="50"
+                                                        style="height: 50px;"></div>
                                                 </div>
                                             </div>
                                         </div>

@@ -7,25 +7,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
             /><style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
-        <title>Contact Us - Western Hauliers</title>
+        <title>Services - Western Hauliers</title>
         <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
             href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
         <link rel="canonical" href="index.html" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Contact Us - Western Hauliers" />
+        <meta property="og:title" content="Services - Western Hauliers" />
         <meta property="og:url" content="index.html" />
         <meta property="og:site_name" content="Western Hauliers" />
-        <meta property="article:modified_time" content="2023-05-11T09:45:45+00:00" />
+        <meta property="article:modified_time" content="2019-10-11T23:39:01+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="2 minutes" />
+        <meta name="twitter:data1" content="4 minutes" />
         <link rel='dns-prefetch' href='http://client.crisp.chat/' />
         <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
         <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
+        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Feed" href="../feed/index.html" />
+        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Comments Feed"
+            href="../comments/feed/index.html" />
         <link rel="preconnect" href="https://fonts.gstatic.com/">
-        <link rel='stylesheet' id='wp-block-library-css' href='front_end/wp-includes/css/dist/block-library/style.min.css'
-            type='text/css' media='all' />
+        <link rel='stylesheet' id='wp-block-library-css'
+            href='{{ asset('front_end/wp-includes/css/dist/block-library/style.min.css') }}' type='text/css'
+            media='all' />
         <style id='webdevia-all-products-style-inline-css' type='text/css'>
             .wp-block-webdevia-all-products {
                 position: relative
@@ -38,7 +42,7 @@
 
             .wp-block-webdevia-all-products .product-box-preview figure {
                 height: 100%;
-                max-height400px
+                max-height: 400px
             }
 
             .wp-block-webdevia-all-products .product-box-preview figure img {
@@ -225,7 +229,7 @@
 
             .wp-block-webdevia-team-member.team-list-style1:hover .components-responsive-wrapper img,
             .wp-block-webdevia-team-member.team-list-style1:hover .team-member__picture img {
-                box-shadow: 4px 15px rgba(0, 0, 0, .1);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
                 transform: translate3d(0, -8px, 0)
             }
 
@@ -279,7 +283,7 @@
 
             .wp-block-webdevia-team-member.team-list-style2 .team-member__socialmedia {
                 background: var(--accent-color);
-                border-radius4px;
+                border-radius: 4px;
                 box-shadow: 0 6px 21px rgba(2, 2, 2, .3);
                 display: inline;
                 padding: 5px 15px;
@@ -300,7 +304,7 @@
             .wp-block-webdevia-team-member.team-list-style2 .team-member__socialmedia ul li a {
                 color: #fff;
                 font-size: 20px;
-                font-weight400
+                font-weight: 400
             }
 
             .wp-block-webdevia-team-member.team-list-style2:hover .team-member__socialmedia {
@@ -324,7 +328,7 @@
                 border-radius: 34px 34px 0;
                 box-shadow: 0 8px 21px #ebebec;
                 margin-top: -40px;
-                padding: 63p40px 20px
+                padding: 63px 40px 20px
             }
 
             .wp-block-webdevia-team-member.team-list-style3 .team-member__socialmedia {
@@ -351,7 +355,7 @@
             .wp-block-webdevia-team-member.team-list-style3 .team-member__socialmedia ul li a {
                 color: #fff;
                 font-size: 20px;
-                font-weight400
+                font-weight: 400
             }
 
             .wp-block-webdevia-team-member.team-list-style3:hover .team-member__socialmedia {
@@ -366,7 +370,7 @@
 
             .wp-block-webdevia-team-member.team-list-style2 ul li,
             .wp-block-webdevia-team-member.team-list-style3 ul li {
-                max-height40px;
+                max-height: 40px;
                 width: 50%
             }
 
@@ -489,7 +493,7 @@
         <style id='webdevia-pricing-table-style-inline-css' type='text/css'>
             .wp-block-webdevia-pricing-table {
                 margin-inline: auto;
-                padding: 50px 30p45px;
+                padding: 50px 30px 45px;
                 transition: all .4s ease-in-out
             }
 
@@ -538,7 +542,7 @@
             }
 
             .wp-block-webdevia-pricing-table__body {
-                font-weight400
+                font-weight: 400
             }
 
             .wp-block-webdevia-pricing-table__body__option__icon svg {
@@ -572,7 +576,7 @@
                 box-shadow: inset 0 -1px 1px hsla(0, 0%, 100%, .3);
                 color: inherit;
                 display: block;
-                height45px;
+                height: 45px;
                 margin-bottom: 10px;
                 position: relative
             }
@@ -641,7 +645,7 @@
             }
         </style>
         <link rel='stylesheet' id='webdevia-tabs-style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css') }}'
             type='text/css' media='all' />
         <style id='webdevia-tab-style-inline-css' type='text/css'>
             .wp-block-webdevia-tab {
@@ -883,7 +887,7 @@
                 flex-direction: row-reverse;
                 gap: 20px;
                 margin: 0 0 0 52%;
-                width48%
+                width: 48%
             }
 
             .wd-block-webdevia-timeline__events-layout-vsi .timeline__event:before {
@@ -925,7 +929,7 @@
         <style id='global-styles-inline-css' type='text/css'>
             :root {
                 --wp--preset--aspect-ratio--square: 1;
-                --wp--preset--aspect-ratio--4-34/3;
+                --wp--preset--aspect-ratio--4-3: 4/3;
                 --wp--preset--aspect-ratio--3-4: 3/4;
                 --wp--preset--aspect-ratio--3-2: 3/2;
                 --wp--preset--aspect-ratio--2-3: 2/3;
@@ -943,7 +947,7 @@
                 --wp--preset--color--pale-cyan-blue: #8ed1fc;
                 --wp--preset--color--vivid-cyan-blue: #0693e3;
                 --wp--preset--color--vivid-purple: #9b51e0;
-                --wp--preset--color--foreground: #7BC043;
+                --wp--preset--color--foreground: #000;
                 --wp--preset--color--background: #fff;
                 --wp--preset--color--primary: #1a4548;
                 --wp--preset--color--secondary: #ffe2c7;
@@ -953,7 +957,7 @@
                 --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
                 --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, #cf2e2e 100%);
                 --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, #eee 0%, #a9b8c3 100%);
-                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, #4aeadc 0%, #9778d1 20%, #cf2ab40%, #ee2c82 60%, #fb6962 80%, #fef84c 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, #4aeadc 0%, #9778d1 20%, #cf2aba 40%, #ee2c82 60%, #fb6962 80%, #fef84c 100%);
                 --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, #ffceec 0%, #9896f0 100%);
                 --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, #fecda5 0%, #fe2d2d 50%, #6b003e 100%);
                 --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, #ffcb70 0%, #c751c0 50%, #4158d0 100%);
@@ -990,7 +994,7 @@
                 --wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));
                 --wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);
                 --wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);
-                --wp--custom--typography--font-size--huge: clamp(2.25rem4vw, 2.75rem);
+                --wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);
                 --wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);
                 --wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);
                 --wp--custom--typography--line-height--tiny: 1.15;
@@ -1196,7 +1200,7 @@
             h6 {
                 font-family: var(--wp--preset--font-family--system-font);
                 font-size: var(--wp--preset--font-size--medium);
-                font-weight400;
+                font-weight: 400;
                 line-height: var(--wp--custom--typography--line-height--normal);
                 text-transform: uppercase
             }
@@ -1558,37 +1562,39 @@
             :root :where(.wp-block-site-title) {
                 font-family: var(--wp--preset--font-family--system-font);
                 font-size: var(--wp--preset--font-size--medium);
-                font-weight400;
+                font-weight: 400;
                 line-height: var(--wp--custom--typography--line-height--normal)
             }
         </style>
         <link rel='stylesheet' id='wd_demo_panel_style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css') }}'
             type='text/css' media='all' />
         <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-9-css'
-            href='front_end/wp-content/themes/backhoe/webfonts/fa-solid-900.html' type='text/css' media='all' />
+            href='{{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-solid-900.html') }}' type='text/css'
+            media='all' />
         <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-4-css'
-            href='front_end/wp-content/themes/backhoe/webfonts/fa-brands-400.html' type='text/css' media='all' />
+            href='{{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-brands-400.html') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='daterangepickers-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='backhoe_booking_app-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='contact-form-7-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='wd_buy_style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-layout-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e98f5279cacaef826050eb2595082e77.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e98f5279cacaef826050eb2595082e77.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-smallscreen-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_59d266c0ea580aae1113acb3761f7ad5.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_59d266c0ea580aae1113acb3761f7ad5.css') }}'
             type='text/css' media='only screen and (max-width: 768px)' />
         <link rel='stylesheet' id='woocommerce-general-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_f9db2117cb3f9bf8433a39bd81b3e492.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_f9db2117cb3f9bf8433a39bd81b3e492.css') }}'
             type='text/css' media='all' />
         <style id='woocommerce-inline-inline-css' type='text/css'>
             .woocommerce form .form-row .required {
@@ -1596,23 +1602,25 @@
             }
         </style>
         <link rel='stylesheet' id='brands-styles-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_48d56016b20f151be4f24ba6d0eb1be4.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_48d56016b20f151be4f24ba6d0eb1be4.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='select2-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e3e811600e32258de0b9ba53c7798db8.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e3e811600e32258de0b9ba53c7798db8.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='animate-custom-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css') }}'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='icofont-css' href='front_end/wp-content/themes/backhoe/css/icofont.min.css'
-            type='text/css' media='all' />
+        <link rel='stylesheet' id='icofont-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/icofont.min.css') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='swiper-bundle-css'
-            href='front_end/wp-content/themes/backhoe/css/swiper-bundle.min.css' type='text/css' media='all' />
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/swiper-bundle.min.css') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='backhoe-app-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='backhoe-style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}'
             type='text/css' media='all' />
         <style id='backhoe-style-inline-css' type='text/css'>
             :root {
@@ -1658,7 +1666,7 @@
 
                 .titlebar #page-title {
                     font-size: 54px;
-                    padding: 0 15p40px
+                    padding: 0 15px 40px
                 }
             }
 
@@ -1666,7 +1674,7 @@
             body p {
                 font-family: Open Sans;
                 font-style: normal;
-                font-weight400
+                font-weight: 400
             }
 
             h1,
@@ -1698,9 +1706,9 @@
             }
 
             .wd-heading .title_b {
-                font-size42px;
+                font-size: 42px;
                 text-transform: uppercase;
-                line-height46px
+                line-height: 46px
             }
 
             .wd-heading .hr_a {
@@ -1721,11 +1729,11 @@
             }
 
             header.l-header .top-bar-container .top-bar .top-bar-left .logo-wrapper a img {
-                max-height40
+                max-height: 40
             }
 
             header.l-header.corporate-layout .logo-wrapper a img {
-                max-height40
+                max-height: 40
             }
 
             header.l-header .top-bar-container.sticky .site-navigation.top-bar .top-bar-left .top-bar-title .logo-wrapper .menu-text,
@@ -1733,46 +1741,51 @@
                 padding: 0
             }
         </style>
-        <link rel='stylesheet' id='lightbox-css' href='front_end/wp-content/themes/backhoe/css/vendor/lightbox.min.css'
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='all-css' href='front_end/wp-content/themes/backhoe/css/vendor/all.min.css'
-            type='text/css' media='all' />
+        <link rel='stylesheet' id='lightbox-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/lightbox.min.css') }}' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='all-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/all.min.css') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='custom-line-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='dashicons-css' href='front_end/wp-includes/css/dashicons.min.css' type='text/css'
+        <link rel='stylesheet' id='dashicons-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/all.min.css') }}' type='text/css'
             media='all' />
         <link rel='stylesheet' id='simple-auction-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='js_composer_front-css'
-            href='front_end/wp-content/plugins/js_composer/assets/css/js_composer.min.css' type='text/css'
+            href='{{ asset('front_end/wp-content/plugins/js_composer/assets/css/js_composer.min.css') }}' type='text/css'
             media='all' />
-        <script type="text/javascript" src="front_end/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
+        </script>
         <script type="text/javascript" id="wd_main_js_functions-js-extra">
             var devia = {
-                // "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                // "home_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme",
-                // "date_format": "d\/m\/Y"
+                "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
+                "home_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme",
+                "date_format": "d\/m\/Y"
             };
         </script>
-        <script type="module" src="front_end/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js"></script>
+        <script type="module" src="{{ asset('front_end/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}">
+        </script>
         <script type="text/javascript" id="wc-add-to-cart-js-extra">
             var wc_add_to_cart_params = {
-                // "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                // "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                // "i18n_view_cart": "View cart",
-                // "cart_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/",
-                // "is_cart": "",
-                // "cart_redirect_after_add": "no"
+                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
+                "i18n_view_cart": "View cart",
+                "cart_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/",
+                "is_cart": "",
+                "cart_redirect_after_add": "no"
             };
         </script>
         <script type="text/javascript" id="woocommerce-js-extra">
             var woocommerce_params = {
-                // "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                // "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                // "i18n_password_show": "Show password",
-                // "i18n_password_hide": "Hide password"
+                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
+                "i18n_password_show": "Show password",
+                "i18n_password_hide": "Hide password"
             };
         </script>
         <script type="text/javascript"
@@ -1818,12 +1831,24 @@
                 "interval": "1"
             };
             var SA_Ajax = {
-                // "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/contact\/?wsa-ajax",
-                // "najax": "1",
-                // "last_activity": "1751156376",
-                // "focus": "yes"
+                "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/services-1\/?wsa-ajax",
+                "najax": "1",
+                "last_activity": "1751156376",
+                "focus": "yes"
             };
         </script>
+        <link rel="https://api.w.org/" href="{{ asset('front_end/wp-json/index.html') }}" />
+        <link rel="alternate" title="JSON" type="application/json"
+            href="{{ asset('front_end/wp-json/wp/v2/pages/3289.json') }}" />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD"
+            href="{{ asset('front_end/xmlrpc0db0.php?rsd') }}" />
+        <meta name="generator" content="WordPress 6.7.3" />
+        <meta name="generator" content="WooCommerce 10.1.1" />
+        <link rel='shortlink' href='{{ asset('front_end/indexb9a8.html?p=3289') }}' />
+        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+            href="{{ asset('front_end/wp-json/oembed/1.0/embedfb60.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fservices-1%2F') }}" />
+        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+            href="{{ asset('front_end/wp-json/oembed/1.0/embedc084?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fservices-1%2F&amp;format=xml') }}" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62552021-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -1850,6 +1875,9 @@
                 }
             </style>
         </noscript>
+        <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+        <meta name="generator"
+            content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
         <style type="text/css" id="wp-custom-css">
             .text-icon-table.text-icon {
                 max-width: 15px;
@@ -1867,43 +1895,37 @@
                 .logged-in header.l-header .top-bar-container.sticky.fixed {
                     margin-top: 32px; //max-width:89.375rem}}.brands_form form ul li .select2.select2-container{min-width:auto}@media screen and (min-width:64em){.brands_form form ul li .select2.select2-container{min-width:350px}}
         </style>
-        <style type="text/css" data-type="vc_custom-css">
-            .text-icon__title {
-                padding: 0
-            }
-        </style>
         <style type="text/css" data-type="vc_shortcodes-custom-css">
-            .vc_custom_1683798342801 {
-                margin-top: 0 !important;
-                margin-right: 0 !important;
-                margin-bottom: 0 !important;
-                margin-left: 0 !important;
-                padding-top: 25px !important;
-                padding-right: 25px !important;
-                padding-bottom: 25px !important;
-                padding-left: 25px !important
+            .vc_custom_1562174951021 {
+                background-image: url({{ asset('front_end/wp-content/uploads/2019/07/testimonials-backgroundda7b.png?id=3935') }}) !important;
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+                background-size: cover !important
             }
 
-            .vc_custom_1562000110336 {
-                margin-top: 0 !important;
-                margin-right: 0 !important;
-                margin-bottom: 0 !important;
-                margin-left: 0 !important;
-                padding-top: 25px !important;
-                padding-right: 25px !important;
-                padding-bottom: 25px !important;
-                padding-left: 25px !important
+            .vc_custom_1562174918695 {
+                margin-top: -440px !important
             }
 
-            .vc_custom_1562000124893 {
-                margin-top: 0 !important;
-                margin-right: 0 !important;
-                margin-bottom: 0 !important;
-                margin-left: 0 !important;
-                padding-top: 25px !important;
-                padding-right: 25px !important;
-                padding-bottom: 25px !important;
-                padding-left: 25px !important
+            .vc_custom_1562674448213 {
+                background-color: #313131 !important;
+                background-position: 0 0 !important;
+                background-repeat: no-repeat !important
+            }
+
+            .vc_custom_1561038794330 {
+                padding-right: 75px !important;
+                padding-left: 75px !important
+            }
+
+            .vc_custom_1561721539670 {
+                margin-left: 50px !important
+            }
+
+            .vc_custom_1561041477277 {
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+                background-size: contain !important
             }
         </style><noscript>
             <style>
@@ -1914,20 +1936,29 @@
         </noscript>
     </head>
 @endsection
+
 @section('body-tag')
 
     <body
-        class="page-template-default page page-id-3767 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+        class="page-template-default page page-id-3289 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+        {{-- <div class="page-loading">
+            <div class="spinner-loading">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div> --}}
+    @endsection
+
     @section('section')
         <section class="titlebar ">
             <div class="row">
                 <div>
-                    <h2 id="page-title" class="title">Contact Us</h2>
+                    <h2 id="page-title" class="title">Our Services</h2>
                 </div>
                 <div>
                     <ul class="breadcrumbs">
-                        <li><a href="/">Home</a></li>
-                        <li><strong> Contact Us</strong></li>
+                        <li><a href="{{ route('index') }}">Home</a></li>
+                        <li><strong> Services</strong></li>
                     </ul>
                 </div>
             </div>
@@ -1938,733 +1969,631 @@
                     <div class="body field clearfix ">
                         <section class="wpb-content-wrapper">
                             <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='20' data-heighttablet='30'
-                                                data-heightdesktop='60' style='height:60px'></div>
+                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="60"
+                                                data-heightdesktop="88" style="height: 88px;"></div>
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                            fetchpriority="high" decoding="async"
+                                                            class="vc_single_image-img "
+                                                            src="{{ asset('front_end/wp-content/uploads/2018/04/well-truck-577x603.jpg') }}"
+                                                            width="577" height="603" alt="well-truck"
+                                                            title="well-truck" /></div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner vc_custom_1561038794330">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='50'
+                                                data-heightdesktop='80' style='height:80px'></div>
                                             <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h4 style="margin:0;" class="title_a" data-text="It's nice to"> Get
-                                                    in touch</h4>
-                                                <p style="" class="sub_title_a"> It's nice to</p>
+                                                <h3 style="margin:0;" class="title_b"
+                                                    data-text="We are committed to providing our customers with exceptional service while offering our employees the best training and a working environment in which they can excel. This company focus has been in place for more than a half century. We are committed to providing our customers with exceptional service while offering our employees the best training and a working environment in which they can excel. This company focus has been in place for more than a half century.">
+                                                    Our Services</h3>
+                                                <p style="" class="sub_title_b"> At Western Hauliers, we provide
+                                                    engineered lifting,
+                                                    material handling, and specialized transportation solutions designed to
+                                                    support complex
+                                                    industrial, infrastructure, and logistics operations across Tanzania.
+                                                    Our services are delivered using certified
+                                                    equipment, skilled personnel, and strict safety systems to
+                                                    ensure reliable and efficient execution.</p>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='30'
+                                                data-heightdesktop='30' style='height:30px'></div>
+                                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <h4>Safety & Compliance Management</h4>
+                                                                    <p>Safety is integrated into every service we offer.
+                                                                        Our lifting operations follow a structured
+                                                                        Lifting & Safety Management System that includes:
+                                                                    </p>
+                                                                    <ul>
+                                                                        <li>Job Safety Analysis (JSA)</li>
+                                                                        <li>Toolbox talks and safety inductions</li>
+                                                                        <li>Equipment and accessory inspections</li>
+                                                                        <li>Incident reporting and corrective action</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <h4>Lift Planning & Engineering Support</h4>
+                                                                    <p>We provide professional lift planning and engineering
+                                                                        services to
+                                                                        ensure every operation is safe, efficient, and
+                                                                        compliant.</p>
+                                                                    <h5>Our planning process includes:</h5>
+                                                                    <ul>
+                                                                        <li>Load calculations and equipment selection</li>
+                                                                        <li>Ground bearing pressure analysis</li>
+                                                                        <li>Risk assessments and method statements</li>
+                                                                        <li>Site inspections and feasibility studies</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="30"
+                                                data-heightdesktop="40" style="height: 40px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='70'
+                                                data-heightdesktop='150' style='height:150px'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h3 style="margin:0;" class="title_a" data-text="Awesome Services">
+                                                    Industries We Serve</h3>
+                                                <p style="" class="sub_title_a"> Awesome Services</p>
                                                 <hr class='hr_a' style=' margin: 10px;' />
                                             </div>
-                                            <div class='wd_empty_space' data-heightmobile='20' data-heighttablet='20'
-                                                data-heightdesktop='20' style='height:20px'></div>
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='30'
+                                                data-heightdesktop='30' style='height:30px'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="woocommerce columns-4">
+                                                <ul class="products columns-4 grid">
+                                                    @foreach ($categories as $category)
+                                                        @php
+                                                            // Try to get the first machine with an image from direct machines
+                                                            $machine = $category->machines
+                                                                ->whereNotNull('image')
+                                                                ->first();
+                                                            // If not found, try from categoryType machines
+                                                            if (!$machine) {
+                                                                foreach ($category->categoryType as $type) {
+                                                                    $machine = $type->machines
+                                                                        ->whereNotNull('image')
+                                                                        ->first();
+                                                                    if ($machine) {
+                                                                        break;
+                                                                    }
+                                                                }
+                                                            }
+                                                            // If still not found, try to get any machine (even without image)
+                                                            if (!$machine) {
+                                                                $machine = $category->machines->first();
+                                                                if (!$machine) {
+                                                                    foreach ($category->categoryType as $type) {
+                                                                        $machine = $type->machines->first();
+                                                                        if ($machine) {
+                                                                            break;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            // Set image URL or fallback
+                                                            $imgUrl =
+                                                                $machine && $machine->img_url
+                                                                    ? asset('storage/' . $machine->img_url)
+                                                                    : 'https://placehold.co/600x518?text=No+Image';
+                                                            // Count all machines in this category (direct + all types)
+                                                            $directMachines = $category->machines->count();
+                                                            $typeMachines = $category->categoryType->sum(
+                                                                fn($type) => $type->machines->count(),
+                                                            );
+                                                            $totalCount = $directMachines + $typeMachines;
+                                                        @endphp
+                                                        <li class="product-category product">
+                                                            <a aria-label="Visit product category {{ $category->name }}"
+                                                                href="{{ route('shop', ['category_id' => $category->id]) }}">
+                                                                <img src="{{ $imgUrl }}"
+                                                                    alt="{{ $category->name }}" width="700"
+                                                                    height="518" style="object-fit:cover;" />
+                                                                <h2 class="woocommerce-loop-category__title">
+                                                                    {{ $category->name }} <mark
+                                                                        class="count">({{ $totalCount }})</mark>
+                                                                </h2>
+                                                            </a>
+                                                        </li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="100"
+                                                data-heightdesktop="120" style="height: 120px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--left">
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Western Hauliers"> Our Service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Heavy Lifting &
+                                                    Mobile Crane Services</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
                                             <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper">
-                                                    <p>We will be happy to hear from you, So please feel free to contact
-                                                        us using the details bellow unleash cross-media information
-                                                        without cross-media value. Quickly maximize timely deliverable.
+                                                    <p>Western Hauliers delivers professional heavy lifting solutions for
+                                                        high-risk and technically demanding projects. Our mobile and
+                                                        truck-mounted cranes are suitable for
+                                                        industrial installations, infrastructure works, and large equipment
+                                                        handling.
                                                     </p>
+                                                    <h5>Our services include:</h5>
+                                                    <ul>
+                                                        <li>Engineered lift planning and execution</li>
+                                                        <li>Risk assessment and method statements (RAMS)</li>
+                                                        <li>Heavy equipment installation and positioning</li>
+                                                        <li>Shutdown and maintenance support</li>
+                                                        <li>On-site supervision and safety management</li>
+                                                    </ul>
+                                                    <p>Every lift is planned with precision, ensuring safety, stability, and
+                                                        compliance with regulatory standards.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-6">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class=" text-icon text-icon--icon-left_position boxes  clearfix">
-                                                <div class="text-icon__container   ">
-                                                    <div class="text-icon__icon-box "> <noscript><img decoding="async"
-                                                                src="../wp-content/uploads/2019/07/Group-925.png"
-                                                                alt='icon' /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/Group-925.png"
-                                                            alt='icon' /></div>
-                                                    <div class="text-icon__content-box">
-                                                        <h4 class="text-icon__title "> EMAIL ADDRESS</h4>
-                                                        <p class="text-icon__text  "> info@westernhaulirs.co.tz</p>
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
+                                                                width="578" height="704" alt="moved-img-1@2x"
+                                                                title="moved-img-1@2x" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
+                                                            width="578" height="704" alt="moved-img-1@2x"
+                                                            title="moved-img-1@2x" />
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class=" text-icon text-icon--icon-left_position boxes  clearfix">
-                                                <div class="text-icon__container   ">
-                                                    <div class="text-icon__icon-box "> <noscript><img decoding="async"
-                                                                src="../wp-content/uploads/2019/07/Group-926.png"
-                                                                alt='icon' /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/Group-926.png"
-                                                            alt='icon' /></div>
-                                                    <div class="text-icon__content-box">
-                                                        <h4 class="text-icon__title "> PHONE NUMBER</h4>
-                                                        <p class="text-icon__text  "> +255 758 005 151 – Office</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class=" text-icon text-icon--icon-left_position boxes  clearfix">
-                                                <div class="text-icon__container   ">
-                                                    <div class="text-icon__icon-box "> <noscript><img decoding="async"
-                                                                src="../wp-content/uploads/2019/07/map-marker-639_bd071826-7d2a-441d-bb24-9654b4644e4c.png"
-                                                                alt='icon' /></noscript><img class="lazyload"
-                                                            decoding="async"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/map-marker-639_bd071826-7d2a-441d-bb24-9654b4644e4c.png"
-                                                            alt='icon' /></div>
-                                                    <div class="text-icon__content-box">
-                                                        <h4 class="text-icon__title "> OUR ADDRESS</h4>
-                                                        <p class="text-icon__text  "> Vetenary street, Temeke, DSM, TZ</p>
-                                                    </div>
-                                                </div>
+                                                </figure>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                            {{-- <div class="vc_row wpb_row vc_row-fluid vc_custom_1562174951021 vc_row-has-fill"></div> --}}
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right" style="margin-top:160px;">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="30"
-                                                data-heightdesktop="30" style="height: 30px;"></div>
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                width="578" height="704" alt="compactor"
+                                                                title="compactor" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                            width="578" height="704" alt="compactor"
+                                                            title="compactor" />
+                                                    </div>
+                                                </figure>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <script>
-                                               jQuery(function($) {
-                                                    var wdmp_map_style = 'wa_map_style2';
-                                                    switch (wdmp_map_style) {
-                                                        case "wa_map_style1":
-                                                            var styles = [{
-                                                                "featureType": "administrative",
-                                                                "elementType": "labels.text.fill",
-                                                                "stylers": [{
-                                                                    "color": "#444444"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "color": "#f2f2f2"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "saturation": -100
-                                                                }, {
-                                                                    "lightness": 45
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.highway",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "visibility": "simplified"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.arterial",
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "transit",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "water",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "color": "#24265c"
-                                                                }, {
-                                                                    "visibility": "on"
-                                                                }]
-                                                            }];
-                                                            break;
-                                                        case "wa_map_style2":
-                                                            var styles = [{
-                                                                "featureType": "water",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#e9e9e9"
-                                                                }, {
-                                                                    "lightness": 17
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#f5f5f5"
-                                                                }, {
-                                                                    "lightness": 20
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.highway",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#ffffff"
-                                                                }, {
-                                                                    "lightness": 17
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.highway",
-                                                                "elementType": "geometry.stroke",
-                                                                "stylers": [{
-                                                                    "color": "#ffffff"
-                                                                }, {
-                                                                    "lightness": 29
-                                                                }, {
-                                                                    "weight": 0.2
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.arterial",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#ffffff"
-                                                                }, {
-                                                                    "lightness": 18
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.local",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#ffffff"
-                                                                }, {
-                                                                    "lightness": 16
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#f5f5f5"
-                                                                }, {
-                                                                    "lightness": 21
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi.park",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#dedede"
-                                                                }, {
-                                                                    "lightness": 21
-                                                                }]
-                                                            }, {
-                                                                "elementType": "labels.text.stroke",
-                                                                "stylers": [{
-                                                                    "visibility": "on"
-                                                                }, {
-                                                                    "color": "#ffffff"
-                                                                }, {
-                                                                    "lightness": 16
-                                                                }]
-                                                            }, {
-                                                                "elementType": "labels.text.fill",
-                                                                "stylers": [{
-                                                                    "saturation": 36
-                                                                }, {
-                                                                    "color": "#333333"
-                                                                }, {
-                                                                    "lightness": 40
-                                                                }]
-                                                            }, {
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "transit",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#f2f2f2"
-                                                                }, {
-                                                                    "lightness": 19
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#fefefe"
-                                                                }, {
-                                                                    "lightness": 20
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative",
-                                                                "elementType": "geometry.stroke",
-                                                                "stylers": [{
-                                                                    "color": "#fefefe"
-                                                                }, {
-                                                                    "lightness": 17
-                                                                }, {
-                                                                    "weight": 1.2
-                                                                }]
-                                                            }];
-                                                            break;
-                                                        case "wa_map_style3":
-                                                            var styles = [{
-                                                                "featureType": "water",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#193341"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#2c5a71"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#29768a"
-                                                                }, {
-                                                                    "lightness": -37
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#406d80"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "transit",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#406d80"
-                                                                }]
-                                                            }, {
-                                                                "elementType": "labels.text.stroke",
-                                                                "stylers": [{
-                                                                    "visibility": "on"
-                                                                }, {
-                                                                    "color": "#3e606f"
-                                                                }, {
-                                                                    "weight": 2
-                                                                }, {
-                                                                    "gamma": 0.84
-                                                                }]
-                                                            }, {
-                                                                "elementType": "labels.text.fill",
-                                                                "stylers": [{
-                                                                    "color": "#ffffff"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "weight": 0.6
-                                                                }, {
-                                                                    "color": "#1a3541"
-                                                                }]
-                                                            }, {
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi.park",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#2c5a71"
-                                                                }]
-                                                            }];
-                                                            break;
-                                                        case "wa_map_style4":
-                                                            var styles = [{
-                                                                "featureType": "all",
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#eeeeee"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative.country",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "lightness": "80"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative.country",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative.province",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative.locality",
-                                                                "elementType": "labels.text",
-                                                                "stylers": [{
-                                                                    "visibility": "simplified"
-                                                                }, {
-                                                                    "color": "#777777"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative.locality",
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "simplified"
-                                                                }, {
-                                                                    "lightness": 60
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative.neighborhood",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "administrative.land_parcel",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape.man_made",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#fbfbfb"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape.man_made",
-                                                                "elementType": "geometry.stroke",
-                                                                "stylers": [{
-                                                                    "color": "#cfcfcf"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape.man_made",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape.natural",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#ffffff"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "landscape.natural",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "simplified"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#dedede"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi",
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi.attraction",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#eeeeee"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi.business",
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi.park",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "color": "#d1d1d1"
-                                                                }, {
-                                                                    "invert_lightness": true
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi.park",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "invert_lightness": true
-                                                                }]
-                                                            }, {
-                                                                "featureType": "poi.park",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.highway",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#e5e5e5"
-                                                                }, {
-                                                                    "visibility": "simplified"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.highway",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.arterial",
-                                                                "elementType": "geometry.stroke",
-                                                                "stylers": [{
-                                                                    "color": "#cfcfcf"
-                                                                }, {
-                                                                    "visibility": "on"
-                                                                }, {
-                                                                    "weight": "0.55"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.arterial",
-                                                                "elementType": "labels.text",
-                                                                "stylers": [{
-                                                                    "visibility": "simplified"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.arterial",
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.local",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#efefef"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.local",
-                                                                "elementType": "geometry.stroke",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.local",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "simplified"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.local",
-                                                                "elementType": "labels.text",
-                                                                "stylers": [{
-                                                                    "color": "#777777"
-                                                                }, {
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "road.local",
-                                                                "elementType": "labels.icon",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "transit.line",
-                                                                "elementType": "geometry",
-                                                                "stylers": [{
-                                                                    "color": "#cdcdcd"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "transit.line",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "transit.station",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#cccccc"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "water",
-                                                                "elementType": "all",
-                                                                "stylers": [{
-                                                                    "visibility": "simplified"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "water",
-                                                                "elementType": "geometry.fill",
-                                                                "stylers": [{
-                                                                    "color": "#e0e0e0"
-                                                                }]
-                                                            }, {
-                                                                "featureType": "water",
-                                                                "elementType": "labels",
-                                                                "stylers": [{
-                                                                    "visibility": "off"
-                                                                }]
-                                                            }];
-                                                    }
-                                                    var styledMap = new google.maps.StyledMapType(styles, {
-                                                        name: "Styled Map"
-                                                    });
-                                                    if ($('.map .map-canvas').length) {
-                                                        $('.map .map-canvas').each(function(i, obj) {
-                                                            wdmp_map_setting(this);
-                                                        });
-                                                    }
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Our service"> Our service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Forklift Rental
+                                                    Services (2–45 Tons)</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>Western Hauliers provides reliable and high-capacity forklift
+                                                        rental solutions designed to support demanding industrial,
+                                                        logistics,
+                                                        and construction operations. Our fleet consists of brand-new REDLIFT
+                                                        forklifts ranging from 2 to 45 tons,
+                                                        capable of handling both light and extremely heavy loads with
+                                                        precision and stability.</p>
+                                                    <h5>Applications include:</h5>
+                                                    <ul>
+                                                        <li>Container handling</li>
+                                                        <li>Machinery and equipment movement</li>
+                                                        <li>Warehouse and logistics operations</li>
+                                                        <li>Outdoor and rough-terrain environments</li>
+                                                    </ul>
 
-                                                    function wdmp_map_setting(el) {
-                                                        if ($(el).length > 0) {
-                                                            var locations = [
-                                                                ['Western Hauliers', 'Vetenary street, Temeke, DSM, TZ',
-                                                                    -6.8534602, 39.2520862
-                                                                ],
-                                                            ];
-                                                            var map = new google.maps.Map(document.getElementById('map-canvas'), {
-                                                                zoom: 14,
-                                                                center: new google.maps.LatLng(-6.8534602, 39.2520862),
-                                                                mapTypeControlOptions: {
-                                                                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-                                                                }
-                                                            })
-                                                            map.mapTypes.set('map_style', styledMap);
-                                                            map.setMapTypeId('map_style');
-                                                            var infowindow = new google.maps.InfoWindow();
-                                                            var marker, i, company_info
-                                                            for (i = 0; i < locations.length; i++) {
-                                                                marker = new google.maps.Marker({
-                                                                    position: new google.maps.LatLng(locations[i][2], locations[i][3]),
-                                                                    map: map,
-                                                                    icon: 'https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/themes/backhoe/images/unnamed.png'
-                                                                });
-                                                                google.maps.event.addListener(marker, 'click', (function(marker, i) {
-                                                                    return function() {
-                                                                        company_info = '<div class="map-company-info">';
-                                                                        company_info += '<h3> ' + locations[i][0] + '</h3>';
-                                                                        company_info += '<p> ' + locations[i][1] + ' </p>';
-                                                                        company_info += '</div>';
-                                                                        infowindow.setContent(company_info);
-                                                                        infowindow.open(map, marker);
-                                                                    }
-                                                                })(marker, i));
-                                                            }
-                                                        };
-                                                    }
-                                                });
-                                            </script>
-                                            <div class="map ">
-                                                <div id="map-canvas" class="map-canvas" data-id="map-canvas"
-                                                    style="height: 400px;"></div>
+                                                    <p>All forklifts are nationally certified, maintained
+                                                        under preventive maintenance programs, and operated by licensed
+                                                        professionals. </p>
+                                                </div>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20"
+                                                data-heightdesktop="36" style="height: 36px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--left" style="margin-top:160px;">
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Western Hauliers"> Our Service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Side Loaders &
+                                                    Specialized Transportation</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>Western Hauliers provides specialized side loader and
+                                                        transportation solutions designed for the safe, efficient,
+                                                        and controlled handling of long, oversized, and heavy cargo. This
+                                                        service is ideal for projects where
+                                                        conventional transport methods are impractical or unsafe due to
+                                                        cargo length, weight, or site constraints.
+                                                    </p>
+                                                    <h5>Cargo Types Handled:</h5>
+                                                    <ul>
+                                                        <li>Shipping containers</li>
+                                                        <li>Steel structures and fabricated components</li>
+                                                        <li>Pipes, beams, and poles</li>
+                                                        <li>Timber, panels, and prefabricated materials</li>
+                                                        <li>Industrial equipment and long machinery components</li>
+                                                    </ul>
+                                                    <p>Every movement is supported by risk assessments, method statements,
+                                                        and experienced operators to ensure compliance with safety and
+                                                        regulatory requirements.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class="wpcf7 no-js" id="wpcf7-f4411-p3767-o1" lang="en-US"
-                                                dir="ltr" data-wpcf7-id="4411">
-                                                <div class="screen-reader-response">
-                                                    <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                                    <ul></ul>
-                                                </div>
-                                                <form
-                                                    action=""
-                                                    method="post" class="wpcf7-form init" aria-label="Contact form"
-                                                    novalidate="novalidate" data-status="init">
-                                                    <fieldset class="hidden-fields-container"><input type="hidden"
-                                                            name="_wpcf7" value="4411" /><input type="hidden"
-                                                            name="_wpcf7_version" value="6.1.1" /><input type="hidden"
-                                                            name="_wpcf7_locale" value="en_US" /><input type="hidden"
-                                                            name="_wpcf7_unit_tag" value="wpcf7-f4411-p3767-o1" /><input
-                                                            type="hidden" name="_wpcf7_container_post"
-                                                            value="3767" /><input type="hidden"
-                                                            name="_wpcf7_posted_data_hash" value="" /></fieldset>
-                                                    <div class="contact-form">
-                                                        <p><span class="wpcf7-form-control-wrap"
-                                                                data-name="your-name"><input size="40"
-                                                                    maxlength="400"
-                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    placeholder="Name" value="" type="text"
-                                                                    name="your-name" /></span><br /> <span
-                                                                class="wpcf7-form-control-wrap"
-                                                                data-name="your-email"><input size="40"
-                                                                    maxlength="400"
-                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                    aria-required="true" aria-invalid="false"
-                                                                    placeholder="Your Email" value=""
-                                                                    type="text" name="your-email" /></span><br />
-                                                            <span class="wpcf7-form-control-wrap"
-                                                                data-name="your-subject"><input size="40"
-                                                                    maxlength="400" class="wpcf7-form-control wpcf7-text"
-                                                                    aria-invalid="false" placeholder="Subject"
-                                                                    value="" type="text"
-                                                                    name="your-subject" /></span><br /> <span
-                                                                class="wpcf7-form-control-wrap" data-name="your-message">
-                                                                <textarea cols="40" rows="3" maxlength="2000" class="wpcf7-form-control wpcf7-textarea"
-                                                                    aria-invalid="false" placeholder="your Message" name="your-message"></textarea>
-                                                            </span><br /> <input
-                                                                class="wpcf7-form-control wpcf7-submit has-spinner"
-                                                                type="submit" value="Send" />
-                                                        </p>
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
+                                                                width="578" height="704" alt="moved-img-1@2x"
+                                                                title="moved-img-1@2x" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
+                                                            width="578" height="704" alt="moved-img-1@2x"
+                                                            title="moved-img-1@2x" />
                                                     </div>
-                                                    <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                                </form>
+                                                </figure>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="vc_row wpb_row vc_row-fluid">
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right" style="margin-top:160px;">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                width="578" height="704" alt="compactor"
+                                                                title="compactor" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                            width="578" height="704" alt="compactor"
+                                                            title="compactor" />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Our service"> Our service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Manlifts & Aerial
+                                                    Work Platforms</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>Western Hauliers provides safe, reliable, and
+                                                        efficient access solutions for work at height through a modern
+                                                        fleet of manlifts and aerial work platforms. These solutions are
+                                                        designed to support construction, industrial, maintenance,
+                                                        and infrastructure projects where controlled vertical and horizontal
+                                                        access is critical.</p>
+                                                    <h5>Applications & Use Cases:</h5>
+                                                    <ul>
+                                                        <li>Installation and commissioning of mechanical, electrical, and
+                                                            structural systems</li>
+                                                        <li>Routine and preventive maintenance works</li>
+                                                        <li>Inspection, repair, and replacement of equipment at height</li>
+                                                        <li>Structural, mechanical, and finishing works in industrial and
+                                                            construction environments</li>
+                                                        <li>Support during shutdowns, upgrades, and plant modifications</li>
+                                                    </ul>
+
+                                                    <p>Our manlifts and aerial platforms are regularly inspected and
+                                                        operated
+                                                        by trained personnel to ensure safety and efficiency. </p>
+                                                </div>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20"
+                                                data-heightdesktop="36" style="height: 36px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-vc-full-width="true" data-vc-full-width-init="false"
+                                class="vc_row wpb_row vc_row-fluid vc_custom_1562174951021 vc_row-has-fill">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class="wd_empty_space" data-heightmobile="100" data-heighttablet="100"
-                                                data-heightdesktop="100" style="height: 100px;"></div>
+                                            <div class='wd_empty_space' data-heightmobile='80' data-heighttablet='80'
+                                                data-heightdesktop='80' style='height:80px'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h2 style="margin:0;color:#ffffff;" class="title_a"
+                                                    data-text="Testimonials"> Testimonials</h2>
+                                                <hr class='hr_a' style=' margin: 10px;' />
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="440" data-heighttablet="440"
+                                                data-heightdesktop="440" style="height: 440px;"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            <div class="vc_row wpb_row vc_row-fluid vc_custom_1562174918695">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="owl-testimonial swiper-container testimonail-swiper wd-testimonial wd-testimonial_layout_3"
+                                                data-slick='{ "slidesToShow": 1, "slidesToScroll": 1}'>
+                                                <div class="swiper-wrapper">
+                                                    <blockquote class="swiper-slide wd-testimonial__item">
+                                                        <div class="wd-testimonial__thumbnail">
+                                                            <div class="lazyload"
+                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/testimon-@2x-833x510.jpg"
+                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
+                                                            </div>
+                                                        </div>
+                                                        <div class="wd-testimonial__info">
+                                                            <div class="excerpt" style="color:#fff"> So happy to
+                                                                write this testimonial to see that I'm very thankful to
+                                                                you guys even you so awesome and professional Although
+                                                                with service while offering our employees the best
+                                                                training and a working environment in which they can
+                                                                excel.</div>
+                                                            <h5 class="title" style="color:#fff"> Mark James</h5>
+                                                            <p class="job p-small"> Creative Heads Inc</p>
+                                                        </div>
+                                                    </blockquote>
+                                                    <blockquote class="swiper-slide wd-testimonial__item">
+                                                        <div class="wd-testimonial__thumbnail">
+                                                            <div class="lazyload"
+                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/testimon-@2x-2-833x510.jpg"
+                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
+                                                            </div>
+                                                        </div>
+                                                        <div class="wd-testimonial__info">
+                                                            <div class="excerpt" style="color:#fff"> I was very
+                                                                surprised by the quality of the equipment of this
+                                                                company, and I will buy from them always and so happy to
+                                                                write this testimonial to see that I'm very thankful to
+                                                                you guys even you so awesome and professional Although
+                                                                moreover.</div>
+                                                            <h5 class="title" style="color:#fff"> Sammy Lovell</h5>
+                                                            <p class="job p-small"> CTO - Google</p>
+                                                        </div>
+                                                    </blockquote>
+                                                    <blockquote class="swiper-slide wd-testimonial__item">
+                                                        <div class="wd-testimonial__thumbnail">
+                                                            <div class="lazyload"
+                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/04/testimon_-833x510.jpg"
+                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
+                                                            </div>
+                                                        </div>
+                                                        <div class="wd-testimonial__info">
+                                                            <div class="excerpt" style="color:#fff"> I was very
+                                                                surprised by the quality of the equipment of this
+                                                                company, and I will buy from them always and so happy to
+                                                                write this testimonial to see that I'm very thankful to
+                                                                you guys even you so awesome and professional Although.
+                                                            </div>
+                                                            <h5 class="title" style="color:#fff"> Veriency Dun</h5>
+                                                            <p class="job p-small"> Creative Heads Inc</p>
+                                                        </div>
+                                                    </blockquote>
+                                                </div> <span class="swiper-button-prev left slick-arrow"><svg
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                        viewBox="0 0 512.008 512.008"
+                                                        style="enable-background:new 0 0 512.008 512.008;"
+                                                        xml:space="preserve">
+                                                        <g>
+                                                            <g>
+                                                                <path
+                                                                    d="M384.001,53.333V10.667c0-4.354-2.646-8.281-6.688-9.896C376.022,0.25,374.668,0,373.335,0
+                                                                                                                                 c-2.854,0-5.646,1.146-7.708,3.292L130.96,248.625c-3.937,4.125-3.937,10.625,0,14.75l234.667,245.333
+                                                                                                                                 c3.021,3.146,7.646,4.167,11.688,2.521c4.042-1.615,6.688-5.542,6.688-9.896v-42.667c0-2.729-1.042-5.354-2.917-7.333L196.022,256
+                                                                                                                                 L381.085,60.667C382.96,58.688,384.001,56.063,384.001,53.333z">
+                                                                </path>t
+                                                            </g>
+                                                        </g>
+                                                    </svg> </span> <span class="swiper-button-next right slick-arrow"><svg
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                        viewBox="0 0 512.008 512.008"
+                                                        style="enable-background:new 0 0 512.008 512.008;"
+                                                        xml:space="preserve">
+                                                        <g>
+                                                            <g>
+                                                                <path
+                                                                    d="M381.048,248.633L146.381,3.299c-3.021-3.146-7.646-4.167-11.688-2.521c-4.042,1.615-6.688,5.542-6.688,9.896v42.667
+                                                                                                                                 c0,2.729,1.042,5.354,2.917,7.333l185.063,195.333L130.923,451.341c-1.875,1.979-2.917,4.604-2.917,7.333v42.667
+                                                                                                                                 c0,4.354,2.646,8.281,6.688,9.896c1.292,0.521,2.646,0.771,3.979,0.771c2.854,0,5.646-1.146,7.708-3.292l234.667-245.333
+                                                                                                                                 C384.986,259.258,384.986,252.758,381.048,248.633z">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="200" data-heighttablet="0"
+                                                data-heightdesktop="0" style="height: 0px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                                class="vc_row wpb_row vc_row-fluid moved-box__top vc_custom_1562674448213 vc_row-has-fill">
+                                <div class="wpb_column vc_column_container vc_col-sm-5 vc_col-has-fill">
+                                    <div class="vc_column-inner vc_custom_1561041477277">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" width="1562" height="1020"
+                                                                src="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }}"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                title="Rectangle 14@2x"
+                                                                srcset="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1562w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 300w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1024w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 768w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1536w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 800w"
+                                                                sizes="(max-width: 1562px) 100vw, 1562px" /></noscript><img
+                                                            decoding="async" width="1562" height="1020"
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201562%201020%22%3E%3C/svg%3E'
+                                                            data-src="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }}"
+                                                            class="lazyload vc_single_image-img attachment-full"
+                                                            alt="" title="Rectangle 14@2x"
+                                                            data-srcset="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1562w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 300w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1024w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 768w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1536w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 800w"
+                                                            data-sizes="(max-width: 1562px) 100vw, 1562px" />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='35' data-heighttablet='35px'
+                                                data-heightdesktop='35px' style='height:35pxpx'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h3 style="margin:0;font-size:24px;color:#ffffff;text-transform:Inherit;"
+                                                    class="title_b" data-text="Do you need one to one call right now?"> Do
+                                                    you need
+                                                    one to one call right now?</h3>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='' data-heighttablet=''
+                                                data-heightdesktop='' style='height:px'></div>
+                                            <div class="wd_empty_space" data-heightmobile="50" data-heighttablet="50"
+                                                data-heightdesktop="160" style="height: 160px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-3">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wd_empty_space" data-heightmobile="50" data-heighttablet="50"
+                                                data-heightdesktop="50" style="height: 50px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row-full-width vc_clearfix"></div>
                         </section>
                     </div>
                 </article>
             </div>
         </main>
+    @endsection
 
+    @section('script')
+        <style id='rs-plugin-settings-inline-css' type='text/css'></style>
+        {{-- <script defer
+            src='{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}'>
+        </script> --}}
     @endsection

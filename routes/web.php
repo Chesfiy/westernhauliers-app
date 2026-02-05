@@ -1,11 +1,11 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
-use Illuminate\Support\Facades\Route;
-use App\Models\Category;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ShopController;
+use App\Http\Controllers\UserController;
+use App\Models\Category;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
@@ -13,7 +13,7 @@ Route::get('/', function () {
         'categoryType.machines',
         'machines' => function ($query) {
             $query->whereNull('category_type_id');
-        }
+        },
     ])->get();
 
     return view('index', compact(['categories']));
@@ -28,9 +28,27 @@ Route::get('/contact', function () {
 })->name('contact');
 
 Route::get('/services', function () {
-    return view('services');
+    $categories = Category::with([
+        'categoryType.machines',
+        'machines' => function ($query) {
+            $query->whereNull('category_type_id');
+        },
+    ])->get();
+
+    return view('services', compact(['categories']));
 })->name('services');
 
+Route::get('/our-team', function () {
+    return view('our_team');
+})->name('our-team');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');
+
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');
 
 Route::get('/shop', [ShopController::class, 'index'])->name('shop');
 Route::get('/employee/badge', [ShopController::class, 'verifyEmployee'])->name('employee.verify');
@@ -65,7 +83,6 @@ Route::middleware('admin')->group(function () {
     Route::get('/view_category_types/{id}/edit', [AdminController::class, 'editCategoryType'])->name('admin.editCategoryType');
     Route::put('/view_category_types/{id}', [AdminController::class, 'updateCategoryType'])->name('admin.updateCategoryType');
     Route::delete('/view_category_types/{id}', [AdminController::class, 'deleteCategoryType'])->name('admin.deleteCategoryType');
-    
 
     Route::get('/new_machine', [AdminController::class, 'newMachine'])->name('admin.newMachine');
     Route::post('/add_machine', [AdminController::class, 'storeMachine'])->name('admin.storeMachine');
@@ -103,13 +120,12 @@ Route::middleware('admin')->group(function () {
     Route::delete('/view_employee/{id}', [AdminController::class, 'deleteemployee'])->name('admin.deleteemployee');
     Route::get('/print_badge/{id}', [AdminController::class, 'emplyeeBage'])->name('admin.emplyeeBadge');
 
-    //Route::get('/new_quotation', [AdminController::class, 'newQuotation'])->name('admin.newQuotation');
-    //Route::post('/add_quotation', [AdminController::class, 'storeQuotation'])->name('admin.storeQuotation');
+    // Route::get('/new_quotation', [AdminController::class, 'newQuotation'])->name('admin.newQuotation');
+    // Route::post('/add_quotation', [AdminController::class, 'storeQuotation'])->name('admin.storeQuotation');
     Route::get('/view_quotations', [AdminController::class, 'showQuotations'])->name('admin.showQuotations');
     Route::get('/view_quotations/{id}/edit', [AdminController::class, 'editQuotation'])->name('admin.editQuotation');
     Route::put('/view_quotations/{id}', [AdminController::class, 'updateQuotation'])->name('admin.updateQuotation');
     Route::delete('/view_quotation/{id}', [AdminController::class, 'deleteQuotation'])->name('admin.deleteQuotation');
 });
-
 
 require __DIR__.'/auth.php';

@@ -5,40 +5,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
-        <title>{{ $machine->name }} - Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress
-            Theme</title>
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+            /><style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
+        <title>Services - Western Hauliers</title>
         <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
             href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
         <link rel="canonical" href="index.html" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title"
-            content="{{ $machine->name }} - Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" />
-        <meta property="og:description"
-            content="Mel an esse salutandi, eos wisi nonumes democritum id. Eu affert dolore rationibus mel. Porro vocent ut vel. Rebum deleniti voluptua at sed, ut tollit prodesset eum, ea eos nostrud." />
+        <meta property="og:title" content="Services - Western Hauliers" />
         <meta property="og:url" content="index.html" />
-        <meta property="og:site_name"
-            content="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" />
-        <meta property="article:modified_time" content="2021-05-18T16:04:28+00:00" />
-        <meta property="og:image" content="front_end/wp-content/uploads/2019/06/product_0010__.jpg" />
-        <meta property="og:image:width" content="1000" />
-        <meta property="og:image:height" content="760" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <link rel='dns-prefetch' href='http://www.openlayers.org/' />
+        <meta property="og:site_name" content="Western Hauliers" />
+        <meta property="article:modified_time" content="2019-10-11T23:39:01+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="4 minutes" />
         <link rel='dns-prefetch' href='http://client.crisp.chat/' />
         <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
         <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
-        <link rel="alternate" type="application/rss+xml"
-            title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Feed"
-            href="../../feed/index.html" />
-        <link rel="alternate" type="application/rss+xml"
-            title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Comments Feed"
-            href="../../comments/feed/index.html" />
-        <link rel="alternate" type="application/rss+xml"
-            title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; 35000 &#8211; 39000 lbs, Excavator Comments Feed"
-            href="feed/index.html" />
+        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Feed" href="../feed/index.html" />
+        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Comments Feed"
+            href="../comments/feed/index.html" />
         <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link rel='stylesheet' id='wp-block-library-css'
             href='{{ asset('front_end/wp-includes/css/dist/block-library/style.min.css') }}' type='text/css'
@@ -55,7 +42,7 @@
 
             .wp-block-webdevia-all-products .product-box-preview figure {
                 height: 100%;
-                max-height400px
+                max-height: 400px
             }
 
             .wp-block-webdevia-all-products .product-box-preview figure img {
@@ -242,7 +229,7 @@
 
             .wp-block-webdevia-team-member.team-list-style1:hover .components-responsive-wrapper img,
             .wp-block-webdevia-team-member.team-list-style1:hover .team-member__picture img {
-                box-shadow: 4px 15px rgba(0, 0, 0, .1);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
                 transform: translate3d(0, -8px, 0)
             }
 
@@ -296,7 +283,7 @@
 
             .wp-block-webdevia-team-member.team-list-style2 .team-member__socialmedia {
                 background: var(--accent-color);
-                border-radius4px;
+                border-radius: 4px;
                 box-shadow: 0 6px 21px rgba(2, 2, 2, .3);
                 display: inline;
                 padding: 5px 15px;
@@ -317,7 +304,7 @@
             .wp-block-webdevia-team-member.team-list-style2 .team-member__socialmedia ul li a {
                 color: #fff;
                 font-size: 20px;
-                font-weight400
+                font-weight: 400
             }
 
             .wp-block-webdevia-team-member.team-list-style2:hover .team-member__socialmedia {
@@ -341,7 +328,7 @@
                 border-radius: 34px 34px 0;
                 box-shadow: 0 8px 21px #ebebec;
                 margin-top: -40px;
-                padding: 63p40px 20px
+                padding: 63px 40px 20px
             }
 
             .wp-block-webdevia-team-member.team-list-style3 .team-member__socialmedia {
@@ -368,7 +355,7 @@
             .wp-block-webdevia-team-member.team-list-style3 .team-member__socialmedia ul li a {
                 color: #fff;
                 font-size: 20px;
-                font-weight400
+                font-weight: 400
             }
 
             .wp-block-webdevia-team-member.team-list-style3:hover .team-member__socialmedia {
@@ -383,7 +370,7 @@
 
             .wp-block-webdevia-team-member.team-list-style2 ul li,
             .wp-block-webdevia-team-member.team-list-style3 ul li {
-                max-height40px;
+                max-height: 40px;
                 width: 50%
             }
 
@@ -506,7 +493,7 @@
         <style id='webdevia-pricing-table-style-inline-css' type='text/css'>
             .wp-block-webdevia-pricing-table {
                 margin-inline: auto;
-                padding: 50px 30p45px;
+                padding: 50px 30px 45px;
                 transition: all .4s ease-in-out
             }
 
@@ -555,7 +542,7 @@
             }
 
             .wp-block-webdevia-pricing-table__body {
-                font-weight400
+                font-weight: 400
             }
 
             .wp-block-webdevia-pricing-table__body__option__icon svg {
@@ -589,7 +576,7 @@
                 box-shadow: inset 0 -1px 1px hsla(0, 0%, 100%, .3);
                 color: inherit;
                 display: block;
-                height45px;
+                height: 45px;
                 margin-bottom: 10px;
                 position: relative
             }
@@ -900,7 +887,7 @@
                 flex-direction: row-reverse;
                 gap: 20px;
                 margin: 0 0 0 52%;
-                width48%
+                width: 48%
             }
 
             .wd-block-webdevia-timeline__events-layout-vsi .timeline__event:before {
@@ -942,7 +929,7 @@
         <style id='global-styles-inline-css' type='text/css'>
             :root {
                 --wp--preset--aspect-ratio--square: 1;
-                --wp--preset--aspect-ratio--4-34/3;
+                --wp--preset--aspect-ratio--4-3: 4/3;
                 --wp--preset--aspect-ratio--3-4: 3/4;
                 --wp--preset--aspect-ratio--3-2: 3/2;
                 --wp--preset--aspect-ratio--2-3: 2/3;
@@ -960,7 +947,7 @@
                 --wp--preset--color--pale-cyan-blue: #8ed1fc;
                 --wp--preset--color--vivid-cyan-blue: #0693e3;
                 --wp--preset--color--vivid-purple: #9b51e0;
-                --wp--preset--color--foreground: #7BC043;
+                --wp--preset--color--foreground: #000;
                 --wp--preset--color--background: #fff;
                 --wp--preset--color--primary: #1a4548;
                 --wp--preset--color--secondary: #ffe2c7;
@@ -970,7 +957,7 @@
                 --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
                 --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, #cf2e2e 100%);
                 --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, #eee 0%, #a9b8c3 100%);
-                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, #4aeadc 0%, #9778d1 20%, #cf2ab40%, #ee2c82 60%, #fb6962 80%, #fef84c 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, #4aeadc 0%, #9778d1 20%, #cf2aba 40%, #ee2c82 60%, #fb6962 80%, #fef84c 100%);
                 --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, #ffceec 0%, #9896f0 100%);
                 --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, #fecda5 0%, #fe2d2d 50%, #6b003e 100%);
                 --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, #ffcb70 0%, #c751c0 50%, #4158d0 100%);
@@ -1007,7 +994,7 @@
                 --wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));
                 --wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);
                 --wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);
-                --wp--custom--typography--font-size--huge: clamp(2.25rem4vw, 2.75rem);
+                --wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);
                 --wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);
                 --wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);
                 --wp--custom--typography--line-height--tiny: 1.15;
@@ -1213,7 +1200,7 @@
             h6 {
                 font-family: var(--wp--preset--font-family--system-font);
                 font-size: var(--wp--preset--font-size--medium);
-                font-weight400;
+                font-weight: 400;
                 line-height: var(--wp--custom--typography--line-height--normal);
                 text-transform: uppercase
             }
@@ -1575,7 +1562,7 @@
             :root :where(.wp-block-site-title) {
                 font-family: var(--wp--preset--font-family--system-font);
                 font-size: var(--wp--preset--font-size--medium);
-                font-weight400;
+                font-weight: 400;
                 line-height: var(--wp--custom--typography--line-height--normal)
             }
         </style>
@@ -1599,12 +1586,6 @@
             type='text/css' media='all' />
         <link rel='stylesheet' id='wd_buy_style-css'
             href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css') }}'
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='photoswipe-css'
-            href='{{ asset('front_end/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css') }}'
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='photoswipe-default-skin-css'
-            href='{{ asset('front_end/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-layout-css'
             href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e98f5279cacaef826050eb2595082e77.css') }}'
@@ -1674,6 +1655,7 @@
             }
 
             .titlebar #page-title {
+                text-align: center;
                 text-align: center
             }
 
@@ -1684,7 +1666,7 @@
 
                 .titlebar #page-title {
                     font-size: 54px;
-                    padding: 0 15p40px
+                    padding: 0 15px 40px
                 }
             }
 
@@ -1692,7 +1674,7 @@
             body p {
                 font-family: Open Sans;
                 font-style: normal;
-                font-weight400
+                font-weight: 400
             }
 
             h1,
@@ -1724,9 +1706,9 @@
             }
 
             .wd-heading .title_b {
-                font-size42px;
+                font-size: 42px;
                 text-transform: uppercase;
-                line-height46px
+                line-height: 46px
             }
 
             .wd-heading .hr_a {
@@ -1747,11 +1729,11 @@
             }
 
             header.l-header .top-bar-container .top-bar .top-bar-left .logo-wrapper a img {
-                max-height40
+                max-height: 40
             }
 
             header.l-header.corporate-layout .logo-wrapper a img {
-                max-height40
+                max-height: 40
             }
 
             header.l-header .top-bar-container.sticky .site-navigation.top-bar .top-bar-left .top-bar-title .logo-wrapper .menu-text,
@@ -1768,11 +1750,15 @@
         <link rel='stylesheet' id='custom-line-css'
             href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='dashicons-css' href='{{ asset('front_end/wp-includes/css/dashicons.min.css') }}'
-            type='text/css' media='all' />
+        <link rel='stylesheet' id='dashicons-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/all.min.css') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='simple-auction-css'
             href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css') }}'
             type='text/css' media='all' />
+        <link rel='stylesheet' id='js_composer_front-css'
+            href='{{ asset('front_end/wp-content/plugins/js_composer/assets/css/js_composer.min.css') }}' type='text/css'
+            media='all' />
         <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
         </script>
         <script type="text/javascript" id="wd_main_js_functions-js-extra">
@@ -1792,36 +1778,6 @@
                 "cart_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/",
                 "is_cart": "",
                 "cart_redirect_after_add": "no"
-            };
-        </script>
-        <script type="text/javascript" id="wc-single-product-js-extra">
-            var wc_single_product_params = {
-                "i18n_required_rating_text": "Please select a rating",
-                "i18n_rating_options": ["1 of 5 stars", "2 of 5 stars", "3 of 5 stars", "4 of 5 stars", "5 of 5 stars"],
-                "i18n_product_gallery_trigger_text": "View full-screen image gallery",
-                "review_rating_required": "yes",
-                "flexslider": {
-                    "rtl": false,
-                    "animation": "slide",
-                    "smoothHeight": true,
-                    "directionNav": false,
-                    "controlNav": "thumbnails",
-                    "slideshow": false,
-                    "animationSpeed": 500,
-                    "animationLoop": false,
-                    "allowOneSlide": false
-                },
-                "zoom_enabled": "1",
-                "zoom_options": [],
-                "photoswipe_enabled": "1",
-                "photoswipe_options": {
-                    "shareEl": false,
-                    "closeOnScroll": false,
-                    "history": false,
-                    "hideAnimationDuration": 0,
-                    "showAnimationDuration": 0
-                },
-                "flexslider_enabled": ""
             };
         </script>
         <script type="text/javascript" id="woocommerce-js-extra">
@@ -1875,22 +1831,24 @@
                 "interval": "1"
             };
             var SA_Ajax = {
-                "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/product\/telescopic-handler-copy-4\/?wsa-ajax",
+                "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/services-1\/?wsa-ajax",
                 "najax": "1",
                 "last_activity": "1751156376",
                 "focus": "yes"
             };
         </script>
-        <link rel="https://api.w.org/" href="../../wp-json/index.html" />
-        <link rel="alternate" title="JSON" type="application/json" href="../../wp-json/wp/v2/product/3701.json" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+        <link rel="https://api.w.org/" href="{{ asset('front_end/wp-json/index.html') }}" />
+        <link rel="alternate" title="JSON" type="application/json"
+            href="{{ asset('front_end/wp-json/wp/v2/pages/3289.json') }}" />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD"
+            href="{{ asset('front_end/xmlrpc0db0.php?rsd') }}" />
         <meta name="generator" content="WordPress 6.7.3" />
         <meta name="generator" content="WooCommerce 10.1.1" />
-        <link rel='shortlink' href='../../indexc5ac.html?p=3701' />
+        <link rel='shortlink' href='{{ asset('front_end/indexb9a8.html?p=3289') }}' />
         <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-            href="../../wp-json/oembed/1.0/embeda6da.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fproduct%2Ftelescopic-handler-copy-4%2F" />
+            href="{{ asset('front_end/wp-json/oembed/1.0/embedfb60.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fservices-1%2F') }}" />
         <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-            href="../../wp-json/oembed/1.0/embed6a36?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fproduct%2Ftelescopic-handler-copy-4%2F&amp;format=xml" />
+            href="{{ asset('front_end/wp-json/oembed/1.0/embedc084?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fservices-1%2F&amp;format=xml') }}" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62552021-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -1899,7 +1857,6 @@
                 dataLayer.push(arguments);
             }
             gtag('js', new Date());
-
             gtag('config', 'UA-62552021-1');
         </script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62552021-1"></script>
@@ -1910,7 +1867,6 @@
                 dataLayer.push(arguments);
             }
             gtag('js', new Date());
-
             gtag('config', 'UA-62552021-1');
         </script> <noscript>
             <style>
@@ -1938,6 +1894,39 @@
             @media screen and (min-width:64em) {
                 .logged-in header.l-header .top-bar-container.sticky.fixed {
                     margin-top: 32px; //max-width:89.375rem}}.brands_form form ul li .select2.select2-container{min-width:auto}@media screen and (min-width:64em){.brands_form form ul li .select2.select2-container{min-width:350px}}
+        </style>
+        <style type="text/css" data-type="vc_shortcodes-custom-css">
+            .vc_custom_1562174951021 {
+                background-image: url({{ asset('front_end/wp-content/uploads/2019/07/testimonials-backgroundda7b.png?id=3935') }}) !important;
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+                background-size: cover !important
+            }
+
+            .vc_custom_1562174918695 {
+                margin-top: -440px !important
+            }
+
+            .vc_custom_1562674448213 {
+                background-color: #313131 !important;
+                background-position: 0 0 !important;
+                background-repeat: no-repeat !important
+            }
+
+            .vc_custom_1561038794330 {
+                padding-right: 75px !important;
+                padding-left: 75px !important
+            }
+
+            .vc_custom_1561721539670 {
+                margin-left: 50px !important
+            }
+
+            .vc_custom_1561041477277 {
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+                background-size: contain !important
+            }
         </style><noscript>
             <style>
                 .wpb_animate_when_almost_visible {
@@ -1951,597 +1940,797 @@
 @section('body-tag')
 
     <body
-        class="product-template-default single single-product postid-3701 theme-backhoe woocommerce woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+        class="page-template-default page page-id-3289 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+        {{-- <div class="page-loading">
+            <div class="spinner-loading">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div> --}}
     @endsection
 
-    @section('shop')
-        <section class="titlebar">
+    @section('section')
+        <section class="titlebar ">
             <div class="row">
-                <div class="large-12 columns">
-                    <h1 id="page-title" class="title">Shop</h1>
+                <div>
+                    <h2 id="page-title" class="title">Our Services</h2>
+                </div>
+                <div>
+                    <ul class="breadcrumbs">
+                        <li><a href="{{ route('index') }}">Home</a></li>
+                        <li><strong> Services</strong></li>
+                    </ul>
                 </div>
             </div>
         </section>
-
-        <div class="row content-wrapper">
-            <div class="main-content- sngle-prd-style-2">
-                <div id="primary" class="content-area">
-                    <main id="main" class="site-main" role="main">
-                        <div class="woocommerce-notices-wrapper"></div>
-                        <div id="product-3701"
-                            class="product type-product post-3701 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-variable wd-wc-style-1">
-                            <div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images"
-                                data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
-                                <div class="woocommerce-product-gallery__wrapper">
-                                    <div data-thumb="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                        data-thumb-alt="{{ $machine->name }}"
-                                        data-thumb-srcset="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, {{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 150w, {{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 194w, {{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-600x600.jpg 600w"
-                                        data-thumb-sizes="(max-width: 200px) 100vw, 200px"
-                                        class="woocommerce-product-gallery__image"><a
-                                            href="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"><img
-                                                width="800" height="608"
-                                                src="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                                class="wp-post-image" alt="{{ $machine->name }}" data-caption=""
-                                                data-src="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                                data-large_image="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                                data-large_image_width="1000" data-large_image_height="760"
-                                                decoding="async"
-                                                srcset="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 800w, {{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 300w, {{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 768w, {{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 1000w"
-                                                sizes="(max-width: 800px) 100vw, 800px" /></a></div>
-
-
-                                    @foreach ($machine->pictures as $photo)
-                                        <div data-thumb="{{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                            data-thumb-alt="{{ $machine->name }} {{ $loop->index + 1 }}"
-                                            data-thumb-srcset="{{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 150w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 194w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 314w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 700w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 100w"
-                                            data-thumb-sizes="(max-width: 200px) 100vw, 200px"
-                                            class="woocommerce-product-gallery__image"><a
-                                                href="{{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"><img
-                                                    width="200" height="200"
-                                                    src="{{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                                    class="" alt="{{ $machine->name }} {{ $loop->index + 1 }}"
-                                                    data-caption=""
-                                                    data-src="{{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                                    data-large_image="{{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                                    data-large_image_width="1000" data-large_image_height="760"
-                                                    decoding="async"
-                                                    srcset="{{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 150w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 194w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 314w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 700w, {{ isset($machine) ? asset('storage/' . $photo->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 100w"
-                                                    sizes="(max-width: 200px) 100vw, 200px" /></a></div>
-                                    @endforeach
-
-                                    <div data-thumb="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                        data-thumb-alt="{{ $machine->name }} 3"
-                                        data-thumb-srcset="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-600x600.jpg 600w"
-                                        data-thumb-sizes="(max-width: 200px) 100vw, 200px"
-                                        class="woocommerce-product-gallery__image"><a
-                                            href="../../wp-content/uploads/2019/06/product_0010__.jpg"><img width="200"
-                                                height="200"
-                                                src="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                                class="" alt="{{ $machine->name }} 3" data-caption=""
-                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__.jpg"
-                                                data-large_image="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__.jpg"
-                                                data-large_image_width="1000" data-large_image_height="760"
-                                                decoding="async"
-                                                srcset="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-600x600.jpg 600w"
-                                                sizes="(max-width: 200px) 100vw, 200px" /></a></div>
-                                </div>
-                            </div>
-                            <div class="summary entry-summary">
-                                <h1 class="product_title entry-title">{{ $machine->name }}</h1>
-                                <div class="pricing-location">
-                                    <div class="pricing-partial rates-3">
-                                        <h5>Hire</h5>
-                                        <ul>
-                                            <li class="pricing pricing-day">
-                                                <div><span class="woocommerce-Price-amount amount"
-                                                        aria-hidden="true"><bdi>
-                                                            @if ($machine->rental_price_per_day > 999)
-                                                                {{ number_format($machine->rental_price_per_day / 1000, 1) }}K
-                                                            @else
-                                                                {{ number_format($machine->rental_price_per_day) }}
-                                                            @endif
-                                                            <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                        </bdi>
-                                                        <span aria-hidden="true">–</span> <span
-                                                            class="woocommerce-Price-amount amount"
-                                                            aria-hidden="true"><bdi>
-                                                                @if ($machine->price_month > 999)
-                                                                    {{ number_format($machine->price_month / 1000, 1) }}K
-                                                                @elseif ($machine->price_month > 999999)
-                                                                    {{ number_format($machine->price_month / 1000000, 1) }}M
-                                                                @else
-                                                                    {{ number_format($machine->price_month) }}
-                                                                @endif
-                                                                <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                            </bdi>
-                                                            <span class="screen-reader-text">Price range:
-                                                                {{ number_format($machine->rental_price_per_day) }} through
-                                                                {{ number_format($machine->rental_price_per_day) }}</span>
-                                                            <small> / Day</small>
-                                                </div>
-                                            </li>
-                                            <li class="pricing pricing-week">
-                                                <div><span class="woocommerce-Price-amount amount">
-                                                        @if ($machine->rental_price_per_week > 999)
-                                                            {{ number_format($machine->rental_price_per_week / 1000, 1) }}K
-                                                        @else
-                                                            {{ number_format($machine->rental_price_per_week) }}
-                                                        @endif
-                                                        <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                    </span>
-                                                    <small> / Week</small>
-                                                </div>
-                                            </li>
-                                            <li class="pricing pricing-fourWeek">
-                                                <div><span class="woocommerce-Price-amount amount">
-                                                        @if ($machine->price_month > 999)
-                                                            {{ number_format($machine->rental_price_per_month / 1000, 1) }}K
-                                                        @elseif ($machine->price_month > 999999)
-                                                            {{ number_format($machine->rental_price_per_month / 1000000, 1) }}M
-                                                        @else
-                                                            {{ number_format($machine->rental_price_per_month) }}
-                                                        @endif
-                                                        <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                    </span>
-                                                    <small> / Month</small>
-                                                </div>
-                                        </ul>
-                                    </div>
-                                    <div class="with-operator">
-                                        <h5>Hire with operator</h5>
-                                        <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                        class="woocommerce-Price-currencySymbol">TZS
-                                                    </span>{{ $machine->rental_price_per_hour }}</bdi></span>
-                                            <small> / Hour</small>
+        <main class="l-main row">
+            <div class="main large-12 small-12 columns">
+                <article>
+                    <div class="body field clearfix ">
+                        <section class="wpb-content-wrapper">
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="60"
+                                                data-heightdesktop="88" style="height: 88px;"></div>
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img
+                                                            fetchpriority="high" decoding="async"
+                                                            class="vc_single_image-img "
+                                                            src="{{ asset('front_end/wp-content/uploads/2018/04/well-truck-577x603.jpg') }}"
+                                                            width="577" height="603" alt="well-truck"
+                                                            title="well-truck" /></div>
+                                                </figure>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="location"> {{ $machine->current_location }}</div>
                                 </div>
-                                <div class="woocommerce-product-details__short-description">
-                                    <p>{{ $machine->description }}</p>
-                                </div>
-                                <form class="variations_form cart" action="{{ route('shop.quotationDetails') }}"
-                                    method="GET" enctype='multipart/form-data'>
-                                    <table class="variations" cellspacing="0" role="presentation">
-                                        <tbody>
-                                            <tr>
-                                                <th class="label"><label for="pa_payement-frequency">Payment
-                                                        frequency</label></th>
-                                                <td class="value"> <select id="pa_payement-frequency" class=""
-                                                        name="payment_frequency" data-attribute_name="payment_frequency"
-                                                        data-show_option_none="yes">
-                                                        <option value="">Choose an option</option>
-                                                        <option value="daily">Daily</option>
-                                                        <option value="monthly">Monthly</option>
-                                                        <option value="weekly">Weekly</option>
-                                                    </select><a class="reset_variations" href="#"
-                                                        aria-label="Clear options">Clear</a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <div class="reset_variations_alert screen-reader-text" role="alert"
-                                        aria-live="polite" aria-relevant="all"></div>
-                                    <div class="single_variation_wrap">
-                                        <div class="woocommerce-variation single_variation" role="alert"
-                                            aria-relevant="additions"></div>
-                                        <div class="woocommerce-variation-add-to-cart variations_button">
-                                            <div class="quantity"> <label class="screen-reader-text"
-                                                    for="quantity_68a73aa84fc03">{{ $machine->name }}
-                                                    quantity</label> <input type="number" id="quantity_68a73aa84fc03"
-                                                    class="input-text qty text" name="quantity"
-                                                    aria-label="Product quantity" min="1" step="1"
-                                                    placeholder="1" inputmode="numeric" autocomplete="off" /></div>
-                                            <button type="submit" class="single_add_to_cart_button button alt">Add to
-                                                quote</button> <input type="hidden" name="add-to-cart" value="3701" />
-                                            <input type="hidden" name="machine_id" value="{{ $machine->id }}" />
-                                            <input type="hidden" name="variation_id" class="variation_id"
-                                                value="0" />
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner vc_custom_1561038794330">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='50'
+                                                data-heightdesktop='80' style='height:80px'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h3 style="margin:0;" class="title_b"
+                                                    data-text="We are committed to providing our customers with exceptional service while offering our employees the best training and a working environment in which they can excel. This company focus has been in place for more than a half century. We are committed to providing our customers with exceptional service while offering our employees the best training and a working environment in which they can excel. This company focus has been in place for more than a half century.">
+                                                    Our Services</h3>
+                                                <p style="" class="sub_title_b"> At Western Hauliers, we provide
+                                                    engineered lifting,
+                                                    material handling, and specialized transportation solutions designed to
+                                                    support complex
+                                                    industrial, infrastructure, and logistics operations across Tanzania.
+                                                    Our services are delivered using certified
+                                                    equipment, skilled personnel, and strict safety systems to
+                                                    ensure reliable and efficient execution.</p>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='30'
+                                                data-heightdesktop='30' style='height:30px'></div>
+                                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <h4>Safety & Compliance Management</h4>
+                                                                    <p>Safety is integrated into every service we offer.
+                                                                        Our lifting operations follow a structured
+                                                                        Lifting & Safety Management System that includes:
+                                                                    </p>
+                                                                    <ul>
+                                                                        <li>Job Safety Analysis (JSA)</li>
+                                                                        <li>Toolbox talks and safety inductions</li>
+                                                                        <li>Equipment and accessory inspections</li>
+                                                                        <li>Incident reporting and corrective action</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <h4>Lift Planning & Engineering Support</h4>
+                                                                    <p>We provide professional lift planning and engineering
+                                                                        services to
+                                                                        ensure every operation is safe, efficient, and
+                                                                        compliant.</p>
+                                                                    <h5>Our planning process includes:</h5>
+                                                                    <ul>
+                                                                        <li>Load calculations and equipment selection</li>
+                                                                        <li>Ground bearing pressure analysis</li>
+                                                                        <li>Risk assessments and method statements</li>
+                                                                        <li>Site inspections and feasibility studies</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="30"
+                                                data-heightdesktop="40" style="height: 40px;"></div>
                                         </div>
-                                    </div>
-                                </form>
-                                <div class="product_meta"> <span class="sku_wrapper">SKU: <span
-                                            class="sku">{{ $machine->sku }}</span></span> <span
-                                        class="posted_in">Categories: <a
-                                            href="{{ route('shop', 'category=' . $machine->category->name) }}"
-                                            rel="tag">{{ $machine->category->name }}</a>,
-                                        <a href="{{ route('shop', 'category_type=' . $machine->type->name) }}"
-                                            rel="tag">{{ $machine->type->name }}</a></span></div>
-                            </div>
-                            <div class="woocommerce-tabs wc-tabs-wrapper">
-                                <ul class="tabs wc-tabs" role="tablist">
-                                    <li role="presentation" class="description_tab" id="tab-title-description"> <a
-                                            href="#tab-description" style="color:black;" role="tab"
-                                            aria-controls="tab-description">
-                                            Description </a></li>
-                                    <li role="presentation" class="additional_information_tab"
-                                        id="tab-title-additional_information"> <a style="color:black;"
-                                            href="#tab-additional_information" role="tab"
-                                            aria-controls="tab-additional_information"> Additional
-                                            information </a></li>
-                                    <li role="presentation" class="reviews_tab" id="tab-title-reviews"> <a
-                                            href="#tab-reviews" style="color:black;" role="tab"
-                                            aria-controls="tab-reviews"> Reviews
-                                            (0) </a></li>
-                                </ul>
-                                <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab"
-                                    id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
-                                    {{ $machine->description }}
-                                </div>
-                                <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content wc-tab"
-                                    id="tab-additional_information" role="tabpanel"
-                                    aria-labelledby="tab-title-additional_information">
-                                    <h2>Additional information</h2>
-                                    <table class="woocommerce-product-attributes shop_attributes"
-                                        aria-label="Product Details">
-                                        <tr
-                                            class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_location">
-                                            <th class="woocommerce-product-attributes-item__label" scope="row">
-                                                Location</th>
-                                            <td class="woocommerce-product-attributes-item__value">
-                                                <p><a href="#" rel="tag">
-                                                        {{ $machine->current_location }}</a></p>
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            class="woocommerce-product-attributes-item woocommerce-product-attributes-item--payment_frequency">
-                                            <th class="woocommerce-product-attributes-item__label" scope="row">
-                                                Payement frequency</th>
-                                            <td class="woocommerce-product-attributes-item__value">
-                                                <p>Daily, Monthly, Weekly</p>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content wc-tab"
-                                    id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
-                                    <div id="reviews" class="woocommerce-Reviews">
-                                        <div id="comments">
-                                            <h2 class="woocommerce-Reviews-title"> Reviews</h2>
-                                            <p class="woocommerce-noreviews">There are no reviews yet.</p>
-                                        </div>
-                                        <p class="woocommerce-verification-required">Only logged in customers who have
-                                            purchased this product may leave a review.</p>
-                                        <div class="clear"></div>
                                     </div>
                                 </div>
                             </div>
-                            <section class="related products">
-                                <h2>Related Machines</h2>
-                                <ul class="products columns-4 grid">
-                                    <li
-                                        class="product type-product post-3698 status-publish first instock product_cat-earthmoving-equipment product_cat-bulldozer has-post-thumbnail featured shipping-taxable purchasable product-type-backhoe_bookin_product wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a href="../cat-3046/index.html"><noscript><img
-                                                        width="700" height="700"
-                                                        src="{{ 'front_end/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg' }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="Cat 3046" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="Cat 3046" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../cat-3046/index.html">Cat 3046 </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='70'
+                                                data-heightdesktop='150' style='height:150px'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h3 style="margin:0;" class="title_a" data-text="Awesome Services">
+                                                    Industries We Serve</h3>
+                                                <p style="" class="sub_title_a"> Awesome Services</p>
+                                                <hr class='hr_a' style=' margin: 10px;' />
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='30'
+                                                data-heightdesktop='30' style='height:30px'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="woocommerce columns-4">
+                                                <ul class="products columns-4 grid">
+                                                    @foreach ($categories as $category)
+                                                        @php
+                                                            // Try to get the first machine with an image from direct machines
+                                                            $machine = $category->machines
+                                                                ->whereNotNull('image')
+                                                                ->first();
+                                                            // If not found, try from categoryType machines
+                                                            if (!$machine) {
+                                                                foreach ($category->categoryType as $type) {
+                                                                    $machine = $type->machines
+                                                                        ->whereNotNull('image')
+                                                                        ->first();
+                                                                    if ($machine) {
+                                                                        break;
+                                                                    }
+                                                                }
+                                                            }
+                                                            // If still not found, try to get any machine (even without image)
+                                                            if (!$machine) {
+                                                                $machine = $category->machines->first();
+                                                                if (!$machine) {
+                                                                    foreach ($category->categoryType as $type) {
+                                                                        $machine = $type->machines->first();
+                                                                        if ($machine) {
+                                                                            break;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            // Set image URL or fallback
+                                                            $imgUrl =
+                                                                $machine && $machine->img_url
+                                                                    ? asset('storage/' . $machine->img_url)
+                                                                    : 'https://placehold.co/600x518?text=No+Image';
+                                                            // Count all machines in this category (direct + all types)
+                                                            $directMachines = $category->machines->count();
+                                                            $typeMachines = $category->categoryType->sum(
+                                                                fn($type) => $type->machines->count(),
+                                                            );
+                                                            $totalCount = $directMachines + $typeMachines;
+                                                        @endphp
+                                                        <li class="product-category product">
+                                                            <a aria-label="Visit product category {{ $category->name }}"
+                                                                href="{{ route('shop', ['category_id' => $category->id]) }}">
+                                                                <img src="{{ $imgUrl }}"
+                                                                    alt="{{ $category->name }}" width="700"
+                                                                    height="518" style="object-fit:cover;" />
+                                                                <h2 class="woocommerce-loop-category__title">
+                                                                    {{ $category->name }} <mark
+                                                                        class="count">({{ $totalCount }})</mark>
+                                                                </h2>
+                                                            </a>
+                                                        </li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="100"
+                                                data-heightdesktop="120" style="height: 120px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--left">
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Western Hauliers"> Our Service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Heavy Lifting &
+                                                    Mobile Crane Services</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>Western Hauliers delivers professional heavy lifting solutions for
+                                                        high-risk and technically demanding projects. Our mobile and
+                                                        truck-mounted cranes are suitable for
+                                                        industrial installations, infrastructure works, and large equipment
+                                                        handling.
+                                                    </p>
+                                                    <h5>Our services include:</h5>
                                                     <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>290.00</bdi></span><small>/
-                                                                        Day</small> <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>630.00</bdi></span>
-                                                                    <small> / Week</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>3,600.00</bdi></span>
-                                                                    <small> / Month</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
+                                                        <li>Engineered lift planning and execution</li>
+                                                        <li>Risk assessment and method statements (RAMS)</li>
+                                                        <li>Heavy equipment installation and positioning</li>
+                                                        <li>Shutdown and maintenance support</li>
+                                                        <li>On-site supervision and safety management</li>
                                                     </ul>
+                                                    <p>Every lift is planned with precision, ensuring safety, stability, and
+                                                        compliance with regulatory standards.</p>
                                                 </div>
-                                                <div class="with-operator">
-                                                    <h5>Hire with operator</h5>
-                                                    <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
-                                                        <small> / Hour</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
+                                                                width="578" height="704" alt="moved-img-1@2x"
+                                                                title="moved-img-1@2x" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
+                                                            width="578" height="704" alt="moved-img-1@2x"
+                                                            title="moved-img-1@2x" />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- <div class="vc_row wpb_row vc_row-fluid vc_custom_1562174951021 vc_row-has-fill"></div> --}}
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right" style="margin-top:160px;">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                width="578" height="704" alt="compactor"
+                                                                title="compactor" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                            width="578" height="704" alt="compactor"
+                                                            title="compactor" />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Our service"> Our service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Forklift Rental
+                                                    Services (2–45 Tons)</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>Western Hauliers provides reliable and high-capacity forklift
+                                                        rental solutions designed to support demanding industrial,
+                                                        logistics,
+                                                        and construction operations. Our fleet consists of brand-new REDLIFT
+                                                        forklifts ranging from 2 to 45 tons,
+                                                        capable of handling both light and extremely heavy loads with
+                                                        precision and stability.</p>
+                                                    <h5>Applications include:</h5>
+                                                    <ul>
+                                                        <li>Container handling</li>
+                                                        <li>Machinery and equipment movement</li>
+                                                        <li>Warehouse and logistics operations</li>
+                                                        <li>Outdoor and rough-terrain environments</li>
+                                                    </ul>
+
+                                                    <p>All forklifts are nationally certified, maintained
+                                                        under preventive maintenance programs, and operated by licensed
+                                                        professionals. </p>
+                                                </div>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20"
+                                                data-heightdesktop="36" style="height: 36px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--left" style="margin-top:160px;">
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Western Hauliers"> Our Service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Side Loaders &
+                                                    Specialized Transportation</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>Western Hauliers provides specialized side loader and
+                                                        transportation solutions designed for the safe, efficient,
+                                                        and controlled handling of long, oversized, and heavy cargo. This
+                                                        service is ideal for projects where
+                                                        conventional transport methods are impractical or unsafe due to
+                                                        cargo length, weight, or site constraints.
+                                                    </p>
+                                                    <h5>Cargo Types Handled:</h5>
+                                                    <ul>
+                                                        <li>Shipping containers</li>
+                                                        <li>Steel structures and fabricated components</li>
+                                                        <li>Pipes, beams, and poles</li>
+                                                        <li>Timber, panels, and prefabricated materials</li>
+                                                        <li>Industrial equipment and long machinery components</li>
+                                                    </ul>
+                                                    <p>Every movement is supported by risk assessments, method statements,
+                                                        and experienced operators to ensure compliance with safety and
+                                                        regulatory requirements.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
+                                                                width="578" height="704" alt="moved-img-1@2x"
+                                                                title="moved-img-1@2x" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
+                                                            width="578" height="704" alt="moved-img-1@2x"
+                                                            title="moved-img-1@2x" />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right" style="margin-top:160px;">
+                                <div class="wpb_column vc_column_container vc_col-sm-5">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                width="578" height="704" alt="compactor"
+                                                                title="compactor" /></noscript><img decoding="async"
+                                                            class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                            width="578" height="704" alt="compactor"
+                                                            title="compactor" />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-7">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
+                                                    class="sub_title_b" data-text="Our service"> Our service
+                                                </h5>
+                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Manlifts & Aerial
+                                                    Work Platforms</h2>
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
+                                                data-heightdesktop='5' style='height:5px'>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>Western Hauliers provides safe, reliable, and
+                                                        efficient access solutions for work at height through a modern
+                                                        fleet of manlifts and aerial work platforms. These solutions are
+                                                        designed to support construction, industrial, maintenance,
+                                                        and infrastructure projects where controlled vertical and horizontal
+                                                        access is critical.</p>
+                                                    <h5>Applications & Use Cases:</h5>
+                                                    <ul>
+                                                        <li>Installation and commissioning of mechanical, electrical, and
+                                                            structural systems</li>
+                                                        <li>Routine and preventive maintenance works</li>
+                                                        <li>Inspection, repair, and replacement of equipment at height</li>
+                                                        <li>Structural, mechanical, and finishing works in industrial and
+                                                            construction environments</li>
+                                                        <li>Support during shutdowns, upgrades, and plant modifications</li>
+                                                    </ul>
+
+                                                    <p>Our manlifts and aerial platforms are regularly inspected and
+                                                        operated
+                                                        by trained personnel to ensure safety and efficiency. </p>
+                                                </div>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20"
+                                                data-heightdesktop="36" style="height: 36px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-vc-full-width="true" data-vc-full-width-init="false"
+                                class="vc_row wpb_row vc_row-fluid vc_custom_1562174951021 vc_row-has-fill">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='80' data-heighttablet='80'
+                                                data-heightdesktop='80' style='height:80px'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h2 style="margin:0;color:#ffffff;" class="title_a"
+                                                    data-text="Testimonials"> Testimonials</h2>
+                                                <hr class='hr_a' style=' margin: 10px;' />
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
+                                                data-heightdesktop='0' style='height:0px'>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="440" data-heighttablet="440"
+                                                data-heightdesktop="440" style="height: 440px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                            <div class="vc_row wpb_row vc_row-fluid vc_custom_1562174918695">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="owl-testimonial swiper-container testimonail-swiper wd-testimonial wd-testimonial_layout_3"
+                                                data-slick='{ "slidesToShow": 1, "slidesToScroll": 1}'>
+                                                <div class="swiper-wrapper">
+                                                    <blockquote class="swiper-slide wd-testimonial__item">
+                                                        <div class="wd-testimonial__thumbnail">
+                                                            <div class="lazyload"
+                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/testimon-@2x-833x510.jpg"
+                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
+                                                            </div>
+                                                        </div>
+                                                        <div class="wd-testimonial__info">
+                                                            <div class="excerpt" style="color:#fff"> So happy to
+                                                                write this testimonial to see that I'm very thankful to
+                                                                you guys even you so awesome and professional Although
+                                                                with service while offering our employees the best
+                                                                training and a working environment in which they can
+                                                                excel.</div>
+                                                            <h5 class="title" style="color:#fff"> Mark James</h5>
+                                                            <p class="job p-small"> Creative Heads Inc</p>
+                                                        </div>
+                                                    </blockquote>
+                                                    <blockquote class="swiper-slide wd-testimonial__item">
+                                                        <div class="wd-testimonial__thumbnail">
+                                                            <div class="lazyload"
+                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/testimon-@2x-2-833x510.jpg"
+                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
+                                                            </div>
+                                                        </div>
+                                                        <div class="wd-testimonial__info">
+                                                            <div class="excerpt" style="color:#fff"> I was very
+                                                                surprised by the quality of the equipment of this
+                                                                company, and I will buy from them always and so happy to
+                                                                write this testimonial to see that I'm very thankful to
+                                                                you guys even you so awesome and professional Although
+                                                                moreover.</div>
+                                                            <h5 class="title" style="color:#fff"> Sammy Lovell</h5>
+                                                            <p class="job p-small"> CTO - Google</p>
+                                                        </div>
+                                                    </blockquote>
+                                                    <blockquote class="swiper-slide wd-testimonial__item">
+                                                        <div class="wd-testimonial__thumbnail">
+                                                            <div class="lazyload"
+                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/04/testimon_-833x510.jpg"
+                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
+                                                            </div>
+                                                        </div>
+                                                        <div class="wd-testimonial__info">
+                                                            <div class="excerpt" style="color:#fff"> I was very
+                                                                surprised by the quality of the equipment of this
+                                                                company, and I will buy from them always and so happy to
+                                                                write this testimonial to see that I'm very thankful to
+                                                                you guys even you so awesome and professional Although.
+                                                            </div>
+                                                            <h5 class="title" style="color:#fff"> Veriency Dun</h5>
+                                                            <p class="job p-small"> Creative Heads Inc</p>
+                                                        </div>
+                                                    </blockquote>
+                                                </div> <span class="swiper-button-prev left slick-arrow"><svg
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                        viewBox="0 0 512.008 512.008"
+                                                        style="enable-background:new 0 0 512.008 512.008;"
+                                                        xml:space="preserve">
+                                                        <g>
+                                                            <g>
+                                                                <path
+                                                                    d="M384.001,53.333V10.667c0-4.354-2.646-8.281-6.688-9.896C376.022,0.25,374.668,0,373.335,0
+                                                                                                                                 c-2.854,0-5.646,1.146-7.708,3.292L130.96,248.625c-3.937,4.125-3.937,10.625,0,14.75l234.667,245.333
+                                                                                                                                 c3.021,3.146,7.646,4.167,11.688,2.521c4.042-1.615,6.688-5.542,6.688-9.896v-42.667c0-2.729-1.042-5.354-2.917-7.333L196.022,256
+                                                                                                                                 L381.085,60.667C382.96,58.688,384.001,56.063,384.001,53.333z">
+                                                                </path>t
+                                                            </g>
+                                                        </g>
+                                                    </svg> </span> <span class="swiper-button-next right slick-arrow"><svg
+                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                        viewBox="0 0 512.008 512.008"
+                                                        style="enable-background:new 0 0 512.008 512.008;"
+                                                        xml:space="preserve">
+                                                        <g>
+                                                            <g>
+                                                                <path
+                                                                    d="M381.048,248.633L146.381,3.299c-3.021-3.146-7.646-4.167-11.688-2.521c-4.042,1.615-6.688,5.542-6.688,9.896v42.667
+                                                                                                                                 c0,2.729,1.042,5.354,2.917,7.333l185.063,195.333L130.923,451.341c-1.875,1.979-2.917,4.604-2.917,7.333v42.667
+                                                                                                                                 c0,4.354,2.646,8.281,6.688,9.896c1.292,0.521,2.646,0.771,3.979,0.771c2.854,0,5.646-1.146,7.708-3.292l234.667-245.333
+                                                                                                                                 C384.986,259.258,384.986,252.758,381.048,248.633z">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="200" data-heighttablet="0"
+                                                data-heightdesktop="0" style="height: 0px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='70'
+                                                data-heightdesktop='150' style='height:150px'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h2 style="margin:0;" class="title_a" data-text="Awesome Services">
+                                                    Industries We Serve</h2>
+                                                <p style="" class="sub_title_a"> Awesome Services</p>
+                                                <hr class='hr_a' style=' margin: 10px;' />
+                                            </div>
+                                            <div class='wd_empty_space' data-heightmobile='67' data-heighttablet='67'
+                                                data-heightdesktop='67' style='height:67px'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='small-up-1 medium-up-2 large-up-1'>
+                                                <div class="column column-block ">
+                                                    <article
+                                                        class="wd-post wd-post--without-thumbnail  post-258 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
+                                                        <div class="wd-post__content">
+                                                            <h3 class="wd-post__title"> <a
+                                                                    href="../blog/2019/08/28/best-practices-of-hr-management/index.html">Best
+                                                                    Practices of HR management</a></h3>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="column column-block ">
+                                                    <article
+                                                        class="wd-post wd-post--without-thumbnail  post-260 post type-post status-publish format-standard has-post-thumbnail hentry category-updates">
+                                                        <div class="wd-post__content">
+                                                            <h3 class="wd-post__title"> <a
+                                                                    href="../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10
+                                                                    Tips to Find Best Backhoe</a></h3>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="column column-block ">
+                                                    <article
+                                                        class="wd-post wd-post--without-thumbnail  post-262 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
+                                                        <div class="wd-post__content">
+                                                            <h3 class="wd-post__title"> <a
+                                                                    href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">How
+                                                                    to Setup a Construction Site</a></h3>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="10" data-heighttablet="70"
+                                                data-heightdesktop="70" style="height: 70px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" class="vc_single_image-img "
+                                                                src="{{ asset('front_end/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-557x515.png') }}"
+                                                                width="557" height="515"
+                                                                alt="photo-1505082527911-33423132c73d"
+                                                                title="photo-1505082527911-33423132c73d" /></noscript><img
+                                                            decoding="async" class="lazyload vc_single_image-img "
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20557%20515%22%3E%3C/svg%3E'
+                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-557x515.png"
+                                                            width="557" height="515"
+                                                            alt="photo-1505082527911-33423132c73d"
+                                                            title="photo-1505082527911-33423132c73d" />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="70"
+                                                data-heightdesktop="100" style="height: 100px;"></div>
+                                            <div class="wd-video-box-bg wpb_video_widget wpb_content_element vc_clearfix   vc_custom_1561721539670 vc_video-aspect-ratio- vc_video-el-width- vc_video-align-"
+                                                style="background: url() center center no-repeat;background-size: cover">
+                                                <div class="wpb_wrapper">
+                                                    <div class="wd-video-box"
+                                                        style="min-height: 100px; min-width: 100px;">
+                                                        <div class="full_screen_video_wrapper  text-left"><a
+                                                                href="#" id="play"
+                                                                data-toggle="modal68a73a8558308"
+                                                                data-reveal-id="modal68a73a8558308"
+                                                                class="play popup1_open"><i
+                                                                    style="background: ;color: #000000;"
+                                                                    class="fa fa-play fa-1x"></i><span>Watch video
+                                                                    tour 5 min lenght</span>
+                                                                <div class="playvideo_animation"></div>
+                                                                <div class="playvideo_animation"
+                                                                    style="animation-delay: 1.2s;"></div>
+                                                                <div class="playvideo_animation"
+                                                                    style="animation-delay: 2.4s;"></div>
+                                                            </a>
+                                                            <div class="medium reveal" id="modal68a73a8558308" data-reveal
+                                                                data-reset-on-close="true" data-animation-in="fade-in"
+                                                                data-animation-out="fade-out">
+                                                                <div class="flex-video widescreen"> <iframe id="ytplayer"
+                                                                        type="text/html" height="100%"
+                                                                        data-video-id="RUCc7kY9BvA"
+                                                                        frameborder="0"></iframe></div> <a
+                                                                    class="close-button" data-close
+                                                                    aria-label="Close reveal">×</a>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="location"> San Francisco, CA</div>
                                             </div>
-                                            <div class="description"> Pellentesque habitant morbi tristique senectus et
-                                                netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                                                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                                                sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                placerat eleifend leo.</div> <a href="indexd2c5.html?add-to-cart=3698"
-                                                data-quantity="1"
-                                                class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="3698" data-product_sku="woo-sunglasses-5"
-                                                aria-label="Add to quote: &ldquo;Cat 3046&rdquo;" rel="nofollow">Add
-                                                to quote</a>
+                                            <script type="text/javascript">
+                                                document.addEventListener("DOMContentLoaded", function() {
+                                                    const videoBoxes = document.querySelectorAll(".wd-video-box")
+                                                    videoBoxes.forEach(videoBox => {
+                                                        videoBox.querySelector("#play").addEventListener("click", e => {
+                                                            const revealList = document.querySelectorAll(".reveal")
+                                                            revealList.forEach(reveal => {
+                                                                if (reveal.id == e.target.closest("#play").dataset.revealId) {
+                                                                    const iframe = reveal.querySelector("iframe"),
+                                                                        url =
+                                                                        `https://www.youtube.com/embed/${iframe.dataset.videoId}?autoplay=1&origin=http://example.com`
+                                                                    iframe.src = url
+                                                                }
+                                                            })
+                                                        })
+                                                    })
+                                                });
+                                            </script>
                                         </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-6 status-publish instock product_cat-excavator has-post-thumbnail shipping-taxable product-type-simple wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../yellow-excavator/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{ 'front_end/wp-content/uploads/2018/03/img17-700x700.jpg' }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="{{ $machine->name }}" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="{{ $machine->name }}" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../yellow-excavator/index.html">35000 &#8211; 39000 lbs,
-                                                    Excavator </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="location"> Columbus, OH</div>
-                                            </div>
-                                            <div class="description"> The 35,000 to 39,000 lb excavator is primarily
-                                                used for excavating or earthmoving tasks such as trenching, demolition
-                                                clearing, foundation digging, general landscaping tasks or backfilling
-                                                excavated areas.</div> <a href="../yellow-excavator/index.html"
-                                                data-quantity="1" class="button product_type_simple" data-product_id="6"
-                                                data-product_sku="woo-hoodie"
-                                                aria-label="Read more about &ldquo;{{ $machine->name }}&rdquo;"
-                                                rel="nofollow">Read more</a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-3699 status-publish instock product_cat-earthmoving-equipment product_cat-bulldozer has-post-thumbnail featured shipping-taxable purchasable product-type-backhoe_bookin_product wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../cat-c32-acert/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{ asset('front_end/wp-content/uploads/2019/06/product_0008__-700x700.jpg') }}"
-                                                        data-src="{{ asset('front_end/wp-content/uploads/2019/06/product_0008__-700x700.jpg') }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="Cat® C32 ACERT™" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-600x600.jpg 600w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="Cat® C32 ACERT™" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-600x600.jpg 600w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../cat-c32-acert/index.html">Cat® C32 ACERT™ </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>290.00</bdi></span><small>/
-                                                                        Day</small> <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>630.00</bdi></span>
-                                                                    <small> / Week</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>3,600.00</bdi></span>
-                                                                    <small> / Month</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="with-operator">
-                                                    <h5>Hire with operator</h5>
-                                                    <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
-                                                        <small> / Hour</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                                class="vc_row wpb_row vc_row-fluid moved-box__top vc_custom_1562674448213 vc_row-has-fill">
+                                <div class="wpb_column vc_column_container vc_col-sm-5 vc_col-has-fill">
+                                    <div class="vc_column-inner vc_custom_1561041477277">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                                        <noscript><img decoding="async" width="1562" height="1020"
+                                                                src="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }}"
+                                                                class="vc_single_image-img attachment-full" alt=""
+                                                                title="Rectangle 14@2x"
+                                                                srcset="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1562w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 300w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1024w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 768w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1536w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 800w"
+                                                                sizes="(max-width: 1562px) 100vw, 1562px" /></noscript><img
+                                                            decoding="async" width="1562" height="1020"
+                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201562%201020%22%3E%3C/svg%3E'
+                                                            data-src="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }}"
+                                                            class="lazyload vc_single_image-img attachment-full"
+                                                            alt="" title="Rectangle 14@2x"
+                                                            data-srcset="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1562w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 300w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1024w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 768w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1536w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 800w"
+                                                            data-sizes="(max-width: 1562px) 100vw, 1562px" />
                                                     </div>
-                                                </div>
-                                                <div class="location"> San Francisco, CA</div>
+                                                </figure>
                                             </div>
-                                            <div class="description"> This product has mutiple features and a yellow
-                                                color, and can be used for multiple tasks. Visite maker website for more
-                                                details and warranty details.
-                                                &lt;i class=&quot;fas fa-check&quot;&gt;&lt;/i&gt; Free delivery
-                                                available.
-                                                &lt;i class=&quot;fas fa-check&quot;&gt;&lt;/i&gt; Use promo-code and
-                                                save up to 30%.</div> <a href="indexc4b8.html?add-to-cart=3699"
-                                                data-quantity="1"
-                                                class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="3699" data-product_sku="woo-sunglasses-6"
-                                                aria-label="Add to cart: &ldquo;Cat® C32 ACERT™&rdquo;" rel="nofollow">Add
-                                                to cart</a>
                                         </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-11 status-publish last instock product_cat-earthmoving-equipment product_cat-backhoe-loader has-post-thumbnail featured shipping-taxable purchasable product-type-simple wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../wheel-loader/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{ asset('front_end/wp-content/uploads/2018/03/product_0031_3-700x700.jpg') }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="2800 lbs, Wheel, Skid Steer Loader" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="2800 lbs, Wheel, Skid Steer Loader" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../wheel-loader/index.html">2800 lbs, Wheel, Skid Steer
-                                                    Loader </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>125,000.00</bdi></span>
-                                                                    <small> / Day</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>299.00</bdi></span>
-                                                                    <small> / Week</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>2,099.00</bdi></span>
-                                                                    <small> / Month</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="with-operator">
-                                                    <h5>Hire with operator</h5>
-                                                    <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
-                                                        <small> / Hour</small>
-                                                    </div>
-                                                </div>
-                                                <div class="location"> Los Angeles, CA</div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='wd_empty_space' data-heightmobile='35' data-heighttablet='35px'
+                                                data-heightdesktop='35px' style='height:35pxpx'></div>
+                                            <div class="wd-heading text-left  " style="max-width: 100%">
+                                                <h3 style="margin:0;font-size:24px;color:#ffffff;text-transform:Inherit;"
+                                                    class="title_b" data-text="Do you need one to one call right now?"> Do
+                                                    you need
+                                                    one to one call right now?</h3>
                                             </div>
-                                            <div class="description"> The 2,800 lb wheel skid steer loader comes
-                                                equipped with two lifting arms and tires, making it a great choice for
-                                                steering and navigating on job sites with rough outdoor terrain. With
-                                                over 70 horsepower (hp),</div> <a href="indexa46f.html?add-to-cart=11"
-                                                data-quantity="1"
-                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="11" data-product_sku="woo-cap"
-                                                aria-label="Add to cart: &ldquo;2800 lbs, Wheel, Skid Steer Loader&rdquo;"
-                                                rel="nofollow">Add to cart</a>
+                                            <div class='wd_empty_space' data-heightmobile='' data-heighttablet=''
+                                                data-heightdesktop='' style='height:px'></div>
+                                            <div class="wd_empty_space" data-heightmobile="50" data-heighttablet="50"
+                                                data-heightdesktop="160" style="height: 160px;"></div>
                                         </div>
-                                    </li>
-                                </ul>
-                            </section>
-                        </div>
-                    </main>
-                </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-3">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="wd_empty_space" data-heightmobile="50" data-heighttablet="50"
+                                                data-heightdesktop="50" style="height: 50px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row-full-width vc_clearfix"></div>
+                        </section>
+                    </div>
+                </article>
             </div>
-        </div>
+        </main>
     @endsection
 
     @section('script')
-        <script async data-noptimize="1"
-            src='{{ asset('front_end/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js') }}'
-            id='woocommerce-add-to-cart-js'></script>
-        <script async data-noptimize="1"
-            src='    {{ asset('front_end/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js') }}'
-            id='lazysizes-js'></script>
-        </script>
-        <div class="pswp" tabindex="-1" role="dialog" aria-modal="true" aria-hidden="true">
-            <div class="pswp__bg"></div>
-            <div class="pswp__scroll-wrap">
-                <div class="pswp__container">
-                    <div class="pswp__item"></div>
-                    <div class="pswp__item"></div>
-                    <div class="pswp__item"></div>
-                </div>
-                <div class="pswp__ui pswp__ui--hidden">
-                    <div class="pswp__top-bar">
-                        <div class="pswp__counter"></div> <button class="pswp__button pswp__button--zoom"
-                            aria-label="Zoom in/out"></button> <button class="pswp__button pswp__button--fs"
-                            aria-label="Toggle fullscreen"></button> <button class="pswp__button pswp__button--share"
-                            aria-label="Share"></button> <button class="pswp__button pswp__button--close"
-                            aria-label="Close (Esc)"></button>
-                        <div class="pswp__preloader">
-                            <div class="pswp__preloader__icn">
-                                <div class="pswp__preloader__cut">
-                                    <div class="pswp__preloader__donut"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                        <div class="pswp__share-tooltip"></div>
-                    </div> <button class="pswp__button pswp__button--arrow--left"
-                        aria-label="Previous (arrow left)"></button> <button
-                        class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
-                    <div class="pswp__caption">
-                        <div class="pswp__caption__center"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script type='text/javascript'>
-            (function() {
-                var c = document.body.className;
-                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-                document.body.className = c;
-            })();
-        </script>
-        <link rel='stylesheet' id='wc-blocks-style-css'
-            href="{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3c68ad9b345b9b2f5fc71372d90cb3b9.css') }}"
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='rs-plugin-settings-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}'
-            type='text/css' media='all' />
-        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/hooks.min.js') }}" id="wp-hooks-js">
-        </script>
-        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/i18n.min.js') }}" id="wp-i18n-js">
-        </script>
-        <script defer
-            src="{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_1224a3685c24c4d21b1a0bd0921f3651.js') }}">
-        </script>
+        <style id='rs-plugin-settings-inline-css' type='text/css'></style>
+        {{-- <script defer
+            src='{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}'>
+        </script> --}}
     @endsection

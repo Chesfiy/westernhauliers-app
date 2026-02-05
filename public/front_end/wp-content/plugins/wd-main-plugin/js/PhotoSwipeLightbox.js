@@ -5,6 +5,8 @@
 import PhotoSwipeLightbox from './photoswipe-lightbox.esm.js'
 import PhotoSwipe from './photoswipe.esm.js'
 
+let global_swiper_photoswipe_loop_setting = true;
+let productImagesGallerySwiper2Array = document.querySelectorAll('.images-gallery-swiper2');
 const photo_swipe_options = {
   gallery: '.images-gallery-swiper2',
   children: 'a',
