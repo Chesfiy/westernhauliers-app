@@ -1969,758 +1969,435 @@
                     <div class="body field clearfix ">
                         <section class="wpb-content-wrapper">
                             <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-5">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="60"
-                                                data-heightdesktop="88" style="height: 88px;"></div>
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img
-                                                            fetchpriority="high" decoding="async"
-                                                            class="vc_single_image-img "
-                                                            src="{{ asset('front_end/wp-content/uploads/2018/04/well-truck-577x603.jpg') }}"
-                                                            width="577" height="603" alt="well-truck"
-                                                            title="well-truck" /></div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-7">
-                                    <div class="vc_column-inner vc_custom_1561038794330">
-                                        <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='50'
-                                                data-heightdesktop='80' style='height:80px'></div>
-                                            <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h3 style="margin:0;" class="title_b"
-                                                    data-text="We are committed to providing our customers with exceptional service while offering our employees the best training and a working environment in which they can excel. This company focus has been in place for more than a half century. We are committed to providing our customers with exceptional service while offering our employees the best training and a working environment in which they can excel. This company focus has been in place for more than a half century.">
-                                                    Our Services</h3>
-                                                <p style="" class="sub_title_b"> At Western Hauliers, we provide
-                                                    engineered lifting,
-                                                    material handling, and specialized transportation solutions designed to
-                                                    support complex
-                                                    industrial, infrastructure, and logistics operations across Tanzania.
-                                                    Our services are delivered using certified
-                                                    equipment, skilled personnel, and strict safety systems to
-                                                    ensure reliable and efficient execution.</p>
-                                            </div>
-                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='30'
-                                                data-heightdesktop='30' style='height:30px'></div>
-                                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                    <div class="vc_column-inner">
-                                                        <div class="wpb_wrapper">
-                                                            <div class="wpb_text_column wpb_content_element ">
-                                                                <div class="wpb_wrapper">
-                                                                    <h4>Safety & Compliance Management</h4>
-                                                                    <p>Safety is integrated into every service we offer.
-                                                                        Our lifting operations follow a structured
-                                                                        Lifting & Safety Management System that includes:
-                                                                    </p>
-                                                                    <ul>
-                                                                        <li>Job Safety Analysis (JSA)</li>
-                                                                        <li>Toolbox talks and safety inductions</li>
-                                                                        <li>Equipment and accessory inspections</li>
-                                                                        <li>Incident reporting and corrective action</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                    <div class="vc_column-inner">
-                                                        <div class="wpb_wrapper">
-                                                            <div class="wpb_text_column wpb_content_element ">
-                                                                <div class="wpb_wrapper">
-                                                                    <h4>Lift Planning & Engineering Support</h4>
-                                                                    <p>We provide professional lift planning and engineering
-                                                                        services to
-                                                                        ensure every operation is safe, efficient, and
-                                                                        compliant.</p>
-                                                                    <h5>Our planning process includes:</h5>
-                                                                    <ul>
-                                                                        <li>Load calculations and equipment selection</li>
-                                                                        <li>Ground bearing pressure analysis</li>
-                                                                        <li>Risk assessments and method statements</li>
-                                                                        <li>Site inspections and feasibility studies</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="30"
-                                                data-heightdesktop="40" style="height: 40px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
                                             <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='70'
-                                                data-heightdesktop='150' style='height:150px'></div>
+                                                data-heightdesktop='50' style='height:50px'></div>
                                             <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h3 style="margin:0;" class="title_a" data-text="Awesome Services">
-                                                    Industries We Serve</h3>
-                                                <p style="" class="sub_title_a"> Awesome Services</p>
-                                                <hr class='hr_a' style=' margin: 10px;' />
-                                            </div>
-                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='30'
-                                                data-heightdesktop='30' style='height:30px'></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="woocommerce columns-4">
-                                                <ul class="products columns-4 grid">
-                                                    @foreach ($categories as $category)
-                                                        @php
-                                                            // Try to get the first machine with an image from direct machines
-                                                            $machine = $category->machines
-                                                                ->whereNotNull('image')
-                                                                ->first();
-                                                            // If not found, try from categoryType machines
-                                                            if (!$machine) {
-                                                                foreach ($category->categoryType as $type) {
-                                                                    $machine = $type->machines
-                                                                        ->whereNotNull('image')
-                                                                        ->first();
-                                                                    if ($machine) {
-                                                                        break;
-                                                                    }
-                                                                }
-                                                            }
-                                                            // If still not found, try to get any machine (even without image)
-                                                            if (!$machine) {
-                                                                $machine = $category->machines->first();
-                                                                if (!$machine) {
-                                                                    foreach ($category->categoryType as $type) {
-                                                                        $machine = $type->machines->first();
-                                                                        if ($machine) {
-                                                                            break;
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                            // Set image URL or fallback
-                                                            $imgUrl =
-                                                                $machine && $machine->img_url
-                                                                    ? asset('storage/' . $machine->img_url)
-                                                                    : 'https://placehold.co/600x518?text=No+Image';
-                                                            // Count all machines in this category (direct + all types)
-                                                            $directMachines = $category->machines->count();
-                                                            $typeMachines = $category->categoryType->sum(
-                                                                fn($type) => $type->machines->count(),
-                                                            );
-                                                            $totalCount = $directMachines + $typeMachines;
-                                                        @endphp
-                                                        <li class="product-category product">
-                                                            <a aria-label="Visit product category {{ $category->name }}"
-                                                                href="{{ route('shop', ['category_id' => $category->id]) }}">
-                                                                <img src="{{ $imgUrl }}"
-                                                                    alt="{{ $category->name }}" width="700"
-                                                                    height="518" style="object-fit:cover;" />
-                                                                <h2 class="woocommerce-loop-category__title">
-                                                                    {{ $category->name }} <mark
-                                                                        class="count">({{ $totalCount }})</mark>
-                                                                </h2>
-                                                            </a>
-                                                        </li>
-                                                    @endforeach
-                                                </ul>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="100"
-                                                data-heightdesktop="120" style="height: 120px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--left">
-                                <div class="wpb_column vc_column_container vc_col-sm-7">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
-                                                data-heightdesktop='0' style='height:0px'>
-                                            </div>
-                                            <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
-                                                    class="sub_title_b" data-text="Western Hauliers"> Our Service
-                                                </h5>
-                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Heavy Lifting &
-                                                    Mobile Crane Services</h2>
-                                            </div>
-                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
-                                                data-heightdesktop='5' style='height:5px'>
-                                            </div>
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <p>Western Hauliers delivers professional heavy lifting solutions for
-                                                        high-risk and technically demanding projects. Our mobile and
-                                                        truck-mounted cranes are suitable for
-                                                        industrial installations, infrastructure works, and large equipment
-                                                        handling.
-                                                    </p>
-                                                    <h5>Our services include:</h5>
-                                                    <ul>
-                                                        <li>Engineered lift planning and execution</li>
-                                                        <li>Risk assessment and method statements (RAMS)</li>
-                                                        <li>Heavy equipment installation and positioning</li>
-                                                        <li>Shutdown and maintenance support</li>
-                                                        <li>On-site supervision and safety management</li>
-                                                    </ul>
-                                                    <p>Every lift is planned with precision, ensuring safety, stability, and
-                                                        compliance with regulatory standards.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-5">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
-                                                                width="578" height="704" alt="moved-img-1@2x"
-                                                                title="moved-img-1@2x" /></noscript><img decoding="async"
-                                                            class="lazyload vc_single_image-img "
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
-                                                            width="578" height="704" alt="moved-img-1@2x"
-                                                            title="moved-img-1@2x" />
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {{-- <div class="vc_row wpb_row vc_row-fluid vc_custom_1562174951021 vc_row-has-fill"></div> --}}
-                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right" style="margin-top:160px;">
-                                <div class="wpb_column vc_column_container vc_col-sm-5">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="wp-content/uploads/2019/10/compactor.jpg"
-                                                                width="578" height="704" alt="compactor"
-                                                                title="compactor" /></noscript><img decoding="async"
-                                                            class="lazyload vc_single_image-img "
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
-                                                            width="578" height="704" alt="compactor"
-                                                            title="compactor" />
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-7">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
-                                                data-heightdesktop='0' style='height:0px'>
-                                            </div>
-                                            <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
-                                                    class="sub_title_b" data-text="Our service"> Our service
-                                                </h5>
-                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Forklift Rental
-                                                    Services (2–45 Tons)</h2>
-                                            </div>
-                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
-                                                data-heightdesktop='5' style='height:5px'>
-                                            </div>
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <p>Western Hauliers provides reliable and high-capacity forklift
-                                                        rental solutions designed to support demanding industrial,
-                                                        logistics,
-                                                        and construction operations. Our fleet consists of brand-new REDLIFT
-                                                        forklifts ranging from 2 to 45 tons,
-                                                        capable of handling both light and extremely heavy loads with
-                                                        precision and stability.</p>
-                                                    <h5>Applications include:</h5>
-                                                    <ul>
-                                                        <li>Container handling</li>
-                                                        <li>Machinery and equipment movement</li>
-                                                        <li>Warehouse and logistics operations</li>
-                                                        <li>Outdoor and rough-terrain environments</li>
-                                                    </ul>
-
-                                                    <p>All forklifts are nationally certified, maintained
-                                                        under preventive maintenance programs, and operated by licensed
-                                                        professionals. </p>
-                                                </div>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20"
-                                                data-heightdesktop="36" style="height: 36px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--left" style="margin-top:160px;">
-                                <div class="wpb_column vc_column_container vc_col-sm-7">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
-                                                data-heightdesktop='0' style='height:0px'>
-                                            </div>
-                                            <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
-                                                    class="sub_title_b" data-text="Western Hauliers"> Our Service
-                                                </h5>
-                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Side Loaders &
-                                                    Specialized Transportation</h2>
-                                            </div>
-                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
-                                                data-heightdesktop='5' style='height:5px'>
-                                            </div>
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <p>Western Hauliers provides specialized side loader and
-                                                        transportation solutions designed for the safe, efficient,
-                                                        and controlled handling of long, oversized, and heavy cargo. This
-                                                        service is ideal for projects where
-                                                        conventional transport methods are impractical or unsafe due to
-                                                        cargo length, weight, or site constraints.
-                                                    </p>
-                                                    <h5>Cargo Types Handled:</h5>
-                                                    <ul>
-                                                        <li>Shipping containers</li>
-                                                        <li>Steel structures and fabricated components</li>
-                                                        <li>Pipes, beams, and poles</li>
-                                                        <li>Timber, panels, and prefabricated materials</li>
-                                                        <li>Industrial equipment and long machinery components</li>
-                                                    </ul>
-                                                    <p>Every movement is supported by risk assessments, method statements,
-                                                        and experienced operators to ensure compliance with safety and
-                                                        regulatory requirements.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-5">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
-                                                                width="578" height="704" alt="moved-img-1@2x"
-                                                                title="moved-img-1@2x" /></noscript><img decoding="async"
-                                                            class="lazyload vc_single_image-img "
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
-                                                            width="578" height="704" alt="moved-img-1@2x"
-                                                            title="moved-img-1@2x" />
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid moved-box moved-box--right" style="margin-top:160px;">
-                                <div class="wpb_column vc_column_container vc_col-sm-5">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="wp-content/uploads/2019/10/compactor.jpg"
-                                                                width="578" height="704" alt="compactor"
-                                                                title="compactor" /></noscript><img decoding="async"
-                                                            class="lazyload vc_single_image-img "
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
-                                                            width="578" height="704" alt="compactor"
-                                                            title="compactor" />
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-7">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
-                                                data-heightdesktop='0' style='height:0px'>
-                                            </div>
-                                            <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h5 style="font-weight:500;font-size:14px;color:#E30613;text-transform:Uppercase;letter-spacing:1.4px;"
-                                                    class="sub_title_b" data-text="Our service"> Our service
-                                                </h5>
-                                                <h2 style="margin:0;font-weight:800;" class="title_b"> Manlifts & Aerial
-                                                    Work Platforms</h2>
-                                            </div>
-                                            <div class='wd_empty_space' data-heightmobile='5' data-heighttablet='5'
-                                                data-heightdesktop='5' style='height:5px'>
-                                            </div>
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <p>Western Hauliers provides safe, reliable, and
-                                                        efficient access solutions for work at height through a modern
-                                                        fleet of manlifts and aerial work platforms. These solutions are
-                                                        designed to support construction, industrial, maintenance,
-                                                        and infrastructure projects where controlled vertical and horizontal
-                                                        access is critical.</p>
-                                                    <h5>Applications & Use Cases:</h5>
-                                                    <ul>
-                                                        <li>Installation and commissioning of mechanical, electrical, and
-                                                            structural systems</li>
-                                                        <li>Routine and preventive maintenance works</li>
-                                                        <li>Inspection, repair, and replacement of equipment at height</li>
-                                                        <li>Structural, mechanical, and finishing works in industrial and
-                                                            construction environments</li>
-                                                        <li>Support during shutdowns, upgrades, and plant modifications</li>
-                                                    </ul>
-
-                                                    <p>Our manlifts and aerial platforms are regularly inspected and
-                                                        operated
-                                                        by trained personnel to ensure safety and efficiency. </p>
-                                                </div>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="15" data-heighttablet="20"
-                                                data-heightdesktop="36" style="height: 36px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-vc-full-width="true" data-vc-full-width-init="false"
-                                class="vc_row wpb_row vc_row-fluid vc_custom_1562174951021 vc_row-has-fill">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='80' data-heighttablet='80'
-                                                data-heightdesktop='80' style='height:80px'></div>
-                                            <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h2 style="margin:0;color:#ffffff;" class="title_a"
-                                                    data-text="Testimonials"> Testimonials</h2>
-                                                <hr class='hr_a' style=' margin: 10px;' />
-                                            </div>
-                                            <div class='wd_empty_space' data-heightmobile='0' data-heighttablet='0'
-                                                data-heightdesktop='0' style='height:0px'>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="440" data-heighttablet="440"
-                                                data-heightdesktop="440" style="height: 440px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row-full-width vc_clearfix"></div>
-                            <div class="vc_row wpb_row vc_row-fluid vc_custom_1562174918695">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="owl-testimonial swiper-container testimonail-swiper wd-testimonial wd-testimonial_layout_3"
-                                                data-slick='{ "slidesToShow": 1, "slidesToScroll": 1}'>
-                                                <div class="swiper-wrapper">
-                                                    <blockquote class="swiper-slide wd-testimonial__item">
-                                                        <div class="wd-testimonial__thumbnail">
-                                                            <div class="lazyload"
-                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/testimon-@2x-833x510.jpg"
-                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
-                                                            </div>
-                                                        </div>
-                                                        <div class="wd-testimonial__info">
-                                                            <div class="excerpt" style="color:#fff"> So happy to
-                                                                write this testimonial to see that I'm very thankful to
-                                                                you guys even you so awesome and professional Although
-                                                                with service while offering our employees the best
-                                                                training and a working environment in which they can
-                                                                excel.</div>
-                                                            <h5 class="title" style="color:#fff"> Mark James</h5>
-                                                            <p class="job p-small"> Creative Heads Inc</p>
-                                                        </div>
-                                                    </blockquote>
-                                                    <blockquote class="swiper-slide wd-testimonial__item">
-                                                        <div class="wd-testimonial__thumbnail">
-                                                            <div class="lazyload"
-                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/07/testimon-@2x-2-833x510.jpg"
-                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
-                                                            </div>
-                                                        </div>
-                                                        <div class="wd-testimonial__info">
-                                                            <div class="excerpt" style="color:#fff"> I was very
-                                                                surprised by the quality of the equipment of this
-                                                                company, and I will buy from them always and so happy to
-                                                                write this testimonial to see that I'm very thankful to
-                                                                you guys even you so awesome and professional Although
-                                                                moreover.</div>
-                                                            <h5 class="title" style="color:#fff"> Sammy Lovell</h5>
-                                                            <p class="job p-small"> CTO - Google</p>
-                                                        </div>
-                                                    </blockquote>
-                                                    <blockquote class="swiper-slide wd-testimonial__item">
-                                                        <div class="wd-testimonial__thumbnail">
-                                                            <div class="lazyload"
-                                                                data-bg="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/04/testimon_-833x510.jpg"
-                                                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E)">
-                                                            </div>
-                                                        </div>
-                                                        <div class="wd-testimonial__info">
-                                                            <div class="excerpt" style="color:#fff"> I was very
-                                                                surprised by the quality of the equipment of this
-                                                                company, and I will buy from them always and so happy to
-                                                                write this testimonial to see that I'm very thankful to
-                                                                you guys even you so awesome and professional Although.
-                                                            </div>
-                                                            <h5 class="title" style="color:#fff"> Veriency Dun</h5>
-                                                            <p class="job p-small"> Creative Heads Inc</p>
-                                                        </div>
-                                                    </blockquote>
-                                                </div> <span class="swiper-button-prev left slick-arrow"><svg
-                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                        viewBox="0 0 512.008 512.008"
-                                                        style="enable-background:new 0 0 512.008 512.008;"
-                                                        xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path
-                                                                    d="M384.001,53.333V10.667c0-4.354-2.646-8.281-6.688-9.896C376.022,0.25,374.668,0,373.335,0
-                                                                                                                                 c-2.854,0-5.646,1.146-7.708,3.292L130.96,248.625c-3.937,4.125-3.937,10.625,0,14.75l234.667,245.333
-                                                                                                                                 c3.021,3.146,7.646,4.167,11.688,2.521c4.042-1.615,6.688-5.542,6.688-9.896v-42.667c0-2.729-1.042-5.354-2.917-7.333L196.022,256
-                                                                                                                                 L381.085,60.667C382.96,58.688,384.001,56.063,384.001,53.333z">
-                                                                </path>t
-                                                            </g>
-                                                        </g>
-                                                    </svg> </span> <span class="swiper-button-next right slick-arrow"><svg
-                                                        version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                        viewBox="0 0 512.008 512.008"
-                                                        style="enable-background:new 0 0 512.008 512.008;"
-                                                        xml:space="preserve">
-                                                        <g>
-                                                            <g>
-                                                                <path
-                                                                    d="M381.048,248.633L146.381,3.299c-3.021-3.146-7.646-4.167-11.688-2.521c-4.042,1.615-6.688,5.542-6.688,9.896v42.667
-                                                                                                                                 c0,2.729,1.042,5.354,2.917,7.333l185.063,195.333L130.923,451.341c-1.875,1.979-2.917,4.604-2.917,7.333v42.667
-                                                                                                                                 c0,4.354,2.646,8.281,6.688,9.896c1.292,0.521,2.646,0.771,3.979,0.771c2.854,0,5.646-1.146,7.708-3.292l234.667-245.333
-                                                                                                                                 C384.986,259.258,384.986,252.758,381.048,248.633z">
-                                                                </path>
-                                                            </g>
-                                                        </g>
-                                                    </svg></span>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="200" data-heighttablet="0"
-                                                data-heightdesktop="0" style="height: 0px;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='70'
-                                                data-heightdesktop='150' style='height:150px'></div>
-                                            <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h2 style="margin:0;" class="title_a" data-text="Awesome Services">
-                                                    Industries We Serve</h2>
-                                                <p style="" class="sub_title_a"> Awesome Services</p>
+                                                <h2 style="margin:0;" class="title_a" data-text="Style One"> Style
+                                                    One</h2>
                                                 <hr class='hr_a' style=' margin: 10px;' />
                                             </div>
                                             <div class='wd_empty_space' data-heightmobile='67' data-heighttablet='67'
-                                                data-heightdesktop='67' style='height:67px'></div>
+                                                data-heightdesktop='60' style='height:60px'></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class='small-up-1 medium-up-2 large-up-1'>
-                                                <div class="column column-block ">
-                                                    <article
-                                                        class="wd-post wd-post--without-thumbnail  post-258 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
-                                                        <div class="wd-post__content">
-                                                            <h3 class="wd-post__title"> <a
-                                                                    href="../blog/2019/08/28/best-practices-of-hr-management/index.html">Best
-                                                                    Practices of HR management</a></h3>
+                                            <ul class="team-list-style3 small-up-1 medium-up-2 large-up-4  clearfix">
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <img fetchpriority="high"
+                                                                decoding="async" width="800" height="873"
+                                                                src="../wp-content/uploads/2019/06/team-1.jpg"
+                                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-295x322.jpg 295w"
+                                                                sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Haaris Garrison</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>COE & Founder</span></p>
                                                         </div>
-                                                    </article>
-                                                </div>
-                                                <div class="column column-block ">
-                                                    <article
-                                                        class="wd-post wd-post--without-thumbnail  post-260 post type-post status-publish format-standard has-post-thumbnail hentry category-updates">
-                                                        <div class="wd-post__content">
-                                                            <h3 class="wd-post__title"> <a
-                                                                    href="../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">10
-                                                                    Tips to Find Best Backhoe</a></h3>
-                                                        </div>
-                                                    </article>
-                                                </div>
-                                                <div class="column column-block ">
-                                                    <article
-                                                        class="wd-post wd-post--without-thumbnail  post-262 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
-                                                        <div class="wd-post__content">
-                                                            <h3 class="wd-post__title"> <a
-                                                                    href="../blog/2017/12/28/how-to-organize-a-construction-site/index.html">How
-                                                                    to Setup a Construction Site</a></h3>
-                                                        </div>
-                                                    </article>
-                                                </div>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="10" data-heighttablet="70"
-                                                data-heightdesktop="70" style="height: 70px;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-6">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="{{ asset('front_end/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-557x515.png') }}"
-                                                                width="557" height="515"
-                                                                alt="photo-1505082527911-33423132c73d"
-                                                                title="photo-1505082527911-33423132c73d" /></noscript><img
-                                                            decoding="async" class="lazyload vc_single_image-img "
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20557%20515%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-557x515.png"
-                                                            width="557" height="515"
-                                                            alt="photo-1505082527911-33423132c73d"
-                                                            title="photo-1505082527911-33423132c73d" />
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                            <div class="wd_empty_space" data-heightmobile="0" data-heighttablet="70"
-                                                data-heightdesktop="100" style="height: 100px;"></div>
-                                            <div class="wd-video-box-bg wpb_video_widget wpb_content_element vc_clearfix   vc_custom_1561721539670 vc_video-aspect-ratio- vc_video-el-width- vc_video-align-"
-                                                style="background: url() center center no-repeat;background-size: cover">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wd-video-box"
-                                                        style="min-height: 100px; min-width: 100px;">
-                                                        <div class="full_screen_video_wrapper  text-left"><a
-                                                                href="#" id="play"
-                                                                data-toggle="modal68a73a8558308"
-                                                                data-reveal-id="modal68a73a8558308"
-                                                                class="play popup1_open"><i
-                                                                    style="background: ;color: #000000;"
-                                                                    class="fa fa-play fa-1x"></i><span>Watch video
-                                                                    tour 5 min lenght</span>
-                                                                <div class="playvideo_animation"></div>
-                                                                <div class="playvideo_animation"
-                                                                    style="animation-delay: 1.2s;"></div>
-                                                                <div class="playvideo_animation"
-                                                                    style="animation-delay: 2.4s;"></div>
-                                                            </a>
-                                                            <div class="medium reveal" id="modal68a73a8558308" data-reveal
-                                                                data-reset-on-close="true" data-animation-in="fade-in"
-                                                                data-animation-out="fade-out">
-                                                                <div class="flex-video widescreen"> <iframe id="ytplayer"
-                                                                        type="text/html" height="100%"
-                                                                        data-video-id="RUCc7kY9BvA"
-                                                                        frameborder="0"></iframe></div> <a
-                                                                    class="close-button" data-close
-                                                                    aria-label="Close reveal">×</a>
-                                                            </div>
-                                                            <div class="clearfix"></div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <script type="text/javascript">
-                                                document.addEventListener("DOMContentLoaded", function() {
-                                                    const videoBoxes = document.querySelectorAll(".wd-video-box")
-                                                    videoBoxes.forEach(videoBox => {
-                                                        videoBox.querySelector("#play").addEventListener("click", e => {
-                                                            const revealList = document.querySelectorAll(".reveal")
-                                                            revealList.forEach(reveal => {
-                                                                if (reveal.id == e.target.closest("#play").dataset.revealId) {
-                                                                    const iframe = reveal.querySelector("iframe"),
-                                                                        url =
-                                                                        `https://www.youtube.com/embed/${iframe.dataset.videoId}?autoplay=1&origin=http://example.com`
-                                                                    iframe.src = url
-                                                                }
-                                                            })
-                                                        })
-                                                    })
-                                                });
-                                            </script>
+                                                </li>
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <noscript><img decoding="async"
+                                                                    width="800" height="873"
+                                                                    src="../wp-content/uploads/2019/06/team-2.jpg"
+                                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                    alt=""
+                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-295x322.jpg 295w"
+                                                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
+                                                                decoding="async" width="800" height="873"
+                                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
+                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg"
+                                                                class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-295x322.jpg 295w"
+                                                                data-sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Olivia Trejo</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>CTO</span></p>
+                                                        </div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <noscript><img decoding="async"
+                                                                    width="800" height="873"
+                                                                    src="../wp-content/uploads/2019/06/team-4.jpg"
+                                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                    alt=""
+                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-295x322.jpg 295w"
+                                                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
+                                                                decoding="async" width="800" height="873"
+                                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
+                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg"
+                                                                class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-295x322.jpg 295w"
+                                                                data-sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Sammy Lovell</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>Product Manager</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <noscript><img decoding="async"
+                                                                    width="800" height="873"
+                                                                    src="../wp-content/uploads/2019/06/team-3.jpg"
+                                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                    alt=""
+                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-295x322.jpg 295w"
+                                                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
+                                                                decoding="async" width="800" height="873"
+                                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
+                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg"
+                                                                class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-295x322.jpg 295w"
+                                                                data-sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Robson Garza</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>Project Manager</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
-                                class="vc_row wpb_row vc_row-fluid moved-box__top vc_custom_1562674448213 vc_row-has-fill">
-                                <div class="wpb_column vc_column_container vc_col-sm-5 vc_col-has-fill">
-                                    <div class="vc_column-inner vc_custom_1561041477277">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_left">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <noscript><img decoding="async" width="1562" height="1020"
-                                                                src="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }}"
-                                                                class="vc_single_image-img attachment-full" alt=""
-                                                                title="Rectangle 14@2x"
-                                                                srcset="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1562w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 300w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1024w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 768w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1536w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 800w"
-                                                                sizes="(max-width: 1562px) 100vw, 1562px" /></noscript><img
-                                                            decoding="async" width="1562" height="1020"
-                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201562%201020%22%3E%3C/svg%3E'
-                                                            data-src="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }}"
-                                                            class="lazyload vc_single_image-img attachment-full"
-                                                            alt="" title="Rectangle 14@2x"
-                                                            data-srcset="{{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1562w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 300w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1024w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 768w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 1536w, {{ asset('front_end/wp-content/uploads/2019/06/Rectangle-14@2x-1.png') }} 800w"
-                                                            data-sizes="(max-width: 1562px) 100vw, 1562px" />
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4">
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class='wd_empty_space' data-heightmobile='35' data-heighttablet='35px'
-                                                data-heightdesktop='35px' style='height:35pxpx'></div>
+                                            <div class='wd_empty_space' data-heightmobile='30' data-heighttablet='70'
+                                                data-heightdesktop='80' style='height:80px'></div>
                                             <div class="wd-heading text-left  " style="max-width: 100%">
-                                                <h3 style="margin:0;font-size:24px;color:#ffffff;text-transform:Inherit;"
-                                                    class="title_b" data-text="Do you need one to one call right now?"> Do
-                                                    you need
-                                                    one to one call right now?</h3>
+                                                <h2 style="margin:0;" class="title_a" data-text="Style Two"> Style
+                                                    Two</h2>
+                                                <hr class='hr_a' style=' margin: 10px;' />
                                             </div>
-                                            <div class='wd_empty_space' data-heightmobile='' data-heighttablet=''
-                                                data-heightdesktop='' style='height:px'></div>
-                                            <div class="wd_empty_space" data-heightmobile="50" data-heighttablet="50"
-                                                data-heightdesktop="160" style="height: 160px;"></div>
+                                            <div class='wd_empty_space' data-heightmobile='67' data-heighttablet='67'
+                                                data-heightdesktop='70' style='height:70px'></div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-3">
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
-                                            <div class="wd_empty_space" data-heightmobile="50" data-heighttablet="50"
+                                            <ul class="team-list-style2 small-up-1 medium-up-2 large-up-4  clearfix">
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <img fetchpriority="high"
+                                                                decoding="async" width="800" height="873"
+                                                                src="../wp-content/uploads/2019/06/team-1.jpg"
+                                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-295x322.jpg 295w"
+                                                                sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Haaris Garrison</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>COE & Founder</span></p>
+                                                        </div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <noscript><img decoding="async"
+                                                                    width="800" height="873"
+                                                                    src="../wp-content/uploads/2019/06/team-2.jpg"
+                                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                    alt=""
+                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-295x322.jpg 295w"
+                                                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
+                                                                decoding="async" width="800" height="873"
+                                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
+                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg"
+                                                                class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-295x322.jpg 295w"
+                                                                data-sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Olivia Trejo</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>CTO</span></p>
+                                                        </div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <noscript><img decoding="async"
+                                                                    width="800" height="873"
+                                                                    src="../wp-content/uploads/2019/06/team-4.jpg"
+                                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                    alt=""
+                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-295x322.jpg 295w"
+                                                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
+                                                                decoding="async" width="800" height="873"
+                                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
+                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg"
+                                                                class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-295x322.jpg 295w"
+                                                                data-sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Sammy Lovell</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>Product Manager</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class=" column column-block">
+                                                    <div class="team-member">
+                                                        <div class="team-member__picture"> <noscript><img decoding="async"
+                                                                    width="800" height="873"
+                                                                    src="../wp-content/uploads/2019/06/team-3.jpg"
+                                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                    alt=""
+                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-295x322.jpg 295w"
+                                                                    sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
+                                                                decoding="async" width="800" height="873"
+                                                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
+                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg"
+                                                                class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                alt=""
+                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-295x322.jpg 295w"
+                                                                data-sizes="(max-width: 800px) 100vw, 800px" /></div>
+                                                        <div class="team-member__info">
+                                                            <h4 class="team-member__name"><span>Robson Garza</span>
+                                                            </h4>
+                                                            <p class="team-member__job"><span>Project Manager</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="team-member__socialmedia">
+                                                            <ul>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M6 24C6 32.9 12.5 40.3 21 41.8L21.1003 41.7197C21.0669 41.7133 21.0334 41.7067 21 41.7V29H16.5V24H21V20C21 15.5 23.9 13 28 13C29.3 13 30.7 13.2 32 13.4V18H29.7C27.5 18 27 19.1 27 20.5V24H31.8L31 29H27V41.7C26.9666 41.7067 26.9331 41.7133 26.8997 41.7197L27 41.8C35.5 40.3 42 32.9 42 24C42 14.1 33.9 6 24 6C14.1 6 6 14.1 6 24Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path
+                                                                                d="M24.0006 6.54547C19.2604 6.54547 18.6655 6.5662 16.8038 6.65093C14.9456 6.73602 13.6773 7.0302 12.5675 7.46183C11.4196 7.90765 10.4458 8.50402 9.47562 9.47456C8.50474 10.4447 7.9084 11.4186 7.46114 12.5662C7.02842 13.6764 6.73389 14.9451 6.65025 16.8026C6.56698 18.6644 6.54517 19.2597 6.54517 24C6.54517 28.7404 6.56626 29.3335 6.65062 31.1953C6.73607 33.0535 7.03024 34.3218 7.4615 35.4317C7.90767 36.5797 8.50402 37.5535 9.47453 38.5237C10.4443 39.4946 11.4181 40.0924 12.5653 40.5382C13.6759 40.9698 14.9445 41.264 16.8023 41.3491C18.6641 41.4338 19.2586 41.4546 23.9985 41.4546C28.739 41.4546 29.3321 41.4338 31.1939 41.3491C33.052 41.264 34.3218 40.9698 35.4323 40.5382C36.5799 40.0924 37.5522 39.4946 38.522 38.5237C39.4929 37.5535 40.0892 36.5797 40.5365 35.432C40.9656 34.3218 41.2601 33.0531 41.3474 31.1957C41.431 29.3338 41.4528 28.7404 41.4528 24C41.4528 19.2597 41.431 18.6647 41.3474 16.8029C41.2601 14.9447 40.9656 13.6764 40.5365 12.5666C40.0892 11.4186 39.4929 10.4447 38.522 9.47456C37.5511 8.50365 36.5803 7.90729 35.4312 7.46183C34.3185 7.0302 33.0495 6.73602 31.1913 6.65093C29.3296 6.5662 28.7369 6.54547 23.9952 6.54547H24.0006ZM22.4349 9.69093C22.8996 9.6902 23.4181 9.69093 24.0006 9.69093C28.6609 9.69093 29.2132 9.70765 31.0535 9.79129C32.7553 9.86911 33.6789 10.1535 34.2941 10.3924C35.1087 10.7087 35.6894 11.0869 36.2999 11.6978C36.9108 12.3087 37.289 12.8906 37.606 13.7051C37.8449 14.3197 38.1297 15.2433 38.2071 16.9451C38.2907 18.7851 38.3089 19.3378 38.3089 23.996C38.3089 28.6542 38.2907 29.2069 38.2071 31.0469C38.1293 32.7487 37.8449 33.6724 37.606 34.2869C37.2897 35.1015 36.9108 35.6815 36.2999 36.292C35.689 36.9029 35.109 37.2811 34.2941 37.5975C33.6796 37.8375 32.7553 38.1211 31.0535 38.1989C29.2136 38.2826 28.6609 38.3007 24.0006 38.3007C19.3401 38.3007 18.7877 38.2826 16.9478 38.1989C15.246 38.1204 14.3224 37.836 13.7068 37.5971C12.8922 37.2807 12.3104 36.9026 11.6996 36.2917C11.0887 35.6807 10.7105 35.1004 10.3934 34.2855C10.1545 33.6709 9.86979 32.7473 9.79234 31.0455C9.70871 29.2055 9.69198 28.6527 9.69198 23.9917C9.69198 19.3306 9.70871 18.7807 9.79234 16.9407C9.87016 15.2389 10.1545 14.3153 10.3934 13.7C10.7098 12.8855 11.0887 12.3037 11.6996 11.6927C12.3104 11.0818 12.8922 10.7037 13.7068 10.3866C14.322 10.1466 15.246 9.86293 16.9478 9.78474C18.5579 9.71202 19.1819 9.6902 22.4349 9.68656V9.69093ZM33.3174 12.5891C32.1611 12.5891 31.223 13.5262 31.223 14.6829C31.223 15.8393 32.1611 16.7775 33.3174 16.7775C34.4738 16.7775 35.4119 15.8393 35.4119 14.6829C35.4119 13.5266 34.4738 12.5884 33.3174 12.5884V12.5891ZM24.0006 15.0364C19.0506 15.0364 15.0373 19.0498 15.0373 24C15.0373 28.9502 19.0506 32.9618 24.0006 32.9618C28.9507 32.9618 32.9625 28.9502 32.9625 24C32.9625 19.0498 28.9503 15.0364 24.0003 15.0364H24.0006ZM24.0006 18.1818C27.2136 18.1818 29.8186 20.7866 29.8186 24C29.8186 27.2131 27.2136 29.8182 24.0006 29.8182C20.7873 29.8182 18.1826 27.2131 18.1826 24C18.1826 20.7866 20.7873 18.1818 24.0006 18.1818V18.1818Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                                <li><a href="#"> <svg width="30" height="30"
+                                                                            viewBox="0 0 48 48" fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                                d="M37.323 18.1522C37.3346 18.452 37.3385 18.7517 37.3385 19.0515C37.3385 28.141 30.9444 38.6343 19.252 38.6343C15.6603 38.6343 12.3205 37.4895 9.50659 35.5408C10.004 35.5953 10.5092 35.6363 11.0221 35.6363C14.0001 35.6363 16.743 34.5322 18.9187 32.6789C16.137 32.638 13.7882 30.6348 12.9782 27.9093C13.367 27.9911 13.7675 28.0321 14.1771 28.0321C14.7546 28.0321 15.3153 27.9504 15.8528 27.7869C12.942 27.16 10.7495 24.3801 10.7495 21.0414C10.7495 21.0005 10.7495 20.9868 10.7495 20.9595C11.6074 21.4638 12.5893 21.777 13.6319 21.8179C11.9239 20.5778 10.8011 18.4656 10.8011 16.0808C10.8011 14.8271 11.1138 13.6415 11.6642 12.6194C14.7985 16.7894 19.4846 19.5285 24.7675 19.8147C24.659 19.3105 24.6034 18.7792 24.6034 18.2477C24.6034 14.4456 27.4496 11.3658 30.9612 11.3658C32.7894 11.3658 34.4405 12.1972 35.5994 13.5327C37.0503 13.2329 38.4095 12.6605 39.6395 11.8702C39.1627 13.4782 38.1563 14.827 36.841 15.6719C38.1278 15.5084 39.3553 15.1407 40.4935 14.5956C39.6395 15.972 38.5646 17.1847 37.323 18.1522Z"
+                                                                                fill="white" />
+                                                                        </svg> </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="wd_empty_space" data-heightmobile="5" data-heighttablet="10"
                                                 data-heightdesktop="50" style="height: 50px;"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="vc_row-full-width vc_clearfix"></div>
                         </section>
                     </div>
                 </article>
