@@ -7,29 +7,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
             /><style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
-        <title>Services - Western Hauliers</title>
+        <title>FAQ - Western Hauliers</title>
         <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
             href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
         <link rel="canonical" href="index.html" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Services - Western Hauliers" />
+        <meta property="og:title" content="FAQ - Western Hauliers" />
         <meta property="og:url" content="index.html" />
         <meta property="og:site_name" content="Western Hauliers" />
-        <meta property="article:modified_time" content="2019-10-11T23:39:01+00:00" />
+        <meta property="article:modified_time" content="2019-07-05T11:24:01+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="4 minutes" />
         <link rel='dns-prefetch' href='http://client.crisp.chat/' />
         <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
         <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
-        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Feed" href="../feed/index.html" />
-        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Comments Feed"
-            href="../comments/feed/index.html" />
         <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link rel='stylesheet' id='wp-block-library-css'
-            href='{{ asset('front_end/wp-includes/css/dist/block-library/style.min.css') }}' type='text/css'
-            media='all' />
+            href={{ asset('front_end/wp-includes/css/dist/block-library/style.min.css') }} type='text/css' media='all' />
         <style id='webdevia-all-products-style-inline-css' type='text/css'>
             .wp-block-webdevia-all-products {
                 position: relative
@@ -645,7 +641,7 @@
             }
         </style>
         <link rel='stylesheet' id='webdevia-tabs-style-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css') }}
             type='text/css' media='all' />
         <style id='webdevia-tab-style-inline-css' type='text/css'>
             .wp-block-webdevia-tab {
@@ -1002,6 +998,7 @@
                 --wp--custom--typography--line-height--medium: 1.4;
                 --wp--custom--typography--line-height--normal: 1.6
             }
+
 
             :root {
                 --wp--style--global--content-size: 1300px;
@@ -1567,34 +1564,34 @@
             }
         </style>
         <link rel='stylesheet' id='wd_demo_panel_style-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css') }}
             type='text/css' media='all' />
         <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-9-css'
-            href='{{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-solid-900.html') }}' type='text/css'
+            href={{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-solid-900.html') }} type='text/css'
             media='all' />
         <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-4-css'
-            href='{{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-brands-400.html') }}' type='text/css'
+            href={{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-brands-400.html') }} type='text/css'
             media='all' />
         <link rel='stylesheet' id='daterangepickers-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='backhoe_booking_app-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='contact-form-7-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='wd_buy_style-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-layout-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e98f5279cacaef826050eb2595082e77.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e98f5279cacaef826050eb2595082e77.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-smallscreen-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_59d266c0ea580aae1113acb3761f7ad5.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_59d266c0ea580aae1113acb3761f7ad5.css') }}
             type='text/css' media='only screen and (max-width: 768px)' />
         <link rel='stylesheet' id='woocommerce-general-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_f9db2117cb3f9bf8433a39bd81b3e492.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_f9db2117cb3f9bf8433a39bd81b3e492.css') }}
             type='text/css' media='all' />
         <style id='woocommerce-inline-inline-css' type='text/css'>
             .woocommerce form .form-row .required {
@@ -1602,31 +1599,30 @@
             }
         </style>
         <link rel='stylesheet' id='brands-styles-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_48d56016b20f151be4f24ba6d0eb1be4.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_48d56016b20f151be4f24ba6d0eb1be4.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='select2-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e3e811600e32258de0b9ba53c7798db8.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e3e811600e32258de0b9ba53c7798db8.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='animate-custom-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='icofont-css'
-            href='{{ asset('front_end/wp-content/themes/backhoe/css/icofont.min.css') }}' type='text/css'
-            media='all' />
+            href={{ asset('front_end/wp-content/themes/backhoe/css/icofont.min.css') }} type='text/css' media='all' />
         <link rel='stylesheet' id='swiper-bundle-css'
-            href='{{ asset('front_end/wp-content/themes/backhoe/css/swiper-bundle.min.css') }}' type='text/css'
+            href={{ asset('front_end/wp-content/themes/backhoe/css/swiper-bundle.min.css') }} type='text/css'
             media='all' />
         <link rel='stylesheet' id='backhoe-app-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='backhoe-style-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}
             type='text/css' media='all' />
         <style id='backhoe-style-inline-css' type='text/css'>
             :root {
                 --primary-color: #E30613;
                 --primary-color-contrast: #7BC043;
-                --title-page-background: url(../images/pattern-brick.html);
+                --title-page-background: url("../images/pattern-brick.html");
                 --title-page-background-color: #222;
                 --title-page-text-color: #fefefe;
                 --secondary-color: #412aab;
@@ -1644,14 +1640,14 @@
                 --topbar-hover-sticky-text: #fff;
                 --topbar-hover-text: #fff;
                 --footer-background: #7BC043;
-                --footer-background-image: url(../images/pattern_dashed.html);
+                --footer-background-image: url("../images/pattern_dashed.html");
                 --footer-text-color: rgba(255, 255, 255, .7);
                 --copyright-background: #7BC043;
                 --copyright-text: #fff
             }
 
             .titlebar {
-                background-image: url(../images/pattern-brick.html)
+                background-image: url("../images/pattern-brick.html")
             }
 
             .titlebar #page-title {
@@ -1714,18 +1710,18 @@
             .wd-heading .hr_a {
                 border-bottom-style: solid;
                 border-bottom-width: 6px;
-                border-bottom-color: #E30613;
+                border-bottom-color: #fdb900;
                 width: 73px
             }
 
             .wd-heading .hr_b {
                 border-bottom-style: solid;
-                border-bottom-color: #E30613
+                border-bottom-color: #fdb900
             }
 
             .wd-heading .hr_c {
                 border-bottom-style: solid;
-                border-bottom-color: #E30613
+                border-bottom-color: #fdb900
             }
 
             header.l-header .top-bar-container .top-bar .top-bar-left .logo-wrapper a img {
@@ -1742,55 +1738,34 @@
             }
         </style>
         <link rel='stylesheet' id='lightbox-css'
-            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/lightbox.min.css') }}' type='text/css'
+            href={{ asset('front_end/wp-content/themes/backhoe/css/vendor/lightbox.min.css') }} type='text/css'
             media='all' />
         <link rel='stylesheet' id='all-css'
-            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/all.min.css') }}' type='text/css'
+            href={{ asset('front_end/wp-content/themes/backhoe/css/vendor/all.min.css') }} type='text/css'
             media='all' />
         <link rel='stylesheet' id='custom-line-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}
             type='text/css' media='all' />
-        <link rel='stylesheet' id='dashicons-css'
-            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/all.min.css') }}' type='text/css'
-            media='all' />
+        <link rel='stylesheet' id='dashicons-css' href={{ asset('front_end/wp-includes/css/dashicons.min.css') }}
+            type='text/css' media='all' />
         <link rel='stylesheet' id='simple-auction-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css') }}'
+            href={{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css') }}
             type='text/css' media='all' />
         <link rel='stylesheet' id='js_composer_front-css'
-            href='{{ asset('front_end/wp-content/plugins/js_composer/assets/css/js_composer.min.css') }}' type='text/css'
+            href={{ asset('front_end/wp-content/plugins/js_composer/assets/css/js_composer.min.css') }} type='text/css'
             media='all' />
-        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
+        <script type="text/javascript" src={{ asset('front_end/wp-includes/js/jquery/jquery.min.js') }} id="jquery-core-js">
         </script>
         <script type="text/javascript" id="wd_main_js_functions-js-extra">
-            var devia = {
-                "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "home_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme",
-                "date_format": "d\/m\/Y"
-            };
+            var devia = {};
         </script>
-        <script type="module" src="{{ asset('front_end/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}">
-        </script>
+        <script type="module" src={{ asset('front_end/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}></script>
         <script type="text/javascript" id="wc-add-to-cart-js-extra">
-            var wc_add_to_cart_params = {
-                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                "i18n_view_cart": "View cart",
-                "cart_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/",
-                "is_cart": "",
-                "cart_redirect_after_add": "no"
-            };
+            var wc_add_to_cart_params = {};
         </script>
         <script type="text/javascript" id="woocommerce-js-extra">
-            var woocommerce_params = {
-                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                "i18n_password_show": "Show password",
-                "i18n_password_hide": "Hide password"
-            };
+            var woocommerce_params = {};
         </script>
-        <script type="text/javascript"
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK-lm5gdnsKARlSb10nkRfKoGCycwH49Y&amp;ver=4.4.2"
-            id="googleapis-js"></script>
         <script type="text/javascript" id="simple-auction-countdown-language-js-extra">
             var countdown_language_data = {
                 "labels": {
@@ -1820,35 +1795,9 @@
             };
         </script>
         <script type="text/javascript" id="simple-auction-frontend-js-extra">
-            var data = {
-                "finished": "Auction has finished!",
-                "checking": "Patience please, we are checking if auction is finished!",
-                "gtm_offset": "0",
-                "started": "Auction has started! Please refresh your page.",
-                "no_need": "No need to bid. Your bid is winning! ",
-                "compact_counter": "no",
-                "outbid_message": "\n<ul class=\"woocommerce-error\" role=\"alert\">\n\t\t\t<li>\n\t\t\tYou've been outbid!\t\t<\/li>\n\t<\/ul>\n",
-                "interval": "1"
-            };
-            var SA_Ajax = {
-                "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/services-1\/?wsa-ajax",
-                "najax": "1",
-                "last_activity": "1751156376",
-                "focus": "yes"
-            };
+            var data = {};
+            var SA_Ajax = {};
         </script>
-        <link rel="https://api.w.org/" href="{{ asset('front_end/wp-json/index.html') }}" />
-        <link rel="alternate" title="JSON" type="application/json"
-            href="{{ asset('front_end/wp-json/wp/v2/pages/3289.json') }}" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="{{ asset('front_end/xmlrpc0db0.php?rsd') }}" />
-        <meta name="generator" content="WordPress 6.7.3" />
-        <meta name="generator" content="WooCommerce 10.1.1" />
-        <link rel='shortlink' href='{{ asset('front_end/indexb9a8.html?p=3289') }}' />
-        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-            href="{{ asset('front_end/wp-json/oembed/1.0/embedfb60.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fservices-1%2F') }}" />
-        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-            href="{{ asset('front_end/wp-json/oembed/1.0/embedc084?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fservices-1%2F&amp;format=xml') }}" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62552021-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -1875,9 +1824,6 @@
                 }
             </style>
         </noscript>
-        <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-        <meta name="generator"
-            content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
         <style type="text/css" id="wp-custom-css">
             .text-icon-table.text-icon {
                 max-width: 15px;
@@ -1896,36 +1842,26 @@
                     margin-top: 32px; //max-width:89.375rem}}.brands_form form ul li .select2.select2-container{min-width:auto}@media screen and (min-width:64em){.brands_form form ul li .select2.select2-container{min-width:350px}}
         </style>
         <style type="text/css" data-type="vc_shortcodes-custom-css">
-            .vc_custom_1562174951021 {
-                background-image: url({{ asset('front_end/wp-content/uploads/2019/07/testimonials-backgroundda7b.png?id=3935') }}) !important;
+            .vc_custom_1562324416700 {
+                background-color: #ffc13c !important
+            }
+
+            .vc_custom_1562068680237 {
+                background-image: url("../wp-content/uploads/2019/06/shutterstock_746685397_1-5fc6e.png?id=3363") !important;
                 background-position: center !important;
                 background-repeat: no-repeat !important;
                 background-size: cover !important
             }
 
-            .vc_custom_1562174918695 {
-                margin-top: -440px !important
+            .vc_custom_1562324487483 {
+                padding-left: 50px !important
             }
 
-            .vc_custom_1562674448213 {
-                background-color: #313131 !important;
-                background-position: 0 0 !important;
-                background-repeat: no-repeat !important
-            }
-
-            .vc_custom_1561038794330 {
-                padding-right: 75px !important;
-                padding-left: 75px !important
-            }
-
-            .vc_custom_1561721539670 {
-                margin-left: 50px !important
-            }
-
-            .vc_custom_1561041477277 {
-                background-position: center !important;
-                background-repeat: no-repeat !important;
-                background-size: contain !important
+            .vc_custom_1562325835430 {
+                padding-top: 10px !important;
+                padding-right: 0 !important;
+                padding-bottom: 40px !important;
+                padding-left: 0 !important
             }
         </style><noscript>
             <style>
@@ -1940,7 +1876,7 @@
 @section('body-tag')
 
     <body
-        class="page-template-default page page-id-3289 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+        class="page-template-default page page-id-3284 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
         {{-- <div class="page-loading">
             <div class="spinner-loading">
                 <div class="double-bounce1"></div>
@@ -2240,8 +2176,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div data-vc-full-width="true" data-vc-full-width-init="false"
-                                data-vc-stretch-content="true"
+                            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
                                 class="vc_row wpb_row vc_row-fluid vc_custom_1562324416700 vc_row-has-fill vc_row-o-equal-height vc_row-flex">
                                 <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
                                     <div class="vc_column-inner vc_custom_1562068680237">
@@ -2299,7 +2234,7 @@
 
     @section('script')
         <style id='rs-plugin-settings-inline-css' type='text/css'></style>
-        {{-- <script defer
-            src='{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}'>
-        </script> --}}
+        <script defer
+            src='{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_68d524993a97cfc700a2bf26d32535e5.js') }}'>
+        </script>
     @endsection

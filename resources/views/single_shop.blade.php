@@ -7,22 +7,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
-        <title>{{ $machine->name }} - Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress
-            Theme</title>
+        <title>{{ $machine->name }} - Western Hauliers</title>
         <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
             href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
-        <link rel="canonical" href="index.html" />
+        <link rel="canonical" href="{{ route('shop.single', $machine->id) }}" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title"
-            content="{{ $machine->name }} - Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" />
+        <meta property="og:title" content="{{ $machine->name }} - Western Hauliers" />
         <meta property="og:description"
             content="Mel an esse salutandi, eos wisi nonumes democritum id. Eu affert dolore rationibus mel. Porro vocent ut vel. Rebum deleniti voluptua at sed, ut tollit prodesset eum, ea eos nostrud." />
-        <meta property="og:url" content="index.html" />
-        <meta property="og:site_name"
-            content="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme" />
-        <meta property="article:modified_time" content="2021-05-18T16:04:28+00:00" />
-        <meta property="og:image" content="front_end/wp-content/uploads/2019/06/product_0010__.jpg" />
+        <meta property="og:url" content="{{ route('shop.single', $machine->id) }}" />
+        <meta property="og:site_name" content="Western Hauliers" />
+        <meta property="article:modified_time" content="{{ $machine->updated_at }}" />
+        <meta property="og:image"
+            content="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}" />
         <meta property="og:image:width" content="1000" />
         <meta property="og:image:height" content="760" />
         <meta property="og:image:type" content="image/jpeg" />
@@ -30,15 +28,6 @@
         <link rel='dns-prefetch' href='http://client.crisp.chat/' />
         <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
         <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
-        <link rel="alternate" type="application/rss+xml"
-            title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Feed"
-            href="../../feed/index.html" />
-        <link rel="alternate" type="application/rss+xml"
-            title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; Comments Feed"
-            href="../../comments/feed/index.html" />
-        <link rel="alternate" type="application/rss+xml"
-            title="Backhoe - Heavy &amp; Construction Equipment Rentals &amp; Machinery WordPress Theme &raquo; 35000 &#8211; 39000 lbs, Excavator Comments Feed"
-            href="feed/index.html" />
         <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link rel='stylesheet' id='wp-block-library-css'
             href='{{ asset('front_end/wp-includes/css/dist/block-library/style.min.css') }}' type='text/css'
@@ -1747,11 +1736,11 @@
             }
 
             header.l-header .top-bar-container .top-bar .top-bar-left .logo-wrapper a img {
-                max-height40
+                max-height: 40px
             }
 
             header.l-header.corporate-layout .logo-wrapper a img {
-                max-height40
+                max-height: 40px
             }
 
             header.l-header .top-bar-container.sticky .site-navigation.top-bar .top-bar-left .top-bar-title .logo-wrapper .menu-text,
@@ -1776,121 +1765,29 @@
         <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
         </script>
         <script type="text/javascript" id="wd_main_js_functions-js-extra">
-            var devia = {
-                "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "home_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme",
-                "date_format": "d\/m\/Y"
-            };
+            var devia = {};
         </script>
         <script type="module" src="{{ asset('front_end/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}">
         </script>
         <script type="text/javascript" id="wc-add-to-cart-js-extra">
-            var wc_add_to_cart_params = {
-                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                "i18n_view_cart": "View cart",
-                "cart_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/",
-                "is_cart": "",
-                "cart_redirect_after_add": "no"
-            };
+            var wc_add_to_cart_params = {};
         </script>
         <script type="text/javascript" id="wc-single-product-js-extra">
-            var wc_single_product_params = {
-                "i18n_required_rating_text": "Please select a rating",
-                "i18n_rating_options": ["1 of 5 stars", "2 of 5 stars", "3 of 5 stars", "4 of 5 stars", "5 of 5 stars"],
-                "i18n_product_gallery_trigger_text": "View full-screen image gallery",
-                "review_rating_required": "yes",
-                "flexslider": {
-                    "rtl": false,
-                    "animation": "slide",
-                    "smoothHeight": true,
-                    "directionNav": false,
-                    "controlNav": "thumbnails",
-                    "slideshow": false,
-                    "animationSpeed": 500,
-                    "animationLoop": false,
-                    "allowOneSlide": false
-                },
-                "zoom_enabled": "1",
-                "zoom_options": [],
-                "photoswipe_enabled": "1",
-                "photoswipe_options": {
-                    "shareEl": false,
-                    "closeOnScroll": false,
-                    "history": false,
-                    "hideAnimationDuration": 0,
-                    "showAnimationDuration": 0
-                },
-                "flexslider_enabled": ""
-            };
+            var wc_single_product_params = {};
         </script>
         <script type="text/javascript" id="woocommerce-js-extra">
-            var woocommerce_params = {
-                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                "i18n_password_show": "Show password",
-                "i18n_password_hide": "Hide password"
-            };
+            var woocommerce_params = {};
         </script>
         <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK-lm5gdnsKARlSb10nkRfKoGCycwH49Y&amp;ver=4.4.2"
             id="googleapis-js"></script>
         <script type="text/javascript" id="simple-auction-countdown-language-js-extra">
-            var countdown_language_data = {
-                "labels": {
-                    "Years": "Years",
-                    "Months": "Months",
-                    "Weeks": "Weeks",
-                    "Days": "Days",
-                    "Hours": "Hours",
-                    "Minutes": "Minutes",
-                    "Seconds": "Seconds"
-                },
-                "labels1": {
-                    "Year": "Year",
-                    "Month": "Month",
-                    "Week": "Week",
-                    "Day": "Day",
-                    "Hour": "Hour",
-                    "Minute": "Minute",
-                    "Second": "Second"
-                },
-                "compactLabels": {
-                    "y": "y",
-                    "m": "m",
-                    "w": "w",
-                    "d": "d"
-                }
-            };
+            var countdown_language_data = {};
         </script>
         <script type="text/javascript" id="simple-auction-frontend-js-extra">
-            var data = {
-                "finished": "Auction has finished!",
-                "checking": "Patience please, we are checking if auction is finished!",
-                "gtm_offset": "0",
-                "started": "Auction has started! Please refresh your page.",
-                "no_need": "No need to bid. Your bid is winning! ",
-                "compact_counter": "no",
-                "outbid_message": "\n<ul class=\"woocommerce-error\" role=\"alert\">\n\t\t\t<li>\n\t\t\tYou've been outbid!\t\t<\/li>\n\t<\/ul>\n",
-                "interval": "1"
-            };
-            var SA_Ajax = {
-                "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/product\/telescopic-handler-copy-4\/?wsa-ajax",
-                "najax": "1",
-                "last_activity": "1751156376",
-                "focus": "yes"
-            };
+            var data = {};
+            var SA_Ajax = {};
         </script>
-        <link rel="https://api.w.org/" href="../../wp-json/index.html" />
-        <link rel="alternate" title="JSON" type="application/json" href="../../wp-json/wp/v2/product/3701.json" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
-        <meta name="generator" content="WordPress 6.7.3" />
-        <meta name="generator" content="WooCommerce 10.1.1" />
-        <link rel='shortlink' href='../../indexc5ac.html?p=3701' />
-        <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-            href="../../wp-json/oembed/1.0/embeda6da.json?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fproduct%2Ftelescopic-handler-copy-4%2F" />
-        <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-            href="../../wp-json/oembed/1.0/embed6a36?url=https%3A%2F%2Fthemes.webdevia.com%2Fbackhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme%2Fproduct%2Ftelescopic-handler-copy-4%2F&amp;format=xml" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62552021-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -1958,7 +1855,7 @@
         <section class="titlebar">
             <div class="row">
                 <div class="large-12 columns">
-                    <h1 id="page-title" class="title">Shop</h1>
+                    <h1 id="page-title" class="title">{{ $machine->name }}</h1>
                 </div>
             </div>
         </section>
@@ -2524,22 +2421,6 @@
                 </div>
             </div>
         </div>
-        <script type='text/javascript'>
-            (function() {
-                var c = document.body.className;
-                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-                document.body.className = c;
-            })();
-        </script>
-        <link rel='stylesheet' id='wc-blocks-style-css'
-            href="{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3c68ad9b345b9b2f5fc71372d90cb3b9.css') }}"
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='rs-plugin-settings-css'
-            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}'
-            type='text/css' media='all' />
-        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/hooks.min.js') }}" id="wp-hooks-js">
-        </script>
-        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/i18n.min.js') }}" id="wp-i18n-js">
         </script>
         <script defer
             src="{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_1224a3685c24c4d21b1a0bd0921f3651.js') }}">

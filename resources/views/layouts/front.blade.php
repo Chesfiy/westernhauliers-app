@@ -128,8 +128,8 @@
                                         <ul class="submenu is-dropdown-submenu ">
                                             <li
                                                 class=" menu-item menu-item-type-post_type menu-item-object-page    color-3 ">
-                                                <a href="{{ route('shop') }}">Locations</a><svg width="100px" height="100px"
-                                                    viewBox="0 0 100 100" version="1.1"
+                                                <a href="{{ route('shop') }}">Locations</a><svg width="100px"
+                                                    height="100px" viewBox="0 0 100 100" version="1.1"
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" class="menu_arrow">
                                                     <path
@@ -278,10 +278,11 @@
                                             <a href="#">Product types</a>
                                             <ul class="vertical nested menu">
                                                 @foreach ($menuCategories['categoryTypes'] as $categoryType)
-                                                <li id="menu-item-5350"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5350">
-                                                    <a href="{{ route('shop', ['category_type' => $categoryType->id]) }}">{{ $categoryType->name }}</a>
-                                                </li>
+                                                    <li id="menu-item-5350"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5350">
+                                                        <a
+                                                            href="{{ route('shop', ['category_type' => $categoryType->id]) }}">{{ $categoryType->name }}</a>
+                                                    </li>
                                                 @endforeach
                                             </ul>
                                         </li>
@@ -459,7 +460,7 @@
     <footer class="second-footer">
         <div class="row">
             <div class="copyright medium-12 large-12 columns">
-                <div class="block text-center"> © 2025 Chesifylabs All rights reserved.</div>
+                <div class="block text-center"> © 2026 Western Hauliers All rights reserved.</div>
             </div>
         </div>
     </footer>
@@ -567,10 +568,12 @@
         "currency_format": "%s%v"
     };
 </script>
+
+@yield('script')
+
 <script defer
     src="{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_28cd284969ec242ad5a906a35fc647ca.js') }}">
 </script>
-@yield('script')
 </body>
 
 </html>

@@ -3,25 +3,25 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Machine extends Model
 {
     protected $table = 'machines';
 
     /** @use HasFactory<\Database\Factories\UserFactory> */
-    //use HasFactory, Notifiable;
+    // use HasFactory, Notifiable;
 
     /**
      * The attributes that are mass assignable.
      *
      * @var list<string>
      */
-
     protected $casts = [
-    'is_for_sale' => 'boolean',
-    'is_for_rent' => 'boolean',
+        'is_for_sale' => 'boolean',
+        'is_for_rent' => 'boolean',
     ];
-    
+
     protected $fillable = [
         'id',
         'name',
@@ -58,6 +58,7 @@ class Machine extends Model
     {
         return $this->belongsTo(CategoryType::class, 'category_type_id');
     }
+
     public function model()
     {
         return $this->belongsTo(MachineModel::class, 'model_id');
@@ -77,10 +78,12 @@ class Machine extends Model
     {
         return $this->morphMany(Album::class, 'pictureable');
     }
+
     public function machineFeatures()
     {
         return $this->hasMany(MachineFeature::class, 'machine_id');
     }
+
     public function machineProperties()
     {
         return $this->hasMany(MachineProperty::class, 'machine_id');
@@ -91,10 +94,18 @@ class Machine extends Model
         return $this->hasMany(Employee::class, 'machine_id');
     }
 
-
     public function quotations()
     {
         return $this->hasMany(Quotation::class, 'machine_id');
     }
 
+    public function relatedMachines(): BelongsToMany
+    {
+        return $this->belongsToMany(
+            Machine::class,      // The related model
+            'machine_related',   // The pivot table name
+            'machine_id',        // Foreign key on pivot for this model
+            'related_id'         // Foreign key on pivot for the related model
+        );
+    }
 }

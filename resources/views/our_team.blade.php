@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
             /><style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
-        <title>Services - Western Hauliers</title>
+        <title>Our team - Western Hauliers</title>
         <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
             href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
         <link rel="canonical" href="index.html" />
@@ -1953,12 +1953,12 @@
         <section class="titlebar ">
             <div class="row">
                 <div>
-                    <h2 id="page-title" class="title">Our Services</h2>
+                    <h2 id="page-title" class="title">Our Team</h2>
                 </div>
                 <div>
                     <ul class="breadcrumbs">
                         <li><a href="{{ route('index') }}">Home</a></li>
-                        <li><strong> Services</strong></li>
+                        <li><strong> Our Team</strong></li>
                     </ul>
                 </div>
             </div>

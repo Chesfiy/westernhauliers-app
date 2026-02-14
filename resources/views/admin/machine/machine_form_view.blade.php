@@ -12,20 +12,20 @@
                     <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary m-2">New</a>
                     <a type="submit" href="{{ route('admin.showMachines') }}" class="btn m-2">Cancel</a>
                 </div>
-                <!-- <div class="flex-grow-1">
-                                                                    <ol class="breadcrumb">
-                                                                        <li class="breadcrumb-item active"><a href="{{ route('admin.showMachines') }}">Machines</a></li>
-                                                                    </ol>
-                                                                    <i class="bi bi-clock-fill me-1"></i>
-                                                                </div>
-                                                                <div class="flex-shrink-0">
-                                                                    <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary mb-2">New</a>
-                                                                </div> -->
-            </div>
+                {{-- <div class="flex-grow-1">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active"><a href="{{ route('admin.showMachines') }}">Machines</a></li>
+                    </ol>
+                    <i class="bi bi-clock-fill me-1"></i>
+                </div>
+                <div class="flex-shrink-0">
+                    <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary mb-2">New</a>
+                </div>
+            </div> --}}
 
-            <!--end::End Navbar Links-->
-        </div>
-        <!--end::Container-->
+                <!--end::End Navbar Links-->
+            </div>
+            <!--end::Container-->
     </nav>
 @endsection
 
@@ -145,7 +145,7 @@
                                     <option value=""></option>
                                     @foreach (App\Models\Fuel::all() as $fuel)
                                         <option required value="{{ $fuel->id }}"
-                                            {{ isset($categoryType) && $categoryType->category_id == $fuel->category_id ? 'selected' : '' }}>
+                                            {{ isset($machine) && $machine->fuel_id == $fuel->id ? 'selected' : '' }}>
                                             {{ $fuel->name }}
                                         </option>
                                     @endforeach
@@ -159,7 +159,7 @@
                                     <option value=""></option>
                                     @foreach (App\Models\Brand::all() as $brand)
                                         <option required value="{{ $brand->id }}"
-                                            {{ isset($categoryType) && $categoryType->category_id == $brand->category_id ? 'selected' : '' }}>
+                                            {{ isset($machine) && $machine->brand_id == $brand->id ? 'selected' : '' }}>
                                             {{ $brand->name }}
                                         </option>
                                     @endforeach
@@ -179,13 +179,28 @@
                         <div class="mb-3 form-check">
                             <label class="form-check-label" for="exampleCheck1">For sale</label>
                             <input type="checkbox" name="is_for_sale" value="0" id="isSale"
-                                                {{ old('is_sale') ? 'checked' : '' }} />
+                                {{ old('is_sale') ? 'checked' : '' }} />
                         </div>
                         <div class="mb-3 form-check">
                             <label class="form-check-label" for="exampleCheck2">For rent</label>
                             <input type="checkbox" name="is_for_rent" value="0" id="isRent"
-                                                {{ old('is_rent') ? 'checked' : '' }} />
+                                {{ old('is_rent') ? 'checked' : '' }} />
                         </div>
+                        <div class="mb-3">
+                            <label for="related_machines" class="form-label">Select Related Machines</label>
+                            <select 
+                                class="form-select select2-multiple" 
+                                name="related_machines[]" 
+                                id="related_machines" 
+                                multiple="multiple" 
+                                data-placeholder="Choose machines to link..."
+                            >
+                                @foreach($allMachines as $machine)
+                                    <option value="{{ $machine->id }}">{{ $machine->name }}</option>
+                                @endforeach
+                            </select>
+                            <div class="form-text">You can select multiple machines to show during ordering.</div>
+                    </div>
                     </div>
                 </div>
                 <div class="row mb-3">
@@ -315,7 +330,7 @@
                                             <input type="number" step="0.01" name="sale_price"
                                                 placeholder="Sale Price"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
+                                                id="inputPrice" disabled />
                                         </div>
                                     </div>
                                     <div class="row mb-2">
@@ -346,7 +361,7 @@
                                             <input type="number" step="0.01" name="rental_price_per_hour"
                                                 placeholder="eg: 200000.00"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
+                                                id="inputPrice" disabled />
                                         </div>
                                     </div>
                                     <div class="row mb-2">
@@ -365,7 +380,7 @@
                                             <input type="number" step="0.01" name="rental_price_per_week"
                                                 placeholder="eg: 1000000.00"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
+                                                id="inputPrice" disabled />
                                         </div>
                                     </div>
                                     <div class="row mb-2">
@@ -374,7 +389,7 @@
                                             <input type="number" step="0.01" name="rental_price_per_month"
                                                 placeholder="eg:3500000.00"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPrice" disabled/>
+                                                id="inputPrice" disabled />
                                         </div>
                                     </div>
                                 </div>
@@ -395,6 +410,16 @@
 @endsection
 
 @section('script')
+    <script>
+        $(document).ready(function() {
+            $('.select2-multiple').select2({
+                theme: 'bootstrap-5',
+                width: '100%',
+                placeholder: $(this).data('placeholder'),
+                closeOnSelect: false,
+            });
+        });
+    </script>
     <script>
         // Custom JavaScript can be added here
         document.getElementById('fileInput').onchange = evt => {
@@ -431,7 +456,7 @@
 
         document.getElementById('isRent').addEventListener('change', function() {
             if (this.checked) {
-                if(document.getElementById('isSale').checked){
+                if (document.getElementById('isSale').checked) {
                     document.getElementById('inputPrice').disabled = false;
                     document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {
                         input.disabled = false;
@@ -451,12 +476,12 @@
         });
         document.getElementById('isSale').addEventListener('change', function() {
             if (this.checked) {
-                if(document.getElementById('isRent').checked){
+                if (document.getElementById('isRent').checked) {
                     document.getElementById('inputPrice').disabled = false;
                     document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {
                         input.disabled = false;
                     });
-                    
+
                 }
                 document.getElementById('inputPrice').disabled = false;
                 document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {

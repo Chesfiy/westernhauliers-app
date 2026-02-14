@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AdminSettingsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\UserController;
@@ -126,6 +127,15 @@ Route::middleware('admin')->group(function () {
     Route::get('/view_quotations/{id}/edit', [AdminController::class, 'editQuotation'])->name('admin.editQuotation');
     Route::put('/view_quotations/{id}', [AdminController::class, 'updateQuotation'])->name('admin.updateQuotation');
     Route::delete('/view_quotation/{id}', [AdminController::class, 'deleteQuotation'])->name('admin.deleteQuotation');
+
+    Route::get('/settings', [AdminSettingsController::class, 'index'])->name('admin.settings');
+
+    Route::get('/new_user', [AdminSettingsController::class, 'newUser'])->name('admin.settings.newUser');
+    Route::post('/settings/store/user', [AdminSettingsController::class, 'storeUser'])->name('admin.settings.storeUser');
+    Route::get('/settings/users', [AdminSettingsController::class, 'showUsers'])->name('admin.settings.users');
+    Route::get('/settings/user/{id}/edit', [AdminSettingsController::class, 'editUser'])->name('admin.settings.editUser');
+    Route::put('/settings/user/{id}', [AdminSettingsController::class, 'updateUser'])->name('admin.settings.updateUser');
+
 });
 
 require __DIR__.'/auth.php';

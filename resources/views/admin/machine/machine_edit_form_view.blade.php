@@ -12,15 +12,6 @@
                     <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary m-2">New</a>
                     <a type="submit" href="{{ route('admin.showMachines') }}" class="btn m-2">Cancel</a>
                 </div>
-                <!-- <div class="flex-grow-1">
-                                                        <ol class="breadcrumb">
-                                                            <li class="breadcrumb-item active"><a href="{{ route('admin.showMachines') }}">Machines</a></li>
-                                                        </ol>
-                                                        <i class="bi bi-clock-fill me-1"></i>
-                                                    </div>
-                                                    <div class="flex-shrink-0">
-                                                        <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary mb-2">New</a>
-                                                    </div> -->
             </div>
 
             <!--end::End Navbar Links-->
@@ -128,13 +119,36 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">State</label>
+                            <div class="col-sm-10">
+                                <select name="state" class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                    @php
+
+                                        $stateOptions = ['new', 'rented', 'sold', 'available', 'maintenance'];
+                                        $currentValue = old('state', $machine->state ?? 'rented');
+                                        foreach ($stateOptions as $state) {
+                                            $selected = $currentValue == $state ? 'selected' : '';
+                                            echo '<option value="' .
+                                                $state .
+                                                '" ' .
+                                                $selected .
+                                                '>' .
+                                                ucwords($state) .
+                                                '</option>';
+                                        }
+
+                                    @endphp
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
                             <label for="inputPassword3" class="col-sm-2 col-form-label">Power</label>
                             <div class="col-sm-10">
                                 <select name="fuel_id" class="form-control border-0 border-bottom rounded-0 shadow-none">
                                     <option value=""></option>
                                     @foreach (App\Models\Fuel::all() as $fuel)
                                         <option required value="{{ $fuel->id }}"
-                                            {{ isset($machine->$fuel) && $machine->fuel_id == $fuel->id ? 'selected' : '' }}>
+                                            {{ isset($machine->fuel) && $machine->fuel_id == $fuel->id ? 'selected' : '' }}>
                                             {{ $fuel->name }}
                                         </option>
                                     @endforeach
@@ -167,6 +181,20 @@
                             <label class="form-check-label" for="isRent">For rent</label>
                             <input type="checkbox" name="is_for_rent" id="isRent" value="1"
                                 {{ old('is_for_rent', $machine->is_for_rent ?? false) ? 'checked' : '' }} />
+                        </div>
+                        <div class="mb-3">
+                            <label for="related_machines" class="form-label">Select Related Machines</label>
+                            <select class="form-select select2-multiple" name="related_machines[]" id="related_machines"
+                                multiple="multiple" data-placeholder="Choose machines to link...">
+                                @foreach ($allMachines as $machine)
+                                    <option
+                                        value="{{ $machine->id }}"
+                                        {{ in_array($machine->id, $machine->relatedMachines->pluck('id')->toArray()) ? 'selected' : '' }}>
+                                        {{ $machine->name }}
+                                    </option>
+                                @endforeach
+                            </select>
+                            <div class="form-text">You can select multiple machines to show during ordering.</div>
                         </div>
                     </div>
                 </div>
@@ -400,6 +428,16 @@
 @endsection
 
 @section('script')
+    <script>
+        $(document).ready(function() {
+            $('.select2-multiple').select2({
+                theme: 'bootstrap-5',
+                width: '100%',
+                placeholder: $(this).data('placeholder'),
+                closeOnSelect: false,
+            });
+        });
+    </script>
     <script>
         // Custom JavaScript can be added here
         document.getElementById('fileInput').onchange = evt => {
