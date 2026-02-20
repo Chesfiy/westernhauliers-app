@@ -1950,7 +1950,7 @@
                                                     <div class="vc_single_image-wrapper   vc_box_border_grey"><img
                                                             fetchpriority="high" decoding="async"
                                                             class="vc_single_image-img "
-                                                            src="{{ asset('front_end/wp-content/uploads/2019/06/moved-img-1%402x-620x480.jpg') }}"
+                                                            src="{{ asset('front_end/wp-content/uploads/machines/Western_Hauliers_about_Image_1.jpeg') }}"
                                                             width="620" height="480" alt="moved-img-1@2x"
                                                             title="moved-img-1@2x" /></div>
                                                 </figure>
@@ -2363,9 +2363,9 @@
                                                 <h3 style="margin:0;color:#000000;" class="title_b"
                                                     data-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.">
                                                     We are the best in the business</h3>
-                                                <p style="color:#000000;" class="sub_title_b"> Lorem ipsum dolor sit
-                                                    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                                    ut labore et dolore.</p>
+                                                <p style="color:#000000;" class="sub_title_b"> Not only we keep everybody
+                                                    safe and sound, we also make sure that we deliver the best quality of
+                                                    work.</p>
                                             </div>
                                             <div class='wd_empty_space' data-heightmobile='15' data-heighttablet='15'
                                                 data-heightdesktop='15' style='height:15px'></div>
@@ -2637,8 +2637,7 @@
                                                     <article
                                                         class="wd-post wd-post--without-thumbnail  post-258 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
                                                         <div class="wd-post__content">
-                                                            <h3 class="wd-post__title"> <a
-                                                                    href="../blog/2019/08/28/best-practices-of-hr-management/index.html">Oil
+                                                            <h3 class="wd-post__title"> <a href="javascript:void(0)">Oil
                                                                     & Gas</a></h3>
                                                         </div>
                                                     </article>
@@ -2648,7 +2647,7 @@
                                                         class="wd-post wd-post--without-thumbnail  post-260 post type-post status-publish format-standard has-post-thumbnail hentry category-updates">
                                                         <div class="wd-post__content">
                                                             <h3 class="wd-post__title"> <a
-                                                                    href="../blog/2019/03/30/10-tips-to-find-best-backhoe/index.html">Construction
+                                                                    href="javascript:void(0)">Construction
                                                                     & Infrastructure</a></h3>
                                                         </div>
                                                     </article>
@@ -2711,13 +2710,13 @@
                                                 <figure class="wpb_wrapper vc_figure">
                                                     <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                         <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="{{ asset('front_end/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-560x515.png') }}"
+                                                                src="{{ asset('front_end/wp-content/uploads/machines/Western_Hauliers_about_Image_2.jpeg') }}"
                                                                 width="560" height="515"
                                                                 alt="photo-1505082527911-33423132c73d"
                                                                 title="photo-1505082527911-33423132c73d" /></noscript><img
                                                             decoding="async" class="lazyload vc_single_image-img "
                                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20560%20515%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-560x515.png"
+                                                            data-src="{{ asset('front_end/wp-content/uploads/machines/Western_Hauliers_about_Image_2.jpeg') }}"
                                                             width="560" height="515"
                                                             alt="photo-1505082527911-33423132c73d"
                                                             title="photo-1505082527911-33423132c73d" />
@@ -2728,13 +2727,13 @@
                                                 <figure class="wpb_wrapper vc_figure">
                                                     <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                         <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="{{ asset('front_end/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-560x515.png') }}"
+                                                                src="{{ asset('front_end/wp-content/uploads/machines/Western_Hauliers_about_Image_3.jpeg') }}"
                                                                 width="560" height="515"
                                                                 alt="photo-1505082527911-33423132c73d"
                                                                 title="photo-1505082527911-33423132c73d" /></noscript><img
                                                             decoding="async" class="lazyload vc_single_image-img "
                                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20560%20515%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/photo-1505082527911-33423132c73d-560x515.png"
+                                                            data-src="{{ asset('front_end/wp-content/uploads/machines/Western_Hauliers_about_Image_3.jpeg') }}"
                                                             width="560" height="515"
                                                             alt="photo-1505082527911-33423132c73d"
                                                             title="photo-1505082527911-33423132c73d" />
@@ -2761,7 +2760,7 @@
                                                         alt="" /></noscript><img decoding="async" width="62"
                                                     height="62"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2062%2062%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/champion-2842_fcb453b6-d2d7-4d18-b67f-ecc793150b3f.png"
+                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/06/champion-2842_fcb453b6-d2d7-4d18-b67f-ecc793150b3f.png') }}"
                                                     class="lazyload attachment-thumbnail size-thumbnail" alt="" />
                                                 <h3 class="wd-count-up__counter small-heading" data-file="15"
                                                     style = 'color: #ffffff'> 15</h3>
@@ -2785,7 +2784,7 @@
                                                         alt="" /></noscript><img decoding="async"
                                                     width="62" height="50"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2062%2050%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2715_cef8922e-7aa0-4ddd-96a7-34fde8bdc608.png"
+                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/06/team-2715_cef8922e-7aa0-4ddd-96a7-34fde8bdc608.png') }}"
                                                     class="lazyload attachment-thumbnail size-thumbnail"
                                                     alt="" />
                                                 <h3 class="wd-count-up__counter small-heading" data-file="1024"
@@ -2810,7 +2809,7 @@
                                                         alt="" /></noscript><img decoding="async"
                                                     width="50" height="62"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2050%2062%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/spacecraft-3240_6a607206-a24b-4dbf-90db-0994df49b8c2.png"
+                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/06/spacecraft-3240_6a607206-a24b-4dbf-90db-0994df49b8c2.png') }}"
                                                     class="lazyload attachment-thumbnail size-thumbnail"
                                                     alt="" />
                                                 <h3 class="wd-count-up__counter small-heading" data-file="1024"
@@ -2835,7 +2834,7 @@
                                                         alt="" /></noscript><img decoding="async"
                                                     width="64" height="64"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2064%2064%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/safe-2291_ffa36413-4b0a-4d71-b890-8c672e1bac8c.png"
+                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/06/safe-2291_ffa36413-4b0a-4d71-b890-8c672e1bac8c.png') }}"
                                                     class="lazyload attachment-thumbnail size-thumbnail"
                                                     alt="" />
                                                 <h3 class="wd-count-up__counter small-heading" data-file="99"
@@ -2870,20 +2869,21 @@
                                                     <div class="team-member">
                                                         <div class="team-member__picture"> <noscript><img
                                                                     decoding="async" width="800" height="873"
-                                                                    src="{{ asset('front_end/wp-content/uploads/2019/06/team-1.jpg') }}"
+                                                                    src="{{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }}"
                                                                     class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                     alt=""
-                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-295x322.jpg 295w"
+                                                                    srcset="{{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 295w"
                                                                     sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
                                                                 decoding="async" width="800" height="873"
                                                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
-                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1.jpg"
+                                                                data-src="{{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }}"
                                                                 class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                 alt=""
-                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-1-295x322.jpg 295w"
+                                                                data-srcset="{{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Abubakar Khalifa Khamisi.jpg') }} 295w"
                                                                 data-sizes="(max-width: 800px) 100vw, 800px" /></div>
                                                         <div class="team-member__info">
-                                                            <h4 class="team-member__name"><span>Haaris Garrison</span>
+                                                            <h4 class="team-member__name"><span>Abubakar Khalifa
+                                                                    Khamisi</span>
                                                             </h4>
                                                             <p class="team-member__job"><span>COE & Founder</span></p>
                                                         </div>
@@ -2923,20 +2923,20 @@
                                                     <div class="team-member">
                                                         <div class="team-member__picture"> <noscript><img
                                                                     decoding="async" width="800" height="873"
-                                                                    src="{{ asset('front_end/wp-content/uploads/2019/06/team-2.jpg') }}"
+                                                                    src="{{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }}"
                                                                     class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                     alt=""
-                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-295x322.jpg 295w"
+                                                                    srcset="{{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 295w"
                                                                     sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
                                                                 decoding="async" width="800" height="873"
                                                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
-                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg"
+                                                                data-src="{{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }}"
                                                                 class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                 alt=""
-                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-2-295x322.jpg 295w"
+                                                                data-srcset="{{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Abdallah Hamed Ally.jpg') }} 295w"
                                                                 data-sizes="(max-width: 800px) 100vw, 800px" /></div>
                                                         <div class="team-member__info">
-                                                            <h4 class="team-member__name"><span>Olivia Trejo</span>
+                                                            <h4 class="team-member__name"><span>Abdallah Hamed Ally</span>
                                                             </h4>
                                                             <p class="team-member__job"><span>CTO</span></p>
                                                         </div>
@@ -2976,20 +2976,21 @@
                                                     <div class="team-member">
                                                         <div class="team-member__picture"> <noscript><img
                                                                     decoding="async" width="800" height="873"
-                                                                    src="{{ asset('front_end/wp-content/uploads/2019/06/team-4.jpg') }}"
+                                                                    src="{{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }}"
                                                                     class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                     alt=""
-                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-295x322.jpg 295w"
+                                                                    srcset="{{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 295w"
                                                                     sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
                                                                 decoding="async" width="800" height="873"
                                                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
-                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg"
+                                                                data-src="{{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }}"
                                                                 class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                 alt=""
-                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-4-295x322.jpg 295w"
+                                                                data-srcset="{{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Jenipher-Joseph-Minja.jpg') }} 295w"
                                                                 data-sizes="(max-width: 800px) 100vw, 800px" /></div>
                                                         <div class="team-member__info">
-                                                            <h4 class="team-member__name"><span>Sammy Lovell</span>
+                                                            <h4 class="team-member__name"><span>Jenipher Joseph
+                                                                    Minja</span>
                                                             </h4>
                                                             <p class="team-member__job"><span>Product Manager</span>
                                                             </p>
@@ -3030,20 +3031,21 @@
                                                     <div class="team-member">
                                                         <div class="team-member__picture"> <noscript><img
                                                                     decoding="async" width="800" height="873"
-                                                                    src="{{ asset('front_end/wp-content/uploads/2019/06/team-3.jpg') }}"
+                                                                    src="{{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }}"
                                                                     class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                     alt=""
-                                                                    srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-295x322.jpg 295w"
+                                                                    srcset="{{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 295w"
                                                                     sizes="(max-width: 800px) 100vw, 800px" /></noscript><img
                                                                 decoding="async" width="800" height="873"
                                                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20873%22%3E%3C/svg%3E'
-                                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg"
+                                                                data-src="{{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }}"
                                                                 class="lazyload attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                                                 alt=""
-                                                                data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3.jpg 800w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-275x300.jpg 275w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-768x838.jpg 768w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/team-3-295x322.jpg 295w"
+                                                                data-srcset="{{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 800w, {{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 275w, {{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 768w, {{ asset('front_end/wp-content/uploads/our-team/Ayoub-Moh_d-Kimbache-(WTL).jpg') }} 295w"
                                                                 data-sizes="(max-width: 800px) 100vw, 800px" /></div>
                                                         <div class="team-member__info">
-                                                            <h4 class="team-member__name"><span>Robson Garza</span>
+                                                            <h4 class="team-member__name"><span>Ayoub Mohamed
+                                                                    Kimbache</span>
                                                             </h4>
                                                             <p class="team-member__job"><span>Project Manager</span>
                                                             </p>
@@ -3107,7 +3109,8 @@
 
         <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/hooks.min.js') }}" id="wp-hooks-js">
         </script>
-        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/i18n.min.js') }}" id="wp-i18n-js"></script>
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/i18n.min.js') }}" id="wp-i18n-js">
+        </script>
         <script defer
             src="{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}">
         </script>

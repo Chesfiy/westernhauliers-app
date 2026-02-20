@@ -2191,12 +2191,12 @@
                                                 <figure class="wpb_wrapper vc_figure">
                                                     <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                         <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
+                                                                src="{{ asset('front_end/wp-content/uploads/machines/Mobile_Crane.jpeg') }}"
                                                                 width="578" height="704" alt="moved-img-1@2x"
                                                                 title="moved-img-1@2x" /></noscript><img decoding="async"
                                                             class="lazyload vc_single_image-img "
                                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
+                                                            data-src="{{ asset('front_end/wp-content/uploads/machines/Mobile_Crane.jpeg') }}"
                                                             width="578" height="704" alt="moved-img-1@2x"
                                                             title="moved-img-1@2x" />
                                                     </div>
@@ -2215,12 +2215,12 @@
                                                 <figure class="wpb_wrapper vc_figure">
                                                     <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                         <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                src="{{ asset('front_end/wp-content/uploads/machines/Forklift.jpeg') }}"
                                                                 width="578" height="704" alt="compactor"
                                                                 title="compactor" /></noscript><img decoding="async"
                                                             class="lazyload vc_single_image-img "
                                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                            data-src="{{ asset('front_end/wp-content/uploads/machines/Forklift.jpeg') }}"
                                                             width="578" height="704" alt="compactor"
                                                             title="compactor" />
                                                     </div>
@@ -2345,12 +2345,12 @@
                                                 <figure class="wpb_wrapper vc_figure">
                                                     <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                         <noscript><img decoding="async" class="vc_single_image-img "
-                                                                src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                src="{{ asset('front_end/wp-content/uploads/machines/Manlifts_2.jpeg') }}"
                                                                 width="578" height="704" alt="compactor"
                                                                 title="compactor" /></noscript><img decoding="async"
                                                             class="lazyload vc_single_image-img "
                                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                            data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                            data-src="{{ asset('front_end/wp-content/uploads/machines/Manlifts_2.jpeg') }}"
                                                             width="578" height="704" alt="compactor"
                                                             title="compactor" />
                                                     </div>
@@ -2498,9 +2498,9 @@
                                                             <g>
                                                                 <path
                                                                     d="M384.001,53.333V10.667c0-4.354-2.646-8.281-6.688-9.896C376.022,0.25,374.668,0,373.335,0
-                                                                                                                                 c-2.854,0-5.646,1.146-7.708,3.292L130.96,248.625c-3.937,4.125-3.937,10.625,0,14.75l234.667,245.333
-                                                                                                                                 c3.021,3.146,7.646,4.167,11.688,2.521c4.042-1.615,6.688-5.542,6.688-9.896v-42.667c0-2.729-1.042-5.354-2.917-7.333L196.022,256
-                                                                                                                                 L381.085,60.667C382.96,58.688,384.001,56.063,384.001,53.333z">
+                                                                                                                                                     c-2.854,0-5.646,1.146-7.708,3.292L130.96,248.625c-3.937,4.125-3.937,10.625,0,14.75l234.667,245.333
+                                                                                                                                                     c3.021,3.146,7.646,4.167,11.688,2.521c4.042-1.615,6.688-5.542,6.688-9.896v-42.667c0-2.729-1.042-5.354-2.917-7.333L196.022,256
+                                                                                                                                                     L381.085,60.667C382.96,58.688,384.001,56.063,384.001,53.333z">
                                                                 </path>t
                                                             </g>
                                                         </g>
@@ -2514,9 +2514,9 @@
                                                             <g>
                                                                 <path
                                                                     d="M381.048,248.633L146.381,3.299c-3.021-3.146-7.646-4.167-11.688-2.521c-4.042,1.615-6.688,5.542-6.688,9.896v42.667
-                                                                                                                                 c0,2.729,1.042,5.354,2.917,7.333l185.063,195.333L130.923,451.341c-1.875,1.979-2.917,4.604-2.917,7.333v42.667
-                                                                                                                                 c0,4.354,2.646,8.281,6.688,9.896c1.292,0.521,2.646,0.771,3.979,0.771c2.854,0,5.646-1.146,7.708-3.292l234.667-245.333
-                                                                                                                                 C384.986,259.258,384.986,252.758,381.048,248.633z">
+                                                                                                                                                     c0,2.729,1.042,5.354,2.917,7.333l185.063,195.333L130.923,451.341c-1.875,1.979-2.917,4.604-2.917,7.333v42.667
+                                                                                                                                                     c0,4.354,2.646,8.281,6.688,9.896c1.292,0.521,2.646,0.771,3.979,0.771c2.854,0,5.646-1.146,7.708-3.292l234.667-245.333
+                                                                                                                                                     C384.986,259.258,384.986,252.758,381.048,248.633z">
                                                                 </path>
                                                             </g>
                                                         </g>
@@ -2529,7 +2529,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                            <div data-vc-full-width="true" style="margin-top: 100px;" data-vc-full-width-init="false"
+                                data-vc-stretch-content="true"
                                 class="vc_row wpb_row vc_row-fluid moved-box__top vc_custom_1562674448213 vc_row-has-fill">
                                 <div class="wpb_column vc_column_container vc_col-sm-5 vc_col-has-fill">
                                     <div class="vc_column-inner vc_custom_1561041477277">
@@ -2592,8 +2593,70 @@
     @endsection
 
     @section('script')
+        <script data-noptimize="1">
+            window.lazySizesConfig = window.lazySizesConfig || {};
+            window.lazySizesConfig.loadMode = 1;
+        </script>
+        <script async data-noptimize="1" src='../wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js'></script>
+        <script type='text/javascript'>
+            (function() {
+                var c = document.body.className;
+                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+                document.body.className = c;
+            })();
+        </script>
+        <link rel='stylesheet' id='wc-blocks-style-css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3c68ad9b345b9b2f5fc71372d90cb3b9.css') }}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='rs-plugin-settings-css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}'
+            type='text/css' media='all' />
         <style id='rs-plugin-settings-inline-css' type='text/css'></style>
-        {{-- <script defer
-            src='{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}'>
-        </script> --}}
+        <script type="text/javascript" id="wd_demo_panel_script-js-extra">
+            var demo_panel_vars = {};
+        </script>
+        <script type="text/javascript" id="backhoe_booking_default_js-js-extra">
+            var urltheme = {};
+        </script>
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/hooks.min.js') }}" id="wp-hooks-js">
+        </script>
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/i18n.min.js') }}" id="wp-i18n-js"></script>
+        <script type="text/javascript" id="wp-i18n-js-after">
+            wp.i18n.setLocaleData({
+                'text direction\u0004ltr': ['ltr']
+            });
+        </script>
+        <script type="text/javascript" id="contact-form-7-js-before">
+            var wpcf7 = {
+                "api": {}
+            };
+        </script>
+        <script type="text/javascript" id="wd_buy_script-js-extra">
+            var buy_custom_html = {};
+        </script>
+        <script type="text/javascript" id="crisp-js-before">
+            window.$crisp = [];
+            if (!window.CRISP_RUNTIME_CONFIG) {
+                window.CRISP_RUNTIME_CONFIG = {}
+            }
+            if (!window.CRISP_RUNTIME_CONFIG.locale) {
+                window.CRISP_RUNTIME_CONFIG.locale = 'en-us'
+            }
+            CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
+        </script>
+        <script type="text/javascript" id="wd-script-js-extra">
+            var urltheme = {};
+        </script>
+        <script type="text/javascript" id="wc-order-attribution-js-extra">
+            var wc_order_attribution = {
+                "params": {},
+                "fields": {}
+            };
+        </script>
+        <script type="text/javascript" id="wc-cart-fragments-js-extra">
+            var wc_cart_fragments_params = {};
+        </script>
+        <script defer
+            src="{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}">
+        </script>
     @endsection

@@ -2298,15 +2298,16 @@
                                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                                 <noscript><img decoding="async"
                                                                         class="vc_single_image-img "
-                                                                        src="wp-content/uploads/2019/06/moved-img-1%402x-578x704.jpg"
+                                                                        src="{{ asset('front_end/wp-content/uploads/machines/Western _Hauliers_Image_1.jpeg') }}"
                                                                         width="578" height="704"
-                                                                        alt="moved-img-1@2x"
-                                                                        title="moved-img-1@2x" /></noscript><img
+                                                                        alt="Western _Hauliers_Image_1"
+                                                                        title="Western _Hauliers_Image_1" /></noscript><img
                                                                     decoding="async" class="lazyload vc_single_image-img "
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/moved-img-1@2x-578x704.jpg"
-                                                                    width="578" height="704" alt="moved-img-1@2x"
-                                                                    title="moved-img-1@2x" />
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/machines/Western _Hauliers_Image_1.jpeg') }}"
+                                                                    width="578" height="704"
+                                                                    alt="Western _Hauliers_Image_1"
+                                                                    title="Western _Hauliers_Image_1" />
                                                             </div>
                                                         </figure>
                                                     </div>
@@ -2429,11 +2430,11 @@
                                                         <div class="text-icon__container  left ">
                                                             <div class="text-icon__icon-box "> <noscript><img
                                                                         decoding="async"
-                                                                        src="wp-content/uploads/2019/10/precision-icon.svg"
+                                                                        src="{{ asset('front_end/wp-content/uploads/2019/10/precision-icon.svg') }}"
                                                                         alt='icon' /></noscript><img class="lazyload"
                                                                     decoding="async"
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/precision-icon.svg"
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/10/precision-icon.svg') }}"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
                                                                 <h4 class="text-icon__title "> Safety First</h4>
@@ -2458,11 +2459,11 @@
                                                         <div class="text-icon__container  left ">
                                                             <div class="text-icon__icon-box "> <noscript><img
                                                                         decoding="async"
-                                                                        src="wp-content/uploads/2019/10/study-icon.svg"
+                                                                        src="{{ asset('front_end/wp-content/uploads/2019/10/study-icon.svg') }}"
                                                                         alt='icon' /></noscript><img class="lazyload"
                                                                     decoding="async"
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/study-icon.svg"
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/10/study-icon.svg') }}"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
                                                                 <h4 class="text-icon__title "> Reliability</h4>
@@ -2483,11 +2484,11 @@
                                                         <div class="text-icon__container  left ">
                                                             <div class="text-icon__icon-box "> <noscript><img
                                                                         decoding="async"
-                                                                        src="wp-content/uploads/2019/10/no-delay-icon.svg"
+                                                                        src="{{ asset('front_end/wp-content/uploads/2019/10/no-delay-icon.svg') }}"
                                                                         alt='icon' /></noscript><img class="lazyload"
                                                                     decoding="async"
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/no-delay-icon.svg"
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/10/no-delay-icon.svg') }}"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
                                                                 <h4 class="text-icon__title "> Technical Excellence</h4>
@@ -2511,11 +2512,11 @@
                                                         <div class="text-icon__container  left ">
                                                             <div class="text-icon__icon-box "> <noscript><img
                                                                         decoding="async"
-                                                                        src="wp-content/uploads/2019/10/study-icon.svg"
+                                                                        src="{{ asset('front_end/wp-content/uploads/2019/10/study-icon.svg') }}"
                                                                         alt='icon' /></noscript><img class="lazyload"
                                                                     decoding="async"
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/study-icon.svg"
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/10/study-icon.svg') }}"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
                                                                 <h4 class="text-icon__title "> Integrity</h4>
@@ -2540,14 +2541,16 @@
                                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                                 <noscript><img decoding="async"
                                                                         class="vc_single_image-img "
-                                                                        src="wp-content/uploads/2019/08/bulldozer-420x290.jpg"
-                                                                        width="420" height="290" alt="bulldozer"
-                                                                        title="bulldozer" /></noscript><img
+                                                                        src="{{ asset('front_end/wp-content/uploads/machines/Western _Hauliers_Image_2.jpeg') }}"
+                                                                        width="420" height="290"
+                                                                        alt="Western _Hauliers_Image_2"
+                                                                        title="Western _Hauliers_Image_2" /></noscript><img
                                                                     decoding="async" class="lazyload vc_single_image-img "
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20290%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/08/bulldozer-420x290.jpg"
-                                                                    width="420" height="290" alt="bulldozer"
-                                                                    title="bulldozer" />
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/machines/Western _Hauliers_Image_2.jpeg') }}"
+                                                                    width="420" height="290"
+                                                                    alt="Western _Hauliers_Image_2"
+                                                                    title="Western _Hauliers_Image_2" />
                                                             </div>
                                                         </figure>
                                                     </div>
@@ -2562,11 +2565,11 @@
                                                         <div class="text-icon__container  left ">
                                                             <div class="text-icon__icon-box "> <noscript><img
                                                                         decoding="async"
-                                                                        src="wp-content/uploads/2019/10/precision-icon.svg"
+                                                                        src="{{ asset('front_end/wp-content/uploads/2019/10/precision-icon.svg') }}"
                                                                         alt='icon' /></noscript><img class="lazyload"
                                                                     decoding="async"
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/precision-icon.svg"
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/2019/10/precision-icon.svg') }}"
                                                                     alt='icon' /></div>
                                                             <div class="text-icon__content-box">
                                                                 <h4 class="text-icon__title "> Customer Commitment</h4>
@@ -2602,12 +2605,12 @@
                                                             <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                                 <noscript><img decoding="async"
                                                                         class="vc_single_image-img "
-                                                                        src="wp-content/uploads/2019/10/compactor.jpg"
+                                                                        src="{{ asset('front_end/wp-content/uploads/machines/Western _Hauliers_Image_3.jpeg') }}"
                                                                         width="578" height="704" alt="compactor"
                                                                         title="compactor" /></noscript><img
                                                                     decoding="async" class="lazyload vc_single_image-img "
                                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20578%20704%22%3E%3C/svg%3E'
-                                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/10/compactor.jpg"
+                                                                    data-src="{{ asset('front_end/wp-content/uploads/machines/Western _Hauliers_Image_3.jpeg') }}"
                                                                     width="578" height="704" alt="compactor"
                                                                     title="compactor" />
                                                             </div>

@@ -1,4 +1,4 @@
-@extends('admin.maindesign ')
+@extends('admin.maindesign')
 
 @include('admin.partials.app_nav')
 
@@ -187,8 +187,7 @@
                             <select class="form-select select2-multiple" name="related_machines[]" id="related_machines"
                                 multiple="multiple" data-placeholder="Choose machines to link...">
                                 @foreach ($allMachines as $machine)
-                                    <option
-                                        value="{{ $machine->id }}"
+                                    <option value="{{ $machine->id }}"
                                         {{ in_array($machine->id, $machine->relatedMachines->pluck('id')->toArray()) ? 'selected' : '' }}>
                                         {{ $machine->name }}
                                     </option>
