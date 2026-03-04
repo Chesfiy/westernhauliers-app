@@ -64,18 +64,15 @@ class ShopController extends Controller
     public function verifyEmployee(Request $request)
     {
 
-        $query = Employee::query();
-        if ($request->filled('employee_no')) {
+        // $query = Employee::query();
+        if (! $request->filled('employee_no')) {
 
-            $parts = explode('_', $request->employee_no);
-            $employee_no = implode('/', $parts);
-            // dd($employee_no);
-            $query->where('employee_no', $employee_no);
-
+            return redirect('/');
         }
-
-        $employee = $query->first();
-        // dd($employee);
+        $parts = explode('_', $request->employee_no);
+        $employee_no = implode('/', $parts);
+        $employee = Employee::where('employee_no', $employee_no)->firstOrFail();
+        //dd($employee);
 
         return view('verify_employee', compact('employee'));
     }

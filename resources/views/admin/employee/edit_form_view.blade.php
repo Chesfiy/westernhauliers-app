@@ -11,17 +11,19 @@
                 <div class="flex-shrink-0">
                     <a type="button" href="{{ route('admin.newEmployee') }}" class="btn btn-outline-primary m-2">New</a>
                     <a type="submit" href="{{ route('admin.showEmployees') }}" class="btn m-2">Cancel</a>
-                    <a type="submit" href="{{ route('admin.emplyeeBadge',['id'=>$employee->id]) }}" class="btn m-2">Print Bage</a>
+                    <a type="submit" href="{{ route('admin.emplyeeBadge', ['id' => $employee->id]) }}"
+                        class="btn m-2">Print
+                        Bage</a>
                 </div>
                 <!-- <div class="flex-grow-1">
-                                                                    <ol class="breadcrumb">
-                                                                        <li class="breadcrumb-item active"><a href="{{ route('admin.showMachines') }}">Machines</a></li>
-                                                                    </ol>
-                                                                    <i class="bi bi-clock-fill me-1"></i>
-                                                                </div>
-                                                                <div class="flex-shrink-0">
-                                                                    <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary mb-2">New</a>
-                                                                </div> -->
+                                                                                                        <ol class="breadcrumb">
+                                                                                                            <li class="breadcrumb-item active"><a href="{{ route('admin.showMachines') }}">Machines</a></li>
+                                                                                                        </ol>
+                                                                                                        <i class="bi bi-clock-fill me-1"></i>
+                                                                                                    </div>
+                                                                                                    <div class="flex-shrink-0">
+                                                                                                        <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary mb-2">New</a>
+                                                                                                    </div> -->
             </div>
 
             <!--end::End Navbar Links-->
@@ -31,7 +33,7 @@
 @endsection
 
 @section('form_view')
-@if (session('success'))
+    @if (session('success'))
         <div class="alert alert-success">
             {{ session('success') }}
         </div>
@@ -53,11 +55,11 @@
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="inputName"
                                     required value="{{ $employee->name }}">
                             </div>
-                             <div class="col-sm-6 mb-3">
+                            <div class="col-sm-6 mb-3">
                                 <input type="text" name="employee_no" placeholder="ID: WH/CR/1001/2025"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="inputName"
-                                    required value="{{ $employee->employee_no }}"  />
-                                    {{-- {{ isset($employee->employee_no) && $employee->employee_no != '' ? 'disabled' : '' }} --}}
+                                    required value="{{ $employee->employee_no }}" />
+                                {{-- {{ isset($employee->employee_no) && $employee->employee_no != '' ? 'disabled' : '' }} --}}
                             </div>
                         </div>
                     </div>
@@ -65,8 +67,9 @@
                         <div class="float-sm-end">
                             <div class="image-upload">
                                 <label for="fileInput">
-                                    <img id="preview" src="{{ isset($employee) ? asset('storage/' . $employee->img_url) : asset('admin/assets/img/img_place_holder.webp') }} " class="img-thumbnail"
-                                        alt="preview">
+                                    <img id="preview"
+                                        src="{{ isset($employee) ? asset('storage/' . $employee->img_url) : asset('admin/assets/img/img_place_holder.webp') }} "
+                                        class="img-thumbnail" alt="preview">
                                 </label>
                                 <input type="file" name="img_url" accept="image/*" id="fileInput">
 
@@ -96,7 +99,8 @@
                         <div class="row mb-3">
                             <label for="inputEmail3" class="col-sm-2 col-form-label">Address</label>
                             <div class="col-sm-10">
-                                <input type="address" name="address" placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
+                                <input type="address" name="address"
+                                    placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
                                     required value="{{ $employee->address }}">
                             </div>
@@ -104,16 +108,26 @@
                         <div class="row mb-3">
                             <label for="inputEmail3" class="col-sm-2 col-form-label">Position</label>
                             <div class="col-sm-10">
-                                <select name="empolyee_type" class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                <select name="empolyee_type"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
                                     <option value=""></option>
-                                    <option value="Forklift Operator" {{ $employee->empolyee_type == 'Forklift Operator' ? 'selected' : '' }}>Forklift Operator</option>
-                                    <option value="Truck Driver" {{ $employee->empolyee_type == 'Truck Driver' ? 'selected' : '' }}>Truck Driver</option>
-                                    <option value="Employee" {{ $employee->empolyee_type == 'Employee' ? 'selected' : '' }}>Employee</option>
-                                    <option value="Salesman" {{ $employee->empolyee_type == 'Salesman' ? 'selected' : '' }}>Salesman</option>
-                                    <option value="Manager" {{ $employee->empolyee_type == 'Manager' ? 'selected' : '' }}>Manager</option>
-                                    <option value="CEO" {{ $employee->empolyee_type == 'CEO' ? 'selected' : '' }}>CEO</option>
-                                    <option value="Director" {{ $employee->empolyee_type == 'Director' ? 'selected' : '' }}>Director</option>
-                                    
+                                    <option value="Forklift Operator"
+                                        {{ $employee->empolyee_type == 'Forklift Operator' ? 'selected' : '' }}>Forklift
+                                        Operator</option>
+                                    <option value="Truck Driver"
+                                        {{ $employee->empolyee_type == 'Truck Driver' ? 'selected' : '' }}>Truck Driver
+                                    </option>
+                                    <option value="Employee"
+                                        {{ $employee->empolyee_type == 'Employee' ? 'selected' : '' }}>Employee</option>
+                                    <option value="Salesman"
+                                        {{ $employee->empolyee_type == 'Salesman' ? 'selected' : '' }}>Salesman</option>
+                                    <option value="Manager" {{ $employee->empolyee_type == 'Manager' ? 'selected' : '' }}>
+                                        Manager</option>
+                                    <option value="CEO" {{ $employee->empolyee_type == 'CEO' ? 'selected' : '' }}>CEO
+                                    </option>
+                                    <option value="Director"
+                                        {{ $employee->empolyee_type == 'Director' ? 'selected' : '' }}>Director</option>
+
                                 </select>
                             </div>
                         </div>
@@ -128,7 +142,8 @@
                         <div class="row mb-3">
                             <label for="inputPassword3" class="col-sm-2 col-form-label">Start Date</label>
                             <div class="col-sm-10">
-                                <input type="address" name="empolyee_start_date" placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
+                                <input type="address" name="empolyee_start_date"
+                                    placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
                                     required value="{{ $employee->empolyee_start_date }}">
                             </div>
@@ -144,7 +159,8 @@
                         <div class="row mb-3">
                             <label for="inputPassword3" class="col-sm-2 col-form-label">Machine</label>
                             <div class="col-sm-10">
-                                <select name="machine_id" class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                <select name="machine_id"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
                                     <option value=""></option>
                                     @foreach (App\Models\Machine::all() as $machine)
                                         <option required value="{{ $machine->id }}"
@@ -152,6 +168,16 @@
                                             {{ $machine->name }}
                                         </option>
                                     @endforeach
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="feature_on_web" class="col-sm-2 col-form-label">Feature On Web</label>
+                            <div class="col-sm-10">
+                                <select name="feature_on_web"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                    <option value="0" @selected($employee->feature_on_web == 0)>Hidden</option>
+                                    <option value="1" @selected($employee->feature_on_web == 1)>Featured</option>
                                 </select>
                             </div>
                         </div>
@@ -213,11 +239,13 @@
                             <div class="row mt-3">
                                 <div class="col-sm-6">
                                     <div class="row mb-2">
-                                        <label for="inputCurrentLocation" class="col-sm-2 col-form-label">Current Location</label>
+                                        <label for="inputCurrentLocation" class="col-sm-2 col-form-label">Current
+                                            Location</label>
                                         <div class="col-sm-10">
                                             <input type="text" name="" placeholder="Current Location"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputCurrentLocation" disabled value="{{ $employee->current_location }}">
+                                                id="inputCurrentLocation" disabled
+                                                value="{{ $employee->current_location }}">
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +256,9 @@
                                             <input type="text" step="0.01" name=""
                                                 placeholder="Qr Code Url"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPBirthdate" value="{{ isset($employee->qrcode) ? $employee->qrcode : '' }}" disabled/>
+                                                id="inputPBirthdate"
+                                                value="{{ isset($employee->qrcode) ? $employee->qrcode : '' }}"
+                                                disabled />
                                         </div>
                                     </div>
                                 </div>
@@ -285,7 +315,7 @@
 
         document.getElementById('isRent').addEventListener('change', function() {
             if (this.checked) {
-                if(document.getElementById('isSale').checked){
+                if (document.getElementById('isSale').checked) {
                     document.getElementById('inputPrice').disabled = false;
                     document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {
                         input.disabled = false;
@@ -305,12 +335,12 @@
         });
         document.getElementById('isSale').addEventListener('change', function() {
             if (this.checked) {
-                if(document.getElementById('isRent').checked){
+                if (document.getElementById('isRent').checked) {
                     document.getElementById('inputPrice').disabled = false;
                     document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {
                         input.disabled = false;
                     });
-                    
+
                 }
                 document.getElementById('inputPrice').disabled = false;
                 document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {

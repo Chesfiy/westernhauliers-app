@@ -11,17 +11,17 @@
                 <div class="flex-shrink-0">
                     <a type="button" href="{{ route('admin.newEmployee') }}" class="btn btn-outline-primary m-2">New</a>
                     <a type="submit" href="{{ route('admin.showEmployees') }}" class="btn m-2">Cancel</a>
-                    
+
                 </div>
                 <!-- <div class="flex-grow-1">
-                                                                    <ol class="breadcrumb">
-                                                                        <li class="breadcrumb-item active"><a href="{{ route('admin.showMachines') }}">Machines</a></li>
-                                                                    </ol>
-                                                                    <i class="bi bi-clock-fill me-1"></i>
-                                                                </div>
-                                                                <div class="flex-shrink-0">
-                                                                    <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary mb-2">New</a>
-                                                                </div> -->
+                                                                        <ol class="breadcrumb">
+                                                                            <li class="breadcrumb-item active"><a href="{{ route('admin.showMachines') }}">Machines</a></li>
+                                                                        </ol>
+                                                                        <i class="bi bi-clock-fill me-1"></i>
+                                                                    </div>
+                                                                    <div class="flex-shrink-0">
+                                                                        <a type="button" href="{{ route('admin.newMachine') }}" class="btn btn-outline-primary mb-2">New</a>
+                                                                    </div> -->
             </div>
 
             <!--end::End Navbar Links-->
@@ -79,7 +79,7 @@
                 <div class="row mb-3">
                     <div class="col-sm-6">
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Phone</label>
+                            <label for="phone" class="col-sm-2 col-form-label">Phone</label>
                             <div class="col-sm-10">
                                 <input type="text" name="phone" placeholder="eg: 062-000-0000"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
@@ -87,17 +87,19 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Address</label>
+                            <label for="address" class="col-sm-2 col-form-label">Address</label>
                             <div class="col-sm-10">
-                                <input type="address" name="address" placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
+                                <input type="address" name="address"
+                                    placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
                                     required />
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Position</label>
+                            <label for="empolyee_type" class="col-sm-2 col-form-label">Position</label>
                             <div class="col-sm-10">
-                                <select name="empolyee_type" class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                <select name="empolyee_type"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
                                     <option value=""></option>
                                     <option value="Forklift Operator">Forklift Operator</option>
                                     <option value="Truck Driver">Truck Driver</option>
@@ -110,7 +112,7 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Description</label>
+                            <label for="empolyee_remarks" class="col-sm-2 col-form-label">Description</label>
                             <div class="col-sm-10">
                                 <textarea name="empolyee_remarks" class="form-control border-0 border-bottom rounded-0 shadow-none" rows="2">{{ old('description', isset($machine) ? $machine->description : '') }}</textarea>
                             </div>
@@ -118,15 +120,16 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Start Date</label>
+                            <label for="empolyee_start_date" class="col-sm-2 col-form-label">Start Date</label>
                             <div class="col-sm-10">
-                                <input type="address" name="empolyee_start_date" placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
+                                <input type="date" name="empolyee_start_date"
+                                    placeholder="eg: Vetenary Street, Dar es salaam, TMK 023"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
                                     required />
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">End Date</label>
+                            <label for="empolyee_end_date" class="col-sm-2 col-form-label">End Date</label>
                             <div class="col-sm-10">
                                 <input type="date" name="empolyee_end_date" placeholder="eg: 24/10/2025"
                                     class="form-control border-0 border-bottom rounded-0 shadow-none" id="phone"
@@ -134,9 +137,10 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Machine</label>
+                            <label for="machine_id" class="col-sm-2 col-form-label">Machine</label>
                             <div class="col-sm-10">
-                                <select name="machine_id" class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                <select name="machine_id"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
                                     <option value=""></option>
                                     @foreach (App\Models\Machine::all() as $machine)
                                         <option required value="{{ $machine->id }}"
@@ -144,6 +148,16 @@
                                             {{ $machine->name }}
                                         </option>
                                     @endforeach
+                                </select>
+                            </div>
+                        </div>
+                         <div class="row mb-3">
+                            <label for="feature_on_web" class="col-sm-2 col-form-label">Feature On Web</label>
+                            <div class="col-sm-10">
+                                 <select name="feature_on_web"
+                                    class="form-control border-0 border-bottom rounded-0 shadow-none">
+                                        <option value="0">Hidden</option>
+                                        <option value="1">Featured</option>
                                 </select>
                             </div>
                         </div>
@@ -205,11 +219,12 @@
                             <div class="row mt-3">
                                 <div class="col-sm-6">
                                     <div class="row mb-2">
-                                        <label for="inputCurrentLocation" class="col-sm-2 col-form-label">Current Location</label>
+                                        <label for="inputCurrentLocation" class="col-sm-2 col-form-label">Current
+                                            Location</label>
                                         <div class="col-sm-10">
                                             <input type="text" name="" placeholder="Current Location"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputCurrentLocation" disabled/>
+                                                id="inputCurrentLocation" disabled />
                                         </div>
                                     </div>
                                 </div>
@@ -220,7 +235,7 @@
                                             <input type="date" step="0.01" name=""
                                                 placeholder="eg: 30/10/2025"
                                                 class="form-control border-0 border-bottom rounded-0 shadow-none"
-                                                id="inputPBirthdate" disabled/>
+                                                id="inputPBirthdate" disabled />
                                         </div>
                                     </div>
                                 </div>
@@ -277,7 +292,7 @@
 
         document.getElementById('isRent').addEventListener('change', function() {
             if (this.checked) {
-                if(document.getElementById('isSale').checked){
+                if (document.getElementById('isSale').checked) {
                     document.getElementById('inputPrice').disabled = false;
                     document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {
                         input.disabled = false;
@@ -297,12 +312,12 @@
         });
         document.getElementById('isSale').addEventListener('change', function() {
             if (this.checked) {
-                if(document.getElementById('isRent').checked){
+                if (document.getElementById('isRent').checked) {
                     document.getElementById('inputPrice').disabled = false;
                     document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {
                         input.disabled = false;
                     });
-                    
+
                 }
                 document.getElementById('inputPrice').disabled = false;
                 document.querySelectorAll('input[name^="rental_price_per_"]').forEach(function(input) {

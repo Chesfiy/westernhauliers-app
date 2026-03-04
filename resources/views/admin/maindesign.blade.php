@@ -326,7 +326,7 @@
             <!--begin::Sidebar Brand-->
             <div class="sidebar-brand">
                 <!--begin::Brand Link-->
-                <a href="admin/index.html" class="brand-link">
+                <a href="/" class="brand-link">
                     <!--begin::Brand Image-->
                     <img src="{{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}"
                         alt="Western Hauliers Logo" class="brand-image opacity-75 shadow" />
@@ -407,12 +407,12 @@
         <!--begin::Footer-->
         <footer class="app-footer">
             <!--begin::To the end-->
-            <div class="float-end d-none d-sm-inline">Anything you want</div>
+            <div class="float-end d-none d-sm-inline">Western Hauliers</div>
             <!--end::To the end-->
             <!--begin::Copyright-->
             <strong>
-                Copyright &copy; 2014-2025&nbsp;
-                <a href="https://adminlte.io" class="text-decoration-none">AdminLTE.io</a>.
+                Copyright &copy; 2014-2026&nbsp;
+                <a href="https://chesifylabs.co.tz" class="text-decoration-none">Chesify Labs</a>.
             </strong>
             All rights reserved.
             <!--end::Copyright-->

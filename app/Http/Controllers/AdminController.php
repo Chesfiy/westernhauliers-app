@@ -595,13 +595,13 @@ class AdminController extends Controller
         $employee->employee_no = $request->employee_no;
         $parts = explode('/', $request->employee_no);
         // encodeed url to qrcode emplyee/WHCR10001
-        $url = 'employee/'.implode('_', $parts);
+        $url = $base_url.'/employee/badge?employee_no='.implode('_', $parts);
         $qrCodeBase64 = base64_encode(
-            QrCode::format('png')->size(300)->generate($url)
+            QrCode::format('svg')->size(300)->generate($url)
         );
-        $filename = 'uploads/employees/emplyee_qrcode_'.str_replace(' ', '_', $employee->name).'.png';
+        $filename = 'uploads/employees/emplyee_qrcode_'.str_replace(' ', '_', $employee->name).'.svg';
 
-        QrCode::format('png')->size(300)->generate($url, public_path($filename));
+        QrCode::format('svg')->size(300)->generate($url, public_path($filename));
 
         $employee->qrcode = $filename;
         $employee->phone = $request->phone;
@@ -613,6 +613,7 @@ class AdminController extends Controller
         $employee->empolyee_start_date = date('Y-m-d', strtotime($request->empolyee_start_date));
         $employee->empolyee_end_date = date('Y-m-d', strtotime($request->empolyee_end_date));
         $employee->empolyee_remarks = $request->empolyee_remarks;
+        $employee->feature_on_web = $request->has('feature_on_web');
         $employee->save();
 
         return redirect()->route('admin.editEmployee', ['id' => $employee->id])->with('success', 'Employee added successfully.');
@@ -660,7 +661,7 @@ class AdminController extends Controller
         $employee->name = $request->name;
         $employee->email = $request->email;
         if (Employee::where('employee_no', $request->employee_no)->exists()) {
-            return redirect()->back()->with('error', 'Employee No already exists in the database.');
+            return redirect()->back()->with('error', 'Employee does not exists in the database.');
         }
         $employee->employee_no = $request->employee_no;
         $parts = explode('/', $request->employee_no);
@@ -671,7 +672,7 @@ class AdminController extends Controller
         $url = $base_url.'/employee/badge?employee_no='.implode('_', $parts);
         // 2. Set up the filename and directory
         $directory = public_path('uploads/employees/');
-        $filename = 'emplyee_qrcode_for_'.Str::slug($employee->name).'.png';
+        $filename = 'emplyee_qrcode_for_'.Str::slug($employee->name).'.svg';
         $fullPath = $directory.$filename;
 
         // 3. Make sure directory exists
@@ -680,7 +681,7 @@ class AdminController extends Controller
         }
 
         // 4. Generate QR code once and store both base64 + file
-        $qrPng = QrCode::format('png')->size(300)->generate($url);
+        $qrPng = QrCode::format('svg')->size(300)->generate($url);
 
         // Save base64 to DB (if needed)
         $qrCodeBase64 = base64_encode($qrPng);
@@ -698,6 +699,7 @@ class AdminController extends Controller
         $employee->empolyee_start_date = date('Y-m-d', strtotime($request->empolyee_start_date));
         $employee->empolyee_end_date = date('Y-m-d', strtotime($request->empolyee_end_date));
         $employee->empolyee_remarks = $request->empolyee_remarks;
+        $employee->feature_on_web = $request->has('feature_on_web');
         $employee->save();
 
         return view('admin.employee.edit_form_view', compact('employee'))->with('success', 'Employee updated successfully.');

@@ -371,13 +371,13 @@
                         <h4 class="block-title">About Us</h4>
                         <div class="textwidget">
                             <p><noscript><img decoding="async"
-                                        src="{{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}"
-                                        srcset="front_end/wp-content/uploads/2019/09/Logo-v2.png"
+                                        src="{{ asset('front_end/wp-content/themes/backhoe/images/WH_logo_footer_white.png') }}"
+                                        srcset="{{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}"
                                         alt="Western Hauliers" style="padding-bottom: 15px;" /></noscript><img
                                     class="lazyload" decoding="async"
-                                    src='{{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}'
-                                    srcset='{{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}, {{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}'
-                                    data-src="{{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}"
+                                    src='{{ asset('front_end/wp-content/themes/backhoe/images/WH_logo_footer_white.png') }}'
+                                    srcset='{{ asset('front_end/wp-content/themes/backhoe/images/WH_logo_footer_white.png') }}, {{ asset('front_end/wp-content/themes/backhoe/images/logo.png') }}'
+                                    data-src="{{ asset('front_end/wp-content/themes/backhoe/images/WH_logo_footer_white.png') }}"
                                     alt="Western Hauliers" style="padding-bottom: 15px;" /></p>
                             <p><strong>Western Hauliers </strong> owns the foremost solid and best maintained fleet of
                                 material handling rental
