@@ -72,7 +72,7 @@ class ShopController extends Controller
         $parts = explode('_', $request->employee_no);
         $employee_no = implode('/', $parts);
         $employee = Employee::where('employee_no', $employee_no)->firstOrFail();
-        //dd($employee);
+        // dd($employee);
 
         return view('verify_employee', compact('employee'));
     }
@@ -80,7 +80,7 @@ class ShopController extends Controller
     public function singleShop($name)
     {
         // Find the machine by its name (assuming 'name' is unique)
-        $machine = Machine::where('name', $name)->firstOrFail()->load('category', 'type', 'model', 'fuel', 'brand', 'machineFeatures', 'machineProperties', 'pictures');
+        $machine = Machine::where('name', $name)->firstOrFail()->load('category', 'type', 'model', 'fuel', 'brand', 'machineFeatures', 'machineProperties', 'pictures', 'relatedMachines');
 
         return view('single_shop', compact('machine'));
     }

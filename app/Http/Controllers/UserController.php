@@ -14,6 +14,7 @@ class UserController extends Controller
                 return view('dashboard');
             } else if($user->user_type === 'admin'){
                 return view('admin.dashboard');
+
             }
         } 
     }

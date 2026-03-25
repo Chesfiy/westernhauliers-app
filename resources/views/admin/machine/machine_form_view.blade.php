@@ -188,19 +188,14 @@
                         </div>
                         <div class="mb-3">
                             <label for="related_machines" class="form-label">Select Related Machines</label>
-                            <select 
-                                class="form-select select2-multiple" 
-                                name="related_machines[]" 
-                                id="related_machines" 
-                                multiple="multiple" 
-                                data-placeholder="Choose machines to link..."
-                            >
-                                @foreach($allMachines as $machine)
+                            <select class="form-select select2-multiple" name="related_machines[]" id="related_machines"
+                                multiple="multiple" data-placeholder="Choose machines to link...">
+                                @foreach ($machines as $machine)
                                     <option value="{{ $machine->id }}">{{ $machine->name }}</option>
                                 @endforeach
                             </select>
                             <div class="form-text">You can select multiple machines to show during ordering.</div>
-                    </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row mb-3">

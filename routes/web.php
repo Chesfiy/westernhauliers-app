@@ -6,6 +6,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\UserController;
 use App\Models\Category;
+use App\Models\Post;
+use App\Models\PostCategory;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -47,9 +49,23 @@ Route::get('/faq', function () {
     return view('faq');
 })->name('faq');
 
-Route::get('/blog', function () {
-    return view('blog');
+Route::get('/blogs', function () {
+    $blogs = Post::with('categories')->get();
+
+    return view('blogs', compact(['blogs']));
+})->name('blogs');
+
+Route::get('/blog/{slug}', function ($slug) {
+    $blog = Post::where('slug', $slug)->with('categories')->first();
+
+    return view('blog', compact(['blog']));
 })->name('blog');
+
+Route::get('/blog/category/{slug}', function ($slug) {
+    $postCategory = PostCategory::where('slug', $slug)->with('posts');
+
+    return view('blog', compact(['postCategory']));
+})->name('blog.category');
 
 Route::get('/shop', [ShopController::class, 'index'])->name('shop');
 Route::get('/employee/badge', [ShopController::class, 'verifyEmployee'])->name('employee.verify');
@@ -128,8 +144,16 @@ Route::middleware('admin')->group(function () {
     Route::put('/view_quotations/{id}', [AdminController::class, 'updateQuotation'])->name('admin.updateQuotation');
     Route::delete('/view_quotation/{id}', [AdminController::class, 'deleteQuotation'])->name('admin.deleteQuotation');
 
-    Route::get('/settings', [AdminSettingsController::class, 'index'])->name('admin.settings');
+    Route::get('/new_blog', [AdminController::class, 'newBlog'])->name('admin.newBlog');
+    Route::post('/add_blog', [AdminController::class, 'storeBlog'])->name('admin.storeBlog');
+    Route::get('/view_blogs', [AdminController::class, 'showBlogs'])->name('admin.showBlogs');
+    Route::get('/view_blogs/{id}/edit', [AdminController::class, 'editBlog'])->name('admin.editBlog');
+    Route::put('/view_blogs/{id}', [AdminController::class, 'updateBlog'])->name('admin.updateBlog');
+    Route::delete('/view_blog/{id}', [AdminController::class, 'deleteBlog'])->name('admin.deleteBlog');
+    Route::post('ckeditor/upload', [AdminController::class, 'uploadImage'])->name('ckeditor.upload');
+    Route::post('ckeditor/autosave', [AdminController::class, 'saveBlog'])->name('ckeditor.autosave');
 
+    Route::get('/settings', [AdminSettingsController::class, 'index'])->name('admin.settings');
     Route::get('/new_user', [AdminSettingsController::class, 'newUser'])->name('admin.settings.newUser');
     Route::post('/settings/store/user', [AdminSettingsController::class, 'storeUser'])->name('admin.settings.storeUser');
     Route::get('/settings/users', [AdminSettingsController::class, 'showUsers'])->name('admin.settings.users');

@@ -208,7 +208,7 @@
                             </li>
                             <li
                                 class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children   is-dropdown-submenu-parent opens-right not-click has-dropdown not-click  color-6 ">
-                                <a href="{{ route('blog') }}">News</a>
+                                <a href="{{ route('blogs') }}">News</a>
                                 <ul class="submenu is-dropdown-submenu ">
                                     <li class=" menu-item menu-item-type-post_type menu-item-object-page    color-6 ">
                                         <a href="../blog/index.html">Blog List</a><svg width="100px" height="100px"
@@ -402,7 +402,7 @@
                                 </li>
                                 <li id="menu-item-4821"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4821">
-                                    <a href="/blog">Blog</a>
+                                    <a href="{{ route('blogs') }}">Blog</a>
                                 </li>
                                 <li id="menu-item-4824"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4824">

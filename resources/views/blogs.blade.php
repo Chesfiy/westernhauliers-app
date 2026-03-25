@@ -4,26 +4,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
-        <title>Shop - Western Hauliers</title>
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+            /><style>img:is([sizes="auto" i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
+        <title>Blogs - Western Hauliers &amp; Construction Equipment Rentals &amp; Machinery</title>
         <link rel="stylesheet" media="print" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
             href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C%7CYantramanav%3A100%2C300%2C400%2C500%2C700%2C900%2C%7COpen+Sans%3A300%2C400%2C600%2C700%2C&amp;display=swap">
         <link rel="canonical" href="index.html" />
-        <link rel="next" href="page/2/index.html" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Shop - Western Hauliers" />
+        <meta property="og:title" content="Blogs - Western Hauliers &amp; Construction Equipment Rentals &amp; Machinery" />
         <meta property="og:url" content="index.html" />
-        <meta property="og:site_name" content="Western Hauliers" />
+        <meta property="og:site_name"
+            content="Blogs - Western Hauliers &amp; Construction Equipment Rentals &amp; Machinery" />
+        <meta property="article:modified_time" content="2019-07-02T16:54:52+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+
         <link rel='dns-prefetch' href='http://client.crisp.chat/' />
         <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
         <link href='https://fonts.gstatic.com/' crossorigin='anonymous' rel='preconnect' />
-        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Feed" href="../feed/index.html" />
-        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Comments Feed"
-            href="../comments/feed/index.html" />
-        <link rel="alternate" type="application/rss+xml" title="Western Hauliers &raquo; Products Feed"
-            href="feed/index.html" />
         <link rel="preconnect" href="https://fonts.gstatic.com/">
         <link rel='stylesheet' id='wp-block-library-css'
             href='{{ asset('front_end/wp-includes/css/dist/block-library/style.min.css') }}' type='text/css'
@@ -643,7 +641,7 @@
             }
         </style>
         <link rel='stylesheet' id='webdevia-tabs-style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_49cf2435fa366f178bf35990f06c5bfc.css') }}'
             type='text/css' media='all' />
         <style id='webdevia-tab-style-inline-css' type='text/css'>
             .wp-block-webdevia-tab {
@@ -775,7 +773,7 @@
             }
 
             .wd-block-webdevia-timeline__events .timeline__event:before {
-                background-color: #0f07BC043;
+                background-color: #0f0000;
                 border-radius: 50%;
                 content: "";
                 height: 17px;
@@ -1565,32 +1563,40 @@
             }
         </style>
         <link rel='stylesheet' id='wd_demo_panel_style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3f4ce5e4a83ed11f5ff59bd2e094616e.css') }}'
             type='text/css' media='all' />
         <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-9-css'
-            href='front_end/wp-content/themes/backhoe/webfonts/fa-solid-900.html' type='text/css' media='all' />
+            href='{{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-solid-900.html') }}' type='text/css'
+            media='all' />
         <link rel='preload' as='font' crossorigin='anonymous' id='fontawesome-file-4-css'
-            href='front_end/wp-content/themes/backhoe/webfonts/fa-brands-400.html' type='text/css' media='all' />
+            href='{{ asset('front_end/wp-content/themes/backhoe/webfonts/fa-brands-400.html') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='daterangepickers-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_55e1d560821b4a4b141b0ab6cbb74d26.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='backhoe_booking_app-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_82d433c01bdf940795897412d80bd6dc.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='contact-form-7-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_64ac31699f5326cb3c76122498b76f66.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='wd_buy_style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a7ea0840d6631e695afef8bbaa30f97e.css') }}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='photoswipe-css'
+            href='{{ asset('front_end/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css') }}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='photoswipe-default-skin-css'
+            href='{{ asset('front_end/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-layout-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e98f5279cacaef826050eb2595082e77.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e98f5279cacaef826050eb2595082e77.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-smallscreen-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_59d266c0ea580aae1113acb3761f7ad5.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_59d266c0ea580aae1113acb3761f7ad5.css') }}'
             type='text/css' media='only screen and (max-width: 768px)' />
         <link rel='stylesheet' id='woocommerce-general-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_f9db2117cb3f9bf8433a39bd81b3e492.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_f9db2117cb3f9bf8433a39bd81b3e492.css') }}'
             type='text/css' media='all' />
         <style id='woocommerce-inline-inline-css' type='text/css'>
             .woocommerce form .form-row .required {
@@ -1598,23 +1604,25 @@
             }
         </style>
         <link rel='stylesheet' id='brands-styles-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_48d56016b20f151be4f24ba6d0eb1be4.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_48d56016b20f151be4f24ba6d0eb1be4.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='select2-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e3e811600e32258de0b9ba53c7798db8.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_e3e811600e32258de0b9ba53c7798db8.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='animate-custom-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_aab6e79d72b0f3ec5a3e252df621305c.css') }}'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='icofont-css' href='front_end/wp-content/themes/backhoe/css/icofont.min.css'
-            type='text/css' media='all' />
+        <link rel='stylesheet' id='icofont-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/icofont.min.css') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='swiper-bundle-css'
-            href='front_end/wp-content/themes/backhoe/css/swiper-bundle.min.css' type='text/css' media='all' />
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/swiper-bundle.min.css') }}' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='backhoe-app-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_a83d0fe293dc799980ad5e884bd7cc46.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='backhoe-style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}'
             type='text/css' media='all' />
         <style id='backhoe-style-inline-css' type='text/css'>
             :root {
@@ -1649,6 +1657,7 @@
             }
 
             .titlebar #page-title {
+                text-align: center;
                 text-align: center
             }
 
@@ -1734,98 +1743,51 @@
                 padding: 0
             }
         </style>
-        <link rel='stylesheet' id='lightbox-css' href='front_end/wp-content/themes/backhoe/css/vendor/lightbox.min.css'
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='all-css' href='front_end/wp-content/themes/backhoe/css/vendor/all.min.css'
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='custom-line-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css'
-            type='text/css' media='all' />
-        <link rel='stylesheet' id='dashicons-css' href='front_end/wp-includes/css/dashicons.min.css' type='text/css'
+        <link rel='stylesheet' id='lightbox-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/lightbox.min.css') }}' type='text/css'
             media='all' />
-        <link rel='stylesheet' id='simple-auction-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css'
+        <link rel='stylesheet' id='all-css'
+            href='{{ asset('front_end/wp-content/themes/backhoe/css/vendor/all.min.css') }}' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='custom-line-css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_52b48f989e60d9a4e38751bf151cc30e.css') }}'
             type='text/css' media='all' />
-        <script type="text/javascript" src="front_end/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
-        <script type="text/javascript" id="wd_main_js_functions-js-extra">
-            var devia = {
-                "ajax_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "home_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme",
-                "date_format": "d\/m\/Y"
-            };
+        <link rel='stylesheet' id='dashicons-css' href='{{ asset('front_end/wp-includes/css/dashicons.min.css') }}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='simple-auction-css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_d4fa6077311a8aad6a5f3943673785ba.css') }}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='js_composer_front-css'
+            href='{{ asset('front_end/wp-content/plugins/js_composer/assets/css/js_composer.min.css') }}' type='text/css'
+            media='all' />
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/jquery/jquery.min.js') }}" id="jquery-core-js">
         </script>
-        <script type="module" src="front_end/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js"></script>
+        <script type="text/javascript" id="wd_main_js_functions-js-extra">
+            var devia = {};
+        </script>
+        <script type="module" src="{{ asset('front_end/wp-content/plugins/wd-main-plugin/js/PhotoSwipeLightbox.js') }}">
+        </script>
         <script type="text/javascript" id="wc-add-to-cart-js-extra">
             var wc_add_to_cart_params = {
-                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                "i18n_view_cart": "View cart",
-                "cart_url": "https:\/\/themes.webdevia.com\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/cart\/",
-                "is_cart": "",
                 "cart_redirect_after_add": "no"
             };
         </script>
         <script type="text/javascript" id="woocommerce-js-extra">
-            var woocommerce_params = {
-                "ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/wp-admin\/admin-ajax.php",
-                "wc_ajax_url": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/?wc-ajax=%%endpoint%%",
-                "i18n_password_show": "Show password",
-                "i18n_password_hide": "Hide password"
-            };
+            var woocommerce_params = {};
         </script>
         <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAK-lm5gdnsKARlSb10nkRfKoGCycwH49Y&amp;ver=4.4.2"
             id="googleapis-js"></script>
         <script type="text/javascript" id="simple-auction-countdown-language-js-extra">
-            var countdown_language_data = {
-                "labels": {
-                    "Years": "Years",
-                    "Months": "Months",
-                    "Weeks": "Weeks",
-                    "Days": "Days",
-                    "Hours": "Hours",
-                    "Minutes": "Minutes",
-                    "Seconds": "Seconds"
-                },
-                "labels1": {
-                    "Year": "Year",
-                    "Month": "Month",
-                    "Week": "Week",
-                    "Day": "Day",
-                    "Hour": "Hour",
-                    "Minute": "Minute",
-                    "Second": "Second"
-                },
-                "compactLabels": {
-                    "y": "y",
-                    "m": "m",
-                    "w": "w",
-                    "d": "d"
-                }
-            };
+            var countdown_language_data = {};
         </script>
         <script type="text/javascript" id="simple-auction-frontend-js-extra">
-            var data = {
-                "finished": "Auction has finished!",
-                "checking": "Patience please, we are checking if auction is finished!",
-                "gtm_offset": "0",
-                "started": "Auction has started! Please refresh your page.",
-                "no_need": "No need to bid. Your bid is winning! ",
-                "compact_counter": "no",
-                "outbid_message": "\n<ul class=\"woocommerce-error\" role=\"alert\">\n\t\t\t<li>\n\t\t\tYou've been outbid!\t\t<\/li>\n\t<\/ul>\n",
-                "interval": "1"
-            };
-            var SA_Ajax = {
-                "ajaxurl": "\/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme\/shop\/?wsa-ajax",
-                "najax": "1",
-                "last_activity": "1751156376",
-                "focus": "yes"
-            };
+            var data = {};
+            var SA_Ajax = {};
         </script>
-        <link rel="https://api.w.org/" href="../wp-json/index.html" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
         <meta name="generator" content="WordPress 6.7.3" />
         <meta name="generator" content="WooCommerce 10.1.1" />
+        <link rel='shortlink' href='{{ route('blogs') }}' />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62552021-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -1852,9 +1814,6 @@
                 }
             </style>
         </noscript>
-        <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-        <meta name="generator"
-            content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
         <style type="text/css" id="wp-custom-css">
             .text-icon-table.text-icon {
                 max-width: 15px;
@@ -1870,18 +1829,13 @@
 
             @media screen and (min-width:64em) {
                 .logged-in header.l-header .top-bar-container.sticky.fixed {
-                    margin-top: 32px; //max-width:89.375rem}}.brands_form form ul li .select2.select2-container{min-width:auto}
-
-                    @media screen and (min-width:64em) {
-                        .brands_form form ul li .select2.select2-container {
-                            min-width: 350px
-                        }
-                    }
-
-                    < /style><noscript><style>.wpb_animate_when_almost_visible {
-                        opacity: 1
-                    }
-        </style>
+                    margin-top: 32px; //max-width:89.375rem}}.brands_form form ul li .select2.select2-container{min-width:auto}@media screen and (min-width:64em){.brands_form form ul li .select2.select2-container{min-width:350px}}
+        </style><noscript>
+            <style>
+                .wpb_animate_when_almost_visible {
+                    opacity: 1
+                }
+            </style>
         </noscript>
     </head>
 @endsection
@@ -1889,209 +1843,156 @@
 @section('body-tag')
 
     <body
-        class="archive post-type-archive post-type-archive-product theme-backhoe woocommerce-shop woocommerce woocommerce-page woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
+        class="page-template-default page page-id-3870 theme-backhoe woocommerce-no-js wd_page_transitions wpb-js-composer js-comp-ver-6.13.0 vc_responsive">
     @endsection
 
     @section('shop')
-        <section class="titlebar">
+        <section class="titlebar ">
             <div class="row">
                 <div>
-                    <h2 id="page-title" class="title">Shop</h2>
+                    <h2 id="page-title" class="title">Blogs</h2>
+                </div>
+                <div>
+                    <ul class="breadcrumbs">
+                        <li><a href="/">Home</a></li>
+                        <li><strong> Blog Grid</strong></li>
+                    </ul>
                 </div>
             </div>
         </section>
-        <div class="row content-wrapper">
-            @if (isset($_GET['success']) && $_GET['success'] == 'true')
-                <div class="woocommerce-notices-wrapper">
-                    <div class="woocommerce-message" role="alert">{{ $_GET['message'] }}</div>
-                </div>
-            @endif
-            <div class="sidebar shop-sidebar">
-                <div id="secondary" class="widget-area">
-                    <div class="first front-widgets">
-                        <div id="woocommerce_product_search-2"
-                            class="widget woocommerce widget_product_search shop-widgets">
-                            <form role="search" method="get" class="woocommerce-product-search" action="" <label
-                                class="screen-reader-text" for="woocommerce-product-search-field-0">Search
-                                for:</label> <input type="search" id="woocommerce-product-search-field-0"
-                                    class="search-field" placeholder="Search products&hellip;" value=""
-                                    name="s" /> <button type="submit" value="Search"
-                                    class="">Search</button> <input type="hidden" name="post_type"
-                                    value="product" />
-                            </form>
-                        </div>
-                        <div id="woocommerce_product_categories-3"
-                            class="widget woocommerce widget_product_categories shop-widgets">
-                            <h4 class="widget-title">Machine categories</h4>
-                            <ul class="product-categories">
-                                @foreach ($categories as $category)
-                                    @php
-                                        // Machines that belong directly to the category (no categoryType)
-                                        $directMachines = $category->machines->whereNull('category_type_id');
-                                        // Machines that belong to any categoryType under this category
-                                        $typeMachines = $category->categoryType->flatMap(function ($type) {
-                                            return $type->machines;
-                                        });
-                                        // Total count: direct + all types
-                                        $totalCount = $directMachines->count() + $typeMachines->count();
-                                    @endphp
-                                    <li class="cat-item cat-item-78 cat-parent">
-                                        <a
-                                            href="{{ route('shop', 'category=' . $category->name) }}">{{ $category->name }}</a>
-                                        <span class="count">({{ $totalCount }})</span>
-                                        <ul class='children'>
-                                            @foreach ($category->categoryType as $type)
-                                                @php
-                                                    // Machines that belong to this type only
-                                                    $typeCount = $type->machines->count();
-                                                @endphp
-                                                <li class="cat-item cat-item-79">
-                                                    <a
-                                                        href="{{ route('shop', 'category_type=' . $type->name) }}">{{ $type->name }}</a>
-                                                    <span class="count">({{ $typeCount }})</span>
-                                                </li>
-                                            @endforeach
-                                        </ul>
-                                    </li>
-                                @endforeach
-                            </ul>
-                        </div>
-                        <div id="woocommerce_price_filter-3" class="widget woocommerce widget_price_filter shop-widgets">
-                            <h4 class="widget-title">Filter by price</h4>
-                            <form method="get"
-                                action="{{ route('shop', ['min_price' => '0', 'max_price' => '125000']) }}">
-                                <div class="price_slider_wrapper">
-                                    <div class="price_slider" style="display:none;"></div>
-                                    <div class="price_slider_amount" data-step="10"> <label class="screen-reader-text"
-                                            for="min_price">Min price</label> <input type="text" id="min_price"
-                                            name="min_price" value="0" data-min="0" placeholder="Min price" />
-                                        <label class="screen-reader-text" for="max_price">Max price</label> <input
-                                            type="text" id="max_price" name="max_price" value="125000"
-                                            data-max="125000" placeholder="Max price" /> <button type="submit"
-                                            class="button">Filter</button>
-                                        <div class="price_label" style="display:none;"> Price: <span
-                                                class="from"></span> &mdash; <span class="to"></span></div>
-                                        <div class="clear"></div>
+        <main class="l-main row">
+            <div class="main large-12 small-12 columns">
+                <article>
+                    <div class="body field clearfix ">
+                        <section class="wpb-content-wrapper">
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class='small-up-1 medium-up-2 large-up-3'>
+                                                @foreach ($blogs as $blog)
+                                                    <div class="column column-block ">
+                                                        <article
+                                                            class="wd-post wd-post--multicolumn post-260 post type-post status-publish format-standard has-post-thumbnail hentry category-updates ">
+                                                            <div class="wd-post__thumbnail"> <noscript><img
+                                                                        decoding="async" width="840" height="500"
+                                                                        src="{{ isset($blog) ? asset('storage/' . $blog->featured_image) : asset('admin/assets/img/img_place_holder.webp') }}"
+                                                                        class="attachment-backhoe_sblog-thumb size-backhoe_sblog-thumb wp-post-image"
+                                                                        alt="" /></noscript><img decoding="async"
+                                                                    width="840" height="500"
+                                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20840%20500%22%3E%3C/svg%3E'
+                                                                    data-src="{{ isset($blog) ? asset('storage/' . $blog->featured_image) : asset('admin/assets/img/img_place_holder.webp') }}"
+                                                                    class="lazyload attachment-backhoe_sblog-thumb size-backhoe_sblog-thumb wp-post-image"
+                                                                    alt="" /></div>
+                                                            <div class="wd-post__content">
+                                                                <ul class="wd-post__meta clearfix">
+                                                                    <li>{{ $blog->created_at->format('d/m/Y') }}</li>
+                                                                    <li class="wd-post__author">By:{{ $blog->author }}
+                                                                    </li>
+                                                                    <li class="wd-post__category"><a
+                                                                            href="{{ route('blog.category', $blog->type) }}"
+                                                                            rel="category tag">{{ $blog->type }}</a>
+                                                                    </li>
+                                                                    <li class="wd-post__comments">no comments</li>
+                                                                </ul>
+                                                                <h4 class="wd-post__title"> <a
+                                                                        href="{{ route('blog', $blog->slug) }}">{{ $blog->title }}</a>
+                                                                </h4>
+                                                                <div class="wd-post__read-more"> <a
+                                                                        href="{{ route('blog', $blog->slug) }}">
+                                                                        Learn more <noscript><img decoding="async"
+                                                                                src="{{ asset('front_end/wp-content/themes/backhoe/images/more.svg') }}"
+                                                                                alt="icon"></noscript><img
+                                                                            class="lazyload" decoding="async"
+                                                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                                                            data-src="{{ asset('front_end/wp-content/themes/backhoe/images/more.svg') }}"
+                                                                            alt="icon"> </a></div>
+                                                            </div>
+                                                        </article>
+                                                    </div>
+                                                @endforeach
+                                            </div>
+                                            <div class="wd_empty_space" data-heightmobile="30" data-heighttablet="40"
+                                                data-heightdesktop="120" style="height: 120px;"></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-content">
-                <div class='clearfix filter-options'>
-                    <div class="filter-flex">
-                        <div class="woocommerce-notices-wrapper"></div>
-                        <p class="woocommerce-result-count" role="alert" aria-relevant="all">
-                            Showing
-                            {{ is_int($machines->firstItem()) ? $machines->firstItem() : (isset($machines->firstItem()->number) ? $machines->firstItem()->number : 0) }}&ndash;{{ $machines->count() }}
-                            of {{ $machines->total() }} results
-                        </p>
-                        <nav class="gridlist-toggle"><a href="#" id="show_grid" title="Grid view"><span
-                                    class="dashicons dashicons-grid-view"></span> <em>Grid view</em></a><a href="#"
-                                id="show_list" class="active" title="List view"><span
-                                    class="dashicons dashicons-exerpt-view"></span> <em>List view</em></a></nav>
-                        <form class="woocommerce-ordering" method="get"> <select name="orderby" class="orderby"
-                                aria-label="Shop order">
-                                <option value="menu_order" selected='selected'>Default sorting</option>
-                                <option value="popularity">Sort by popularity</option>
-                                <option value="rating">Sort by average rating</option>
-                                <option value="date">Sort by latest</option>
-                                <option value="price">Sort by price: low to high</option>
-                                <option value="price-desc">Sort by price: high to low</option>
-                                <option value="bid_asc">Sort by current bid: Low to high</option>
-                                <option value="bid_desc">Sort by current bid: High to low</option>
-                                <option value="auction_end">Sort auction by ending soonest</option>
-                                <option value="auction_started">Sort auction by recently started</option>
-                                <option value="auction_activity">Sort auction by most active</option>
-                            </select> <input type="hidden" name="paged" value="1" /></form>
-                    </div>
-                </div>
-                <ul class="products columns-3 grid">
-                    @foreach ($machines as $machine)
-                        <li
-                            class="product type-product post-3701 status-publish first instock product_cat-earthmoving-equipment product_cat-excavator has-post-thumbnail featured shipping-taxable purchasable product-type-variable wd-wc-style-1">
-                            <div class='product-image-wrapper'><a href="{{ route('shop.single', $machine->name) }}"><img
-                                        width="700" height="700"
-                                        src="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                        alt="35000 - 39000 lbs, Excavator" decoding="async" fetchpriority="high"
-                                        srcset="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
-                                        sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                            <div class="product-details-wrapper">
-                                <h2 class="woocommerce-loop-product__title"> <a
-                                        href="{{ route('shop.single', $machine->name) }}">{{ $machine->name }} </a></h2>
-                                <div class="pricing-location">
-                                    <div class="pricing-partial rates-3">
-                                        @if ($machine->is_for_rent)
-                                            <h5>Rental</h5>
-                                            <ul>
-                                                <li class="pricing pricing-day">
-                                                    <div>
-                                                        <p class="label">Hour Rate</p>
-                                                    </div>
-                                                </li>
-                                                <li class="pricing pricing-week">
-                                                    <div>
-                                                        <p class="label">Day Rate</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        @elseif ($machine->is_for_sale)
-                                            <h5>Sell Price</h5>
-                                            <ul>
-                                                <li class="pricing pricing-day">
-                                                    <div>
-                                                        <p class="label">Price</p>
-                                                        <div class="price_value"> <span
-                                                                class="woocommerce-Price-amount amount"
-                                                                aria-hidden="true"><bdi><span
-                                                                        class="woocommerce-Price-currencySymbol">Tsh
-                                                                    </span>{{ number_format($machine->sale_price, 0, ',', ',') }}</bdi></span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        @else
-                                            <h5>Call for price</h5>
-                                        @endif
-                                    </div>
-                                    <div class="location"> {{ $machine->location }}</div>
-                                </div>
-                                <div class="description"> {{ $machine->description }} </div>
-
-
-                                @if ($machine->is_for_rent)
-                                    <a href="{{ route('shop.single', $machine->name) }}" data-quantity="1"
-                                        class="button product_type_variable add_to_cart_button" data-product_id="{{ $machine->id }}"
-                                        data-product_sku="{{ $machine->sku }}"
-                                        aria-label="Select options for &ldquo;{{ $machine->name }}&rdquo;"
-                                        rel="nofollow">Rent Now</a>
-                                @elseif ($machine->is_for_sale)
-                                    <a href="{{ route('shop.single', $machine->name) }}" data-quantity="1"
-                                        class="button product_type_variable add_to_cart_button" data-product_id="{{ $machine->id }}"
-                                        data-product_sku="{{ $machine->sku }}"
-                                        aria-label="Select options for &ldquo;{{ $machine->name }}&rdquo;"
-                                        rel="nofollow">Buy Now</a>
-                                @else
-                                    <a href="{{ route('shop.single', $machine->name) }}" data-quantity="1"
-                                        class="button product_type_variable add_to_cart_button" data-product_id="{{ $machine->id }}"
-                                        data-product_sku="{{ $machine->sku }}"
-                                        aria-label="Select options for &ldquo;{{ $machine->name }}&rdquo;"
-                                        rel="nofollow">Select Option</a>
-                                @endif
                             </div>
-                        </li>
-                    @endforeach
-
-                </ul>
-                <nav class="woocommerce-pagination" aria-label="Product Pagination">
-                    <ul class='page-numbers'>
-                        {{ $machines->links('pagination::bootstrap-4') }}
-                    </ul>
-                </nav>
+                        </section>
+                    </div>
+                </article>
             </div>
-        </div>
-        </div>
+        </main>
+    @endsection
+
+    @section('script')
+        <script type="text/html" id="wpb-modifications">window.wpbCustomElement=1;</script><noscript>
+            <style>
+                .lazyload {
+                    display: none
+                }
+            </style>
+        </noscript>
+        <script data-noptimize="1">
+            window.lazySizesConfig = window.lazySizesConfig || {};
+            window.lazySizesConfig.loadMode = 1;
+        </script>
+        <script async data-noptimize="1"
+            src='{{ asset('front_end/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js') }}'></script>
+
+        <link rel='stylesheet' id='wc-blocks-style-css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3c68ad9b345b9b2f5fc71372d90cb3b9.css') }}'
+            type='text/css' media='all' />
+        <link rel='stylesheet' id='rs-plugin-settings-css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}'
+            type='text/css' media='all' />
+        <style id='rs-plugin-settings-inline-css' type='text/css'></style>
+        <script type="text/javascript" id="wd_demo_panel_script-js-extra">
+            var demo_panel_vars = {};
+        </script>
+        <script type="text/javascript" id="backhoe_booking_default_js-js-extra">
+            var urltheme = {};
+        </script>
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/hooks.min.js') }}" id="wp-hooks-js">
+        </script>
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/i18n.min.js') }}" id="wp-i18n-js"></script>
+        <script type="text/javascript" id="wp-i18n-js-after">
+            wp.i18n.setLocaleData({
+                'text direction\u0004ltr': ['ltr']
+            });
+        </script>
+        <script type="text/javascript" id="contact-form-7-js-before">
+            var wpcf7 = {
+                "api": {}
+            };
+        </script>
+        <script type="text/javascript" id="wd_buy_script-js-extra">
+            var buy_custom_html = {};
+        </script>
+        <script type="text/javascript" id="crisp-js-before">
+            window.$crisp = [];
+            if (!window.CRISP_RUNTIME_CONFIG) {
+                window.CRISP_RUNTIME_CONFIG = {}
+            }
+            if (!window.CRISP_RUNTIME_CONFIG.locale) {
+                window.CRISP_RUNTIME_CONFIG.locale = 'en-us'
+            }
+            CRISP_WEBSITE_ID = 'e63357f1-c2f8-409a-aad3-cb2adf04c040';
+        </script>
+        <script type="text/javascript" async src="../../../client.crisp.chat/l.js" id="crisp-js"></script>
+        <script type="text/javascript" id="wd-script-js-extra">
+            var urltheme = {};
+        </script>
+        <script type="text/javascript" id="wc-order-attribution-js-extra">
+            var wc_order_attribution = {
+                "params": {},
+                "fields": {}
+            };
+        </script>
+        <script type="text/javascript" id="wc-cart-fragments-js-extra">
+            var wc_cart_fragments_params = {};
+        </script>
+        <script defer
+            src="{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}">
+        </script>
     @endsection

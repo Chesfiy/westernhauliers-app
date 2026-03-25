@@ -9,6 +9,7 @@ use App\Models\Employee;
 use App\Models\Fuel;
 use App\Models\Machine;
 use App\Models\MachineModel;
+use App\Models\Post;
 use App\Models\Quotation;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -138,8 +139,9 @@ class AdminController extends Controller
 
     public function newMachine()
     {
+        $machines = Machine::all();
 
-        return view('admin.machine.machine_form_view');
+        return view('admin.machine.machine_form_view', compact('machines'));
     }
 
     public function storeMachine(Request $request)
@@ -735,5 +737,128 @@ class AdminController extends Controller
         $quotation = Quotation::with('machine')->findOrFail($id);
 
         return view('admin.quotation.edit_form_view', compact('quotation'));
+    }
+
+    public function newBlog()
+    {
+        return view('admin.blog.form_view');
+    }
+
+    public function storeBlog(Request $request)
+    {
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'img_url' => 'image|mimes:jpg,jpeg,png,gif|max:4048',
+        ]);
+
+        // store in storage/app/public/uploads
+        $path = $request->file('img_url')->store('uploads', 'public');
+
+        $blog = new Post;
+        $blog->title = $request->title;
+        $blog->body = $request->body;
+        $blog->slug = Str::slug($request->title);
+        $blog->is_published = $request->has('is_published');
+        $blog->featured_image = $path;
+        $blog->excerpt = $request->excerpt;
+        $blog->save();
+
+        return view('admin.blog.edit_form_view', compact('blog'))->with('success', 'Blog added successfully.');
+    }
+
+    public function showBlogs()
+    {
+        $blogs = Post::all();
+
+        return view('admin.blog.view', compact('blogs'));
+    }
+
+    public function editBlog($id)
+    {
+        $blog = Post::findOrFail($id);
+
+        return view('admin.blog.edit_form_view', compact('blog'));
+    }
+
+    public function updateBlog(Request $request, $id)
+    {
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'body' => 'required|string',
+            'img_url' => 'image|mimes:jpg,jpeg,png,gif|max:4048',
+        ]);
+
+        // Delete previous image if a new one is uploaded
+        $blog = Post::findOrFail($id);
+        $path = $blog->featured_image;
+
+        if ($request->hasFile('img_url')) {
+            if ($path && Storage::disk('public')->exists(path: $path)) {
+                Storage::disk('public')->delete($path);
+            }
+            $path = $request->file('img_url')->store('uploads', 'public');
+        }
+
+        $blog->title = $request->title;
+        $blog->body = $request->body;
+        $blog->slug = Str::slug($request->title);
+        $blog->is_published = $request->has('is_published');
+        $blog->featured_image = $path;
+        $blog->excerpt = $request->excerpt;
+        $blog->save();
+
+        return redirect()->back()->with('success', 'Blog updated successfully.');
+    }
+
+    public function deleteBlog($id)
+    {
+        $post = Post::findOrFail($id);
+        $post->delete();
+
+        return redirect()->back()->with('success', 'Blog deleted successfully.');
+    }
+
+    public function uploadImage(Request $request)
+    {
+        try {
+            if ($request->hasFile('upload')) {
+                $path = $request->file('upload')->store('blog_images', 'public');
+
+                return response()->json([
+                    'url' => asset('storage/'.$path),
+                ]);
+            }
+
+            return response()->json([
+                'error' => [
+                    'message' => 'No file uploaded',
+                ],
+            ], 400);
+        } catch (\Exception $e) {
+            return response()->json([
+                'error' => [
+                    'message' => $e->getMessage(),
+                ],
+            ], 500);
+        }
+    }
+
+    public function saveBlog(Request $request)
+    {
+        try {
+            $blog = Post::findOrFail($request->id);
+            $blog->body = $request->body;
+            $blog->save();
+
+            return response()->json([
+                'success' => true,
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'error' => [
+                    'message' => $e->getMessage(),
+                ],
+            ], 500);
+        }
     }
 }

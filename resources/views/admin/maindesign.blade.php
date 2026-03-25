@@ -16,6 +16,7 @@
     <!--begin::Primary Meta Tags-->
     <meta name="title" content="Westernhauliers Admin" />
     <meta name="author" content="ColorlibHQ" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description"
         content="AdminLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS. Fully accessible with WCAG 2.1 AA compliance." />
     <meta name="keywords"
@@ -360,6 +361,12 @@
                             <a href="{{ route('admin.showQuotations') }}" class="nav-link">
                                 <i class="nav-icon bi bi-people"></i>
                                 <p>CRM</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.showBlogs') }}" class="nav-link">
+                                <i class="nav-icon bi bi-people"></i>
+                                <p>Blogs & News</p>
                             </a>
                         </li>
                         <li class="nav-item">

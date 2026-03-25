@@ -1911,12 +1911,12 @@
                                         data-thumb-srcset="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-600x600.jpg 600w"
                                         data-thumb-sizes="(max-width: 200px) 100vw, 200px"
                                         class="woocommerce-product-gallery__image"><a
-                                            href="../../wp-content/uploads/2019/06/product_0010__.jpg"><img width="200"
-                                                height="200"
+                                            href="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"><img
+                                                width="200" height="200"
                                                 src="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
                                                 class="" alt="{{ $machine->name }} 3" data-caption=""
-                                                data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__.jpg"
-                                                data-large_image="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__.jpg"
+                                                data-src="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
+                                                data-large_image="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
                                                 data-large_image_width="1000" data-large_image_height="760"
                                                 decoding="async"
                                                 srcset="{{ isset($machine) ? asset('storage/' . $machine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0010__-600x600.jpg 600w"
@@ -1927,70 +1927,19 @@
                                 <h1 class="product_title entry-title">{{ $machine->name }}</h1>
                                 <div class="pricing-location">
                                     <div class="pricing-partial rates-3">
-                                        <h5>Hire</h5>
-                                        <ul>
-                                            <li class="pricing pricing-day">
-                                                <div><span class="woocommerce-Price-amount amount"
-                                                        aria-hidden="true"><bdi>
-                                                            @if ($machine->rental_price_per_day > 999)
-                                                                {{ number_format($machine->rental_price_per_day / 1000, 1) }}K
-                                                            @else
-                                                                {{ number_format($machine->rental_price_per_day) }}
-                                                            @endif
+
+                                        @if ($machine->is_for_sale)
+                                            <h5>Price</h5>
+                                            <ul>
+                                                <li class="pricing pricing-week">
+                                                    <div><span class="woocommerce-Price-amount amount">
+                                                            {{ number_format($machine->sale_price) }}
                                                             <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                        </bdi>
-                                                        <span aria-hidden="true">–</span> <span
-                                                            class="woocommerce-Price-amount amount"
-                                                            aria-hidden="true"><bdi>
-                                                                @if ($machine->price_month > 999)
-                                                                    {{ number_format($machine->price_month / 1000, 1) }}K
-                                                                @elseif ($machine->price_month > 999999)
-                                                                    {{ number_format($machine->price_month / 1000000, 1) }}M
-                                                                @else
-                                                                    {{ number_format($machine->price_month) }}
-                                                                @endif
-                                                                <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                            </bdi>
-                                                            <span class="screen-reader-text">Price range:
-                                                                {{ number_format($machine->rental_price_per_day) }} through
-                                                                {{ number_format($machine->rental_price_per_day) }}</span>
-                                                            <small> / Day</small>
-                                                </div>
-                                            </li>
-                                            <li class="pricing pricing-week">
-                                                <div><span class="woocommerce-Price-amount amount">
-                                                        @if ($machine->rental_price_per_week > 999)
-                                                            {{ number_format($machine->rental_price_per_week / 1000, 1) }}K
-                                                        @else
-                                                            {{ number_format($machine->rental_price_per_week) }}
-                                                        @endif
-                                                        <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                    </span>
-                                                    <small> / Week</small>
-                                                </div>
-                                            </li>
-                                            <li class="pricing pricing-fourWeek">
-                                                <div><span class="woocommerce-Price-amount amount">
-                                                        @if ($machine->price_month > 999)
-                                                            {{ number_format($machine->rental_price_per_month / 1000, 1) }}K
-                                                        @elseif ($machine->price_month > 999999)
-                                                            {{ number_format($machine->rental_price_per_month / 1000000, 1) }}M
-                                                        @else
-                                                            {{ number_format($machine->rental_price_per_month) }}
-                                                        @endif
-                                                        <span class="woocommerce-Price-currencySymbol">TZS </span>
-                                                    </span>
-                                                    <small> / Month</small>
-                                                </div>
-                                        </ul>
-                                    </div>
-                                    <div class="with-operator">
-                                        <h5>Hire with operator</h5>
-                                        <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                        class="woocommerce-Price-currencySymbol">TZS
-                                                    </span>{{ $machine->rental_price_per_hour }}</bdi></span>
-                                            <small> / Hour</small>
-                                        </div>
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        @endif
                                     </div>
                                     <div class="location"> {{ $machine->current_location }}</div>
                                 </div>
@@ -1999,23 +1948,25 @@
                                 </div>
                                 <form class="variations_form cart" action="{{ route('shop.quotationDetails') }}"
                                     method="GET" enctype='multipart/form-data'>
-                                    <table class="variations" cellspacing="0" role="presentation">
-                                        <tbody>
-                                            <tr>
-                                                <th class="label"><label for="pa_payement-frequency">Payment
-                                                        frequency</label></th>
-                                                <td class="value"> <select id="pa_payement-frequency" class=""
-                                                        name="payment_frequency" data-attribute_name="payment_frequency"
-                                                        data-show_option_none="yes">
-                                                        <option value="">Choose an option</option>
-                                                        <option value="daily">Daily</option>
-                                                        <option value="monthly">Monthly</option>
-                                                        <option value="weekly">Weekly</option>
-                                                    </select><a class="reset_variations" href="#"
-                                                        aria-label="Clear options">Clear</a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    @if ($machine->is_for_rent)
+                                        <table class="variations" cellspacing="0" role="presentation">
+                                            <tbody>
+                                                <tr>
+                                                    <th class="label"><label for="pa_payement-frequency">Duration
+                                                        </label></th>
+                                                    <td class="value"> <select id="pa_payement-frequency" class=""
+                                                            name="payment_frequency"
+                                                            data-attribute_name="payment_frequency"
+                                                            data-show_option_none="yes">
+                                                            <option value="">Choose an option</option>
+                                                            <option value="daily">Hour</option>
+                                                            <option value="monthly">Daily</option>
+                                                        </select><a class="reset_variations" href="#"
+                                                            aria-label="Clear options">Clear</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    @endif
                                     <div class="reset_variations_alert screen-reader-text" role="alert"
                                         aria-live="polite" aria-relevant="all"></div>
                                     <div class="single_variation_wrap">
@@ -2028,8 +1979,18 @@
                                                     class="input-text qty text" name="quantity"
                                                     aria-label="Product quantity" min="1" step="1"
                                                     placeholder="1" inputmode="numeric" autocomplete="off" /></div>
-                                            <button type="submit" class="single_add_to_cart_button button alt">Add to
-                                                quote</button> <input type="hidden" name="add-to-cart" value="3701" />
+                                            @if ($machine->is_for_rent)
+                                                <button type="submit" class="single_add_to_cart_button button alt">Rent
+                                                    Now</button> <input type="hidden" name="add-to-cart"
+                                                    value="3701" />
+                                            @elseif ($machine->is_for_sale)
+                                                <button type="submit" class="single_add_to_cart_button button alt">Call
+                                                    for Price</button> <input type="hidden" name="add-to-cart"
+                                                    value="3701" />
+                                            @else
+                                                <a href="{{ route('contact') }}"
+                                                    class="single_add_to_cart_button button alt">Contact us</a>
+                                            @endif
                                             <input type="hidden" name="machine_id" value="{{ $machine->id }}" />
                                             <input type="hidden" name="variation_id" class="variation_id"
                                                 value="0" />
@@ -2105,271 +2066,93 @@
                             <section class="related products">
                                 <h2>Related Machines</h2>
                                 <ul class="products columns-4 grid">
-                                    <li
-                                        class="product type-product post-3698 status-publish first instock product_cat-earthmoving-equipment product_cat-bulldozer has-post-thumbnail featured shipping-taxable purchasable product-type-backhoe_bookin_product wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a href="../cat-3046/index.html"><noscript><img
+                                    @foreach ($machine->relatedMachines as $relatedMachine)
+                                        <li
+                                            class="product type-product post-3698 status-publish first instock product_cat-earthmoving-equipment product_cat-bulldozer has-post-thumbnail featured shipping-taxable purchasable product-type-backhoe_bookin_product wd-wc-style-1">
+                                            <div class='product-image-wrapper'><a
+                                                    href="{{ route('shop.single', $relatedMachine->name) }}"><noscript><img
+                                                            width="700" height="700"
+                                                            src="{{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
+                                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                            alt="Cat 3046" decoding="async"
+                                                            srcset="{{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 700w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 150w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 194w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 314w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 100w"
+                                                            sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
                                                         width="700" height="700"
-                                                        src="{{ 'front_end/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg' }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
+                                                        data-src="{{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }}"
+                                                        class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                         alt="Cat 3046" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="Cat 3046" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_image_27-175-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../cat-3046/index.html">Cat 3046 </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>290.00</bdi></span><small>/
-                                                                        Day</small> <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>630.00</bdi></span>
-                                                                    <small> / Week</small>
+                                                        data-srcset="{{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 700w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 150w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 194w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 314w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 200w, {{ isset($relatedMachine) ? asset('storage/' . $relatedMachine->img_url) : asset('admin/assets/img/img_place_holder.webp') }} 100w"
+                                                        data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
+                                            <div class="product-details-wrapper">
+                                                <h2 class="woocommerce-loop-product__title"> <a
+                                                        href="{{ route('shop.single', $relatedMachine->name) }}">{{ $relatedMachine->name }}</a>
+                                                </h2>
+                                                <div class="pricing-location">
+                                                    <div class="pricing-partial rates-3">
+                                                        <h5>Hire</h5>
+                                                        <ul>
+                                                            <li class="pricing pricing-day">
+                                                                <div>
+                                                                    <p class="label">Day Rate</p>
+                                                                    <div class="price_value"> <span
+                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                    class="woocommerce-Price-currencySymbol">$</span>290.00</bdi></span><small>/
+                                                                            Day</small> <small> / Day</small></div>
                                                                 </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>3,600.00</bdi></span>
-                                                                    <small> / Month</small>
+                                                            </li>
+                                                            <li class="pricing pricing-week">
+                                                                <div>
+                                                                    <p class="label">Week Rate</p>
+                                                                    <div class="price_value"> <span
+                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>630.00</bdi></span>
+                                                                        <small> / Week</small>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="with-operator">
-                                                    <h5>Hire with operator</h5>
-                                                    <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
-                                                        <small> / Hour</small>
+                                                            </li>
+                                                            <li class="pricing pricing-fourWeek">
+                                                                <div>
+                                                                    <p class="label">Month Rate</p>
+                                                                    <div class="price_value"> <span
+                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>3,600.00</bdi></span>
+                                                                        <small> / Month</small>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
                                                     </div>
-                                                </div>
-                                                <div class="location"> San Francisco, CA</div>
-                                            </div>
-                                            <div class="description"> Pellentesque habitant morbi tristique senectus et
-                                                netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                                                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-                                                sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
-                                                placerat eleifend leo.</div> <a href="indexd2c5.html?add-to-cart=3698"
-                                                data-quantity="1"
-                                                class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="3698" data-product_sku="woo-sunglasses-5"
-                                                aria-label="Add to quote: &ldquo;Cat 3046&rdquo;" rel="nofollow">Add
-                                                to quote</a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-6 status-publish instock product_cat-excavator has-post-thumbnail shipping-taxable product-type-simple wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../yellow-excavator/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{ 'front_end/wp-content/uploads/2018/03/img17-700x700.jpg' }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="{{ $machine->name }}" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="{{ $machine->name }}" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/img17-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../yellow-excavator/index.html">35000 &#8211; 39000 lbs,
-                                                    Excavator </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="location"> Columbus, OH</div>
-                                            </div>
-                                            <div class="description"> The 35,000 to 39,000 lb excavator is primarily
-                                                used for excavating or earthmoving tasks such as trenching, demolition
-                                                clearing, foundation digging, general landscaping tasks or backfilling
-                                                excavated areas.</div> <a href="../yellow-excavator/index.html"
-                                                data-quantity="1" class="button product_type_simple" data-product_id="6"
-                                                data-product_sku="woo-hoodie"
-                                                aria-label="Read more about &ldquo;{{ $machine->name }}&rdquo;"
-                                                rel="nofollow">Read more</a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-3699 status-publish instock product_cat-earthmoving-equipment product_cat-bulldozer has-post-thumbnail featured shipping-taxable purchasable product-type-backhoe_bookin_product wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../cat-c32-acert/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{ asset('front_end/wp-content/uploads/2019/06/product_0008__-700x700.jpg') }}"
-                                                        data-src="{{ asset('front_end/wp-content/uploads/2019/06/product_0008__-700x700.jpg') }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="Cat® C32 ACERT™" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-600x600.jpg 600w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="Cat® C32 ACERT™" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-100x100.jpg 100w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2019/06/product_0008__-600x600.jpg 600w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../cat-c32-acert/index.html">Cat® C32 ACERT™ </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>290.00</bdi></span><small>/
-                                                                        Day</small> <small> / Day</small></div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>630.00</bdi></span>
-                                                                    <small> / Week</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>3,600.00</bdi></span>
-                                                                    <small> / Month</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="with-operator">
-                                                    <h5>Hire with operator</h5>
-                                                    <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
-                                                        <small> / Hour</small>
+                                                    <div class="with-operator">
+                                                        <h5>Hire with operator</h5>
+                                                        <div> <span class="woocommerce-Price-amount amount"><bdi><span
+                                                                        class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
+                                                            <small> / Hour</small>
+                                                        </div>
                                                     </div>
+                                                    <div class="location"> San Francisco, CA</div>
                                                 </div>
-                                                <div class="location"> San Francisco, CA</div>
+                                                <div class="description"> {{ $relatedMachine->description }}</div>
+                                                @if ($relatedMachine->is_for_rent)
+                                                    <a href="{{ route('shop.single', $relatedMachine->name) }}" data-quantity="1"
+                                                        class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
+                                                        data-product_id="3698" data-product_sku="{{ $relatedMachine->sku }}"
+                                                        aria-label="Add to quote: &ldquo;{{ $relatedMachine->name }}&rdquo;" rel="nofollow">Make quote</a>
+                                                @elseif ($relatedMachine->is_for_sale)
+                                                    <a href="{{ route('shop.single', $relatedMachine->name) }}" data-quantity="1"
+                                                        class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
+                                                        data-product_id="3698" data-product_sku="{{ $relatedMachine->sku }}"
+                                                        aria-label="Add to quote: &ldquo;{{ $relatedMachine->name }}&rdquo;" rel="nofollow">Call For Price</a>
+                                                @else
+                                                    <a href="{{ route('shop.single', $relatedMachine->name) }}" data-quantity="1"
+                                                        class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
+                                                        data-product_id="3698" data-product_sku="{{ $relatedMachine->sku }}"
+                                                        aria-label="Add to quote: &ldquo;{{ $relatedMachine->name }}&rdquo;" rel="nofollow">Select Option</a>    
+                                                @endif
+
                                             </div>
-                                            <div class="description"> This product has mutiple features and a yellow
-                                                color, and can be used for multiple tasks. Visite maker website for more
-                                                details and warranty details.
-                                                &lt;i class=&quot;fas fa-check&quot;&gt;&lt;/i&gt; Free delivery
-                                                available.
-                                                &lt;i class=&quot;fas fa-check&quot;&gt;&lt;/i&gt; Use promo-code and
-                                                save up to 30%.</div> <a href="indexc4b8.html?add-to-cart=3699"
-                                                data-quantity="1"
-                                                class="button product_type_backhoe_bookin_product add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="3699" data-product_sku="woo-sunglasses-6"
-                                                aria-label="Add to cart: &ldquo;Cat® C32 ACERT™&rdquo;" rel="nofollow">Add
-                                                to cart</a>
-                                        </div>
-                                    </li>
-                                    <li
-                                        class="product type-product post-11 status-publish last instock product_cat-earthmoving-equipment product_cat-backhoe-loader has-post-thumbnail featured shipping-taxable purchasable product-type-simple wd-wc-style-1">
-                                        <div class='product-image-wrapper'><a
-                                                href="../wheel-loader/index.html"><noscript><img width="700"
-                                                        height="700"
-                                                        src="{{ asset('front_end/wp-content/uploads/2018/03/product_0031_3-700x700.jpg') }}"
-                                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                        alt="2800 lbs, Wheel, Skid Steer Loader" decoding="async"
-                                                        srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-100x100.jpg 100w"
-                                                        sizes="(max-width: 700px) 100vw, 700px" /></noscript><img
-                                                    width="700" height="700"
-                                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20700%20700%22%3E%3C/svg%3E'
-                                                    data-src="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-700x700.jpg"
-                                                    class="lazyload attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt="2800 lbs, Wheel, Skid Steer Loader" decoding="async"
-                                                    data-srcset="https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-700x700.jpg 700w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-150x150.jpg 150w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-194x194.jpg 194w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-314x314.jpg 314w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-200x200.jpg 200w, https://themes.webdevia.com/backhoe-heavy-construction-equipment-rentals-machinery-wordpress-theme/wp-content/uploads/2018/03/product_0031_3-100x100.jpg 100w"
-                                                    data-sizes="(max-width: 700px) 100vw, 700px" /></a></div>
-                                        <div class="product-details-wrapper">
-                                            <h2 class="woocommerce-loop-product__title"> <a
-                                                    href="../wheel-loader/index.html">2800 lbs, Wheel, Skid Steer
-                                                    Loader </a></h2>
-                                            <div class="pricing-location">
-                                                <div class="pricing-partial rates-3">
-                                                    <h5>Hire</h5>
-                                                    <ul>
-                                                        <li class="pricing pricing-day">
-                                                            <div>
-                                                                <p class="label">Day Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">$</span>125,000.00</bdi></span>
-                                                                    <small> / Day</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-week">
-                                                            <div>
-                                                                <p class="label">Week Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>299.00</bdi></span>
-                                                                    <small> / Week</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                        <li class="pricing pricing-fourWeek">
-                                                            <div>
-                                                                <p class="label">Month Rate</p>
-                                                                <div class="price_value"> <span
-                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>2,099.00</bdi></span>
-                                                                    <small> / Month</small>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="with-operator">
-                                                    <h5>Hire with operator</h5>
-                                                    <div> <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>
-                                                        <small> / Hour</small>
-                                                    </div>
-                                                </div>
-                                                <div class="location"> Los Angeles, CA</div>
-                                            </div>
-                                            <div class="description"> The 2,800 lb wheel skid steer loader comes
-                                                equipped with two lifting arms and tires, making it a great choice for
-                                                steering and navigating on job sites with rough outdoor terrain. With
-                                                over 70 horsepower (hp),</div> <a href="indexa46f.html?add-to-cart=11"
-                                                data-quantity="1"
-                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                data-product_id="11" data-product_sku="woo-cap"
-                                                aria-label="Add to cart: &ldquo;2800 lbs, Wheel, Skid Steer Loader&rdquo;"
-                                                rel="nofollow">Add to cart</a>
-                                        </div>
-                                    </li>
+                                        </li>
+                                    @endforeach
                                 </ul>
                             </section>
                         </div>

@@ -1956,7 +1956,7 @@
                 </div>
             </div>
         </section>
-        
+
         <main class="l-main row">
             <div class="main large-12 small-12 columns">
                 <article>
@@ -1995,14 +1995,14 @@
                                             <div class="wd_empty_space" data-heightmobile="20" data-heighttablet="30"
                                                 data-heightdesktop="80" style="height: 80px;"></div>
 
-                                            
+
 
                                             <div
                                                 class=" vc_custom_1562000110336 text-icon text-icon--icon-left_position boxes  clearfix">
                                                 <div class="text-icon__container   ">
                                                     <div class="text-icon__content-box">
                                                         <h4 class="text-icon__title "> Machine</h4>
-                                                        <p class="text-icon__text  ">{{$machine->name}}</p>
+                                                        <p class="text-icon__text  ">{{ $machine->name }}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2015,7 +2015,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                             <div
+                                            <div
                                                 class=" vc_custom_1562000124893 text-icon text-icon--icon-left_position boxes  clearfix">
                                                 <div class="text-icon__container   ">
                                                     <div class="text-icon__content-box">
@@ -2038,21 +2038,20 @@
                                                     <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                     <ul></ul>
                                                 </div>
-                                                <form
-                                                    action="{{ route('shop.store.quotation') }}"
-                                                    method="post" class="wpcf7-form init" aria-label="Contact form"
-                                                    novalidate="novalidate" data-status="init">
+                                                <form action="{{ route('shop.store.quotation') }}" method="post"
+                                                    class="wpcf7-form" aria-label="Quotation form"
+                                                    novalidate="novalidate" data-status="">
 
                                                     @csrf
                                                     @method('POST')
-                                                    <fieldset class="hidden-fields-container"><input type="hidden"
+                                                    {{-- <fieldset class="hidden-fields-container"><input type="hidden"
                                                             name="_wpcf7" value="4411" /><input type="hidden"
                                                             name="_wpcf7_version" value="6.1.1" /><input type="hidden"
                                                             name="_wpcf7_locale" value="en_US" /><input type="hidden"
                                                             name="_wpcf7_unit_tag" value="wpcf7-f4411-p340-o1" /><input
                                                             type="hidden" name="_wpcf7_container_post"
                                                             value="340" /><input type="hidden"
-                                                            name="_wpcf7_posted_data_hash" value="" /></fieldset>
+                                                            name="_wpcf7_posted_data_hash" value="" /></fieldset> --}}
                                                     <div class="contact-form">
                                                         <p>
                                                             <span class="wpcf7-form-control-wrap"
@@ -2061,16 +2060,15 @@
                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                     aria-required="true" aria-invalid="false"
                                                                     placeholder="Name" value="" type="text"
-                                                                    name="name" required/></span><br /> 
+                                                                    name="name" required /></span><br />
                                                             <span class="wpcf7-form-control-wrap"
                                                                 data-name="your-phone"><input size="40"
                                                                     maxlength="400"
                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                     aria-required="true" aria-invalid="false"
-                                                                    placeholder="MobilePhone" value="" type="phone"
-                                                                    name="phone" required/></span><br /> 
-                                                            <span
-                                                                class="wpcf7-form-control-wrap"
+                                                                    placeholder="Mobile Phone" value=""
+                                                                    type="phone" name="phone" required /></span><br />
+                                                            <span class="wpcf7-form-control-wrap"
                                                                 data-name="your-email"><input size="40"
                                                                     maxlength="400"
                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
@@ -2078,21 +2076,23 @@
                                                                     placeholder="Your Email" value=""
                                                                     type="text" name="email" /></span><br />
                                                             <span class="wpcf7-form-control-wrap"
-                                                                data-name="address"><input size="40"
-                                                                    maxlength="400" class="wpcf7-form-control wpcf7-text"
+                                                                data-name="address"><input size="40" maxlength="400"
+                                                                    class="wpcf7-form-control wpcf7-text"
                                                                     aria-invalid="false" placeholder="Adress"
                                                                     value="" type="text"
                                                                     name="address" /></span><br /> <span
                                                                 class="wpcf7-form-control-wrap" data-name="your-message">
-                                                                <input type="hidden" name="machine_id" value="{{ $machine->id }}">
-                                                                <input type="hidden" name="quantity" value="{{ $quantity }}">
-                                                                <input type="hidden" name="payment_type" value="{{ $payment_frequency }}">
+                                                                <input type="hidden" name="machine_id"
+                                                                    value="{{ $machine->id }}">
+                                                                <input type="hidden" name="quantity"
+                                                                    value="{{ $quantity }}">
+                                                                <input type="hidden" name="payment_type"
+                                                                    value="{{ $payment_frequency }}">
                                                                 <textarea cols="40" rows="3" maxlength="2000" class="wpcf7-form-control wpcf7-textarea"
                                                                     aria-invalid="false" placeholder="your Message" name="remarks"></textarea>
-                                                            </span><br /> 
-                                                            <input
-                                                                class="wpcf7-form-control wpcf7-submit has-spinner"
-                                                                type="submit" value="Send" />
+                                                            </span><br />
+                                                            <input class="wpcf7-form-control has-spinner" type="submit"
+                                                                value="Submit" />
                                                         </p>
                                                     </div>
                                                     <div class="wpcf7-response-output" aria-hidden="true"></div>
@@ -2134,8 +2134,8 @@
     @endsection
 
     @section('script')
-        <script async data-noptimize="1" src='front_end/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js'>
-        </script>
+        <script async data-noptimize="1"
+            src='{{ asset('front_end/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js') }}'></script>
         <script type='text/javascript'>
             (function() {
                 var c = document.body.className;
@@ -2144,13 +2144,15 @@
             })();
         </script>
         <link rel='stylesheet' id='wc-blocks-style-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3c68ad9b345b9b2f5fc71372d90cb3b9.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_3c68ad9b345b9b2f5fc71372d90cb3b9.css') }}'
             type='text/css' media='all' />
         <link rel='stylesheet' id='rs-plugin-settings-css'
-            href='front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css'
+            href='{{ asset('front_end/wp-content/cache/autoptimize/1/css/autoptimize_single_26612f0758857e9fd3992bb65d0a2ca4.css') }}'
             type='text/css' media='all' />
-        <script type="text/javascript" src="front_end/wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script>
-        <script type="text/javascript" src="front_end/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
-        <script defer src="front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js">
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/hooks.min.js') }}" id="wp-hooks-js">
+        </script>
+        <script type="text/javascript" src="{{ asset('front_end/wp-includes/js/dist/i18n.min.js') }}" id="wp-i18n-js"></script>
+        <script defer
+            src="{{ asset('front_end/wp-content/cache/autoptimize/1/js/autoptimize_6634aecf610e4645998c1e77c1060f84.js') }}">
         </script>
     @endsection
